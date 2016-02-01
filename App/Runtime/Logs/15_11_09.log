@@ -1,0 +1,1162 @@
+[ 2015-11-09T09:10:34+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001737s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002591s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.006960s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000320s ]
+
+[ 2015-11-09T09:10:38+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002258s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005880s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000299s ]
+
+[ 2015-11-09T11:56:49+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003420s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005132s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000276s ]
+
+[ 2015-11-09T11:58:04+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003277s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005152s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000314s ]
+
+[ 2015-11-09T11:58:22+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003721s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005403s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 3 )  [ RunTime:0.000324s ]
+
+[ 2015-11-09T15:39:46+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003489s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005471s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000314s ]
+
+[ 2015-11-09T15:40:28+08:00 ] ::1 /think04/Home/Lesson/lessadd.html
+ERR: 非法数据对象！:[add_id=>1447054828]
+
+[ 2015-11-09T15:41:46+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003639s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005392s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000408s ]
+
+[ 2015-11-09T15:42:17+08:00 ] ::1 /think04/Home/Lesson/lessadd.html
+ERR: 非法数据对象！:[add_id=>1447054937]
+
+[ 2015-11-09T15:43:15+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003512s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.015851s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000673s ]
+
+[ 2015-11-09T15:43:29+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003335s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005197s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000261s ]
+
+[ 2015-11-09T15:50:04+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004248s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.019811s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 3 )  [ RunTime:0.000886s ]
+
+[ 2015-11-09T16:00:58+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003506s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.020486s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 12 )  [ RunTime:0.001050s ]
+
+[ 2015-11-09T16:04:38+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003320s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.013346s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000715s ]
+
+[ 2015-11-09T16:53:24+08:00 ] ::1 /think04/Home/User/ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003175s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\think04\App\Home\Controller\UserController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004958s ]
+ERR: 错误的查询条件:[pid=>]
+
+[ 2015-11-09T16:54:38+08:00 ] ::1 /think04/Home/User/ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003185s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\think04\App\Home\Controller\UserController.class.php 第 21 行.
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.017834s ]
+ERR: 错误的查询条件:[pid=>]
+
+[ 2015-11-09T17:29:55+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002878s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003923s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004707s ]
+ERR: 错误的查询条件:[pid=>1]
+
+[ 2015-11-09T17:30:14+08:00 ] ::1 /think04/Home/User/ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003504s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\think04\App\Home\Controller\UserController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004843s ]
+ERR: 错误的查询条件:[pid=>]
+
+[ 2015-11-09T17:34:06+08:00 ] ::1 /think04/Home/User/ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003415s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\think04\App\Home\Controller\UserController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.012700s ]
+ERR: 错误的查询条件:[pid=>]
+
+[ 2015-11-09T17:34:08+08:00 ] ::1 /think04/Home/User/ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003563s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\think04\App\Home\Controller\UserController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005459s ]
+ERR: 错误的查询条件:[pid=>]
+
+[ 2015-11-09T17:35:38+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003310s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005453s ]
+ERR: 错误的查询条件:[pid=>1]
+
+[ 2015-11-09T17:38:05+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004259s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.008127s ]
+ERR: 错误的查询条件:[pid=>1]
+
+[ 2015-11-09T17:40:14+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003233s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.007219s ]
+ERR: 错误的查询条件:[pid=>1]
+
+[ 2015-11-09T17:44:12+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003069s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004938s ]
+ERR: 错误的查询条件:[pid=>1]
+
+[ 2015-11-09T17:44:28+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=1
+ERR: 错误的查询条件:[pid=>1]
+
+[ 2015-11-09T17:45:42+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003371s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005666s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000317s ]
+
+[ 2015-11-09T17:46:00+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003287s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005390s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000294s ]
+
+[ 2015-11-09T17:46:01+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003224s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005138s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000243s ]
+
+[ 2015-11-09T17:46:01+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003310s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004988s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000320s ]
+
+[ 2015-11-09T17:50:44+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004078s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005304s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000274s ]
+
+[ 2015-11-09T17:50:46+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003992s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005404s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000243s ]
+
+[ 2015-11-09T17:52:09+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004930s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000233s ]
+
+[ 2015-11-09T17:52:43+08:00 ] ::1 /think04/Home/User/ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003718s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\think04\App\Home\Controller\UserController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.010048s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = null )  [ RunTime:0.037936s ]
+
+[ 2015-11-09T17:52:44+08:00 ] ::1 /think04/Home/User/ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003193s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\think04\App\Home\Controller\UserController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005414s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = null )  [ RunTime:0.000362s ]
+
+[ 2015-11-09T17:52:45+08:00 ] ::1 /think04/Home/User/ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003371s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\think04\App\Home\Controller\UserController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005110s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = null )  [ RunTime:0.000239s ]
+
+[ 2015-11-09T18:00:15+08:00 ] ::1 /think04/Home/User/ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003251s ]
+NOTIC: [8] Undefined index: id C:\wamp\www\think04\App\Home\Controller\UserController.class.php 第 23 行.
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.018516s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = null )  [ RunTime:0.000870s ]
+
+[ 2015-11-09T18:05:51+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003316s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.016640s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 0 )  [ RunTime:0.000551s ]
+
+[ 2015-11-09T18:05:52+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003073s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005309s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 0 )  [ RunTime:0.000284s ]
+
+[ 2015-11-09T18:05:53+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003188s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006183s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 0 )  [ RunTime:0.000331s ]
+
+[ 2015-11-09T18:05:53+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003147s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005329s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 0 )  [ RunTime:0.000348s ]
+
+[ 2015-11-09T18:05:53+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003776s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.008570s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 0 )  [ RunTime:0.000377s ]
+
+[ 2015-11-09T18:05:54+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003120s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006517s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 0 )  [ RunTime:0.000348s ]
+
+[ 2015-11-09T18:10:20+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003185s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005195s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000262s ]
+
+[ 2015-11-09T18:10:22+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003213s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005501s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000262s ]
+
+[ 2015-11-09T18:10:22+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005033s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005034s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000270s ]
+
+[ 2015-11-09T18:10:23+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004879s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.035175s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000279s ]
+
+[ 2015-11-09T18:11:27+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003372s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004880s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000256s ]
+
+[ 2015-11-09T18:11:28+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003546s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006160s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000253s ]
+
+[ 2015-11-09T18:11:29+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003602s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005203s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000452s ]
+
+[ 2015-11-09T18:11:29+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003342s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005169s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000312s ]
+
+[ 2015-11-09T18:12:30+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003298s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004901s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000332s ]
+
+[ 2015-11-09T18:12:32+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003331s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.017087s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000704s ]
+
+[ 2015-11-09T18:20:54+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004035s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004927s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000268s ]
+
+[ 2015-11-09T18:21:20+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002318s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.007151s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000374s ]
+
+[ 2015-11-09T18:22:10+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003272s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.010782s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000391s ]
+
+[ 2015-11-09T18:22:14+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003177s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.018304s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.002435s ]
+
+[ 2015-11-09T18:22:14+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003379s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006072s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000490s ]
+
+[ 2015-11-09T18:22:15+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003336s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006660s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000349s ]
+
+[ 2015-11-09T18:22:17+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003871s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005602s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000305s ]
+
+[ 2015-11-09T18:25:39+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003412s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005351s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000267s ]
+
+[ 2015-11-09T18:25:40+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003481s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005267s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000248s ]
+
+[ 2015-11-09T18:25:42+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003549s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005356s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000276s ]
+
+[ 2015-11-09T18:26:36+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003353s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004918s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000232s ]
+
+[ 2015-11-09T18:26:37+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003164s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.014995s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000420s ]
+
+[ 2015-11-09T18:26:39+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004238s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005334s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000279s ]
+
+[ 2015-11-09T18:26:39+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003273s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005922s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000331s ]
+
+[ 2015-11-09T18:26:40+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004040s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005094s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000331s ]
+
+[ 2015-11-09T18:30:20+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003256s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005024s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000298s ]
+
+[ 2015-11-09T18:30:24+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003982s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006556s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000316s ]
+
+[ 2015-11-09T18:44:36+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003481s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.015366s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000383s ]
+
+[ 2015-11-09T18:44:38+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003525s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.022217s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 )  [ RunTime:0.001091s ]
+
+[ 2015-11-09T18:44:42+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003388s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005766s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000357s ]
+
+[ 2015-11-09T18:44:43+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002689s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003513s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.013829s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000393s ]
+
+[ 2015-11-09T18:44:44+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003276s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005068s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000309s ]
+
+[ 2015-11-09T18:44:45+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003455s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.007433s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000240s ]
+
+[ 2015-11-09T18:48:15+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003172s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.079962s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000702s ]
+
+[ 2015-11-09T18:48:17+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003492s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006446s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 )  [ RunTime:0.000393s ]
+
+[ 2015-11-09T18:48:19+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003410s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005199s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000293s ]
+
+[ 2015-11-09T18:48:21+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003379s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.004945s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 6 )  [ RunTime:0.000268s ]
+
+[ 2015-11-09T18:48:45+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003898s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005299s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000269s ]
+
+[ 2015-11-09T18:48:47+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002907s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004167s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.004997s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 )  [ RunTime:0.000280s ]
+
+[ 2015-11-09T18:48:49+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003848s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.016778s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000698s ]
+
+[ 2015-11-09T18:49:44+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003991s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006757s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000329s ]
+
+[ 2015-11-09T18:49:46+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003831s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004932s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005126s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 )  [ RunTime:0.000322s ]
+
+[ 2015-11-09T18:49:48+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003868s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005841s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000296s ]
+
+[ 2015-11-09T18:49:49+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004005s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.023649s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 6 )  [ RunTime:0.000855s ]
+
+[ 2015-11-09T19:04:38+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004157s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.046548s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000334s ]
+
+[ 2015-11-09T19:04:40+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004712s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.004809s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 )  [ RunTime:0.000295s ]
+
+[ 2015-11-09T19:07:41+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002307s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005021s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000249s ]
+
+[ 2015-11-09T19:07:44+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002187s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005271s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 )  [ RunTime:0.000263s ]
+
+[ 2015-11-09T19:07:57+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=0
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002689s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005613s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 0 )  [ RunTime:0.000601s ]
+
+[ 2015-11-09T19:08:12+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003057s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.016127s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 )  [ RunTime:0.000248s ]
+
+[ 2015-11-09T19:08:21+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002096s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006677s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000382s ]
+
+[ 2015-11-09T19:08:46+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002113s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005124s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000285s ]
+
+[ 2015-11-09T19:08:49+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002410s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004994s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000267s ]
+
+[ 2015-11-09T19:09:05+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002082s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004950s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000264s ]
+
+[ 2015-11-09T19:18:22+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003607s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.016716s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000485s ]
+
+[ 2015-11-09T19:18:28+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002233s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.018780s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000979s ]
+
+[ 2015-11-09T19:18:33+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002409s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.010348s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000447s ]
+
+[ 2015-11-09T19:18:35+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002341s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.024032s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000971s ]
+
+[ 2015-11-09T19:18:36+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002394s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005666s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000287s ]
+
+[ 2015-11-09T19:18:47+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005541s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000313s ]
+
+[ 2015-11-09T19:18:47+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001336s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004968s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000288s ]
+
+[ 2015-11-09T19:19:36+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002040s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005192s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000290s ]
+
+[ 2015-11-09T19:19:38+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001806s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002832s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.013936s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 )  [ RunTime:0.000579s ]
+
+[ 2015-11-09T19:25:33+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002261s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005122s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000265s ]
+
+[ 2015-11-09T19:25:36+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002805s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005413s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 )  [ RunTime:0.000266s ]
+
+[ 2015-11-09T19:25:42+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003609s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004852s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000310s ]
+
+[ 2015-11-09T19:26:07+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003029s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005005s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000249s ]
+
+[ 2015-11-09T19:26:09+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002204s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005725s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 )  [ RunTime:0.000289s ]
+
+[ 2015-11-09T19:26:30+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002268s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.010243s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 )  [ RunTime:0.000507s ]
+
+[ 2015-11-09T19:26:35+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002164s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.004907s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 6 )  [ RunTime:0.000297s ]
+
+[ 2015-11-09T19:28:23+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002299s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005180s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000301s ]
+
+[ 2015-11-09T19:28:25+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002787s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.007044s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 )  [ RunTime:0.000414s ]
+
+[ 2015-11-09T19:29:49+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002019s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005949s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000247s ]
+
+[ 2015-11-09T19:29:51+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005271s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 )  [ RunTime:0.000265s ]
+
+[ 2015-11-09T19:30:29+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002216s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005357s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000298s ]
+
+[ 2015-11-09T19:30:31+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003082s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.007496s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 )  [ RunTime:0.000315s ]
+
+[ 2015-11-09T19:31:08+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003872s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005241s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000323s ]
+
+[ 2015-11-09T19:31:10+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004046s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005283s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 )  [ RunTime:0.000264s ]
+
+[ 2015-11-09T19:45:50+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002092s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005375s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000274s ]
+
+[ 2015-11-09T19:45:51+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002251s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.007048s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 )  [ RunTime:0.000499s ]
+
+[ 2015-11-09T19:57:35+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002350s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004915s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000458s ]
+
+[ 2015-11-09T19:58:59+08:00 ] ::1 /think04/Home/User/Lessonindex.html
+ERR: 非法操作:Lessonindex
+
+[ 2015-11-09T20:00:15+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004729s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005678s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000339s ]
+
+[ 2015-11-09T20:04:03+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003908s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005612s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000372s ]
+
+[ 2015-11-09T20:07:12+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004621s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005670s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000335s ]
+
+[ 2015-11-09T20:08:54+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004419s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.006455s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000362s ]
+
+[ 2015-11-09T20:10:12+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006089s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005984s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000338s ]
+
+[ 2015-11-09T20:16:25+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004374s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005166s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000288s ]
+
+[ 2015-11-09T20:17:05+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003693s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.007135s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000359s ]
+
+[ 2015-11-09T20:17:11+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003944s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.018590s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 )  [ RunTime:0.000697s ]
+
+[ 2015-11-09T20:18:56+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003984s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.017598s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000802s ]
+
+[ 2015-11-09T20:19:10+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004155s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005203s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 13 )  [ RunTime:0.000263s ]
+
+[ 2015-11-09T20:19:20+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002789s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003896s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005835s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 12 )  [ RunTime:0.000274s ]
+
+[ 2015-11-09T20:19:25+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002955s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004175s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005086s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000315s ]
+
+[ 2015-11-09T20:19:30+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003903s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005255s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 13 )  [ RunTime:0.000319s ]
+
+[ 2015-11-09T20:19:51+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004240s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006117s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.000456s ]
+
+[ 2015-11-09T20:19:52+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004218s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.014844s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 13 )  [ RunTime:0.000799s ]
+
+[ 2015-11-09T20:24:56+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004431s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005466s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 7 )  [ RunTime:0.000304s ]
+
+[ 2015-11-09T20:25:05+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003117s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004284s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005857s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000291s ]
+
+[ 2015-11-09T20:33:43+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004072s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.020602s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 8 )  [ RunTime:0.001262s ]
+
+[ 2015-11-09T20:33:46+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003610s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.014753s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 )  [ RunTime:0.002132s ]
+
+[ 2015-11-09T21:14:31+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004093s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005184s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000342s ]
+
+[ 2015-11-09T21:14:41+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003620s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.017053s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 )  [ RunTime:0.000455s ]
+
+[ 2015-11-09T21:14:42+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004558s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005004s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 13 ) ORDER BY id desc  [ RunTime:0.000277s ]
+
+[ 2015-11-09T21:15:23+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003388s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005245s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000285s ]
+
+[ 2015-11-09T21:15:24+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003643s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005036s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000346s ]
+
+[ 2015-11-09T21:15:26+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003595s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004887s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 13 ) ORDER BY id desc  [ RunTime:0.000269s ]
+
+[ 2015-11-09T21:15:28+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002159s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003452s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005002s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 12 ) ORDER BY id desc  [ RunTime:0.000283s ]
+
+[ 2015-11-09T21:15:31+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003211s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005077s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 13 ) ORDER BY id desc  [ RunTime:0.000291s ]
+
+[ 2015-11-09T21:15:32+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003334s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004849s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 12 ) ORDER BY id desc  [ RunTime:0.000249s ]
+
+[ 2015-11-09T21:15:32+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004252s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005713s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 13 ) ORDER BY id desc  [ RunTime:0.000291s ]
+
+[ 2015-11-09T21:15:33+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003477s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004966s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 9 ) ORDER BY id desc  [ RunTime:0.000356s ]
+
+[ 2015-11-09T21:15:34+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003524s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005108s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 ) ORDER BY id desc  [ RunTime:0.000542s ]
+
+[ 2015-11-09T21:15:34+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003498s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004702s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 12 ) ORDER BY id desc  [ RunTime:0.000256s ]
+
+[ 2015-11-09T21:40:35+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003119s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005016s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 ) ORDER BY id desc  [ RunTime:0.000343s ]
+
+[ 2015-11-09T21:55:04+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003093s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.018213s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 13 ) ORDER BY id desc  [ RunTime:0.000459s ]
+
+[ 2015-11-09T22:23:11+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005868s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.011729s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 ) ORDER BY id desc  [ RunTime:0.000395s ]
+
+[ 2015-11-09T22:32:57+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003866s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.007821s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000408s ]
+
+[ 2015-11-09T22:33:00+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003872s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005383s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 11 ) ORDER BY id desc  [ RunTime:0.000323s ]
+
+[ 2015-11-09T22:39:12+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003556s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005003s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 6 ) ORDER BY id desc  [ RunTime:0.000281s ]
+
+[ 2015-11-09T22:39:13+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003525s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004890s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000304s ]
+
+[ 2015-11-09T22:45:45+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002551s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003610s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.004773s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000247s ]
+
+[ 2015-11-09T22:47:19+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002056s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.005358s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000307s ]
+
+[ 2015-11-09T22:55:27+08:00 ] ::1 /think04/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003106s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004109s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.012960s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000307s ]
+
+[ 2015-11-09T22:55:28+08:00 ] ::1 /think04/Home/User/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003979s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005333s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000272s ]
+

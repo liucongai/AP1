@@ -1,0 +1,364 @@
+[ 2015-11-07T10:12:25+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002021s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005532s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000328s ]
+
+[ 2015-11-07T10:12:28+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002140s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005824s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 5 )  [ RunTime:0.000336s ]
+
+[ 2015-11-07T14:26:06+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002996s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005227s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000311s ]
+
+[ 2015-11-07T14:26:09+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002135s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.006080s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 3 )  [ RunTime:0.000292s ]
+
+[ 2015-11-07T14:26:14+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002298s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005098s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 12 )  [ RunTime:0.000344s ]
+
+[ 2015-11-07T14:26:49+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002212s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.004925s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000285s ]
+
+[ 2015-11-07T14:26:56+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002196s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.006080s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000298s ]
+
+[ 2015-11-07T14:27:01+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003122s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.013442s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 3 )  [ RunTime:0.000468s ]
+
+[ 2015-11-07T14:28:08+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003337s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005569s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 3 )  [ RunTime:0.000346s ]
+
+[ 2015-11-07T14:28:11+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002756s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005888s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000437s ]
+
+[ 2015-11-07T14:28:42+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=16
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002193s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005488s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 16 )  [ RunTime:0.000336s ]
+
+[ 2015-11-07T14:28:44+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002391s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.022081s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000409s ]
+
+[ 2015-11-07T14:29:36+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003045s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005504s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 3 )  [ RunTime:0.000305s ]
+
+[ 2015-11-07T14:29:38+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002426s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.009362s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000493s ]
+
+[ 2015-11-07T14:29:40+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005162s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.008269s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 5 )  [ RunTime:0.000312s ]
+
+[ 2015-11-07T14:34:53+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004359s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.007901s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000455s ]
+
+[ 2015-11-07T14:34:55+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003366s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005976s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 5 )  [ RunTime:0.000295s ]
+
+[ 2015-11-07T14:34:59+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001701s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002383s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.009075s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000664s ]
+
+[ 2015-11-07T14:35:29+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003262s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005071s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000723s ]
+
+[ 2015-11-07T14:35:33+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003361s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.011092s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000540s ]
+
+[ 2015-11-07T14:37:43+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003578s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005148s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000921s ]
+
+[ 2015-11-07T14:51:17+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002801s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005918s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000370s ]
+
+[ 2015-11-07T15:11:05+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003208s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.006275s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000329s ]
+
+[ 2015-11-07T15:11:08+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001602s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002805s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005988s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 3 )  [ RunTime:0.000434s ]
+
+[ 2015-11-07T15:13:42+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001947s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005290s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000363s ]
+
+[ 2015-11-07T15:13:45+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002467s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005557s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000432s ]
+
+[ 2015-11-07T15:14:41+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004204s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005198s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000437s ]
+
+[ 2015-11-07T15:55:57+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003084s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.006563s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000483s ]
+
+[ 2015-11-07T15:56:00+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003342s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005338s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000469s ]
+
+[ 2015-11-07T15:56:30+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003599s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.006652s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000322s ]
+
+[ 2015-11-07T15:57:24+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002718s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.006107s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000314s ]
+
+[ 2015-11-07T15:58:26+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003177s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.007915s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000630s ]
+
+[ 2015-11-07T15:58:30+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004072s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.008377s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000760s ]
+
+[ 2015-11-07T15:58:33+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003406s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.009317s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 3 )  [ RunTime:0.001044s ]
+
+[ 2015-11-07T15:58:36+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004011s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.006383s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000303s ]
+
+[ 2015-11-07T15:58:38+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003081s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.006862s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 5 )  [ RunTime:0.000430s ]
+
+[ 2015-11-07T15:58:40+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002339s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.006221s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 12 )  [ RunTime:0.000503s ]
+
+[ 2015-11-07T16:00:43+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002310s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005410s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000507s ]
+
+[ 2015-11-07T16:00:49+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002968s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005452s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 3 )  [ RunTime:0.000460s ]
+
+[ 2015-11-07T16:01:00+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002362s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.006706s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000330s ]
+
+[ 2015-11-07T16:07:52+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003392s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005593s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000360s ]
+
+[ 2015-11-07T16:07:55+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002264s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005895s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000347s ]
+
+[ 2015-11-07T16:10:00+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002232s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.008232s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000464s ]
+
+[ 2015-11-07T16:23:40+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002806s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005394s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 3 )  [ RunTime:0.000323s ]
+
+[ 2015-11-07T16:24:10+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002202s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005119s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000305s ]
+
+[ 2015-11-07T16:24:29+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002444s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.010129s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 3 )  [ RunTime:0.000547s ]
+
+[ 2015-11-07T16:26:50+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002411s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.007722s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 3 )  [ RunTime:0.000434s ]
+
+[ 2015-11-07T16:26:57+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003349s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.008530s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 12 )  [ RunTime:0.000478s ]
+
+[ 2015-11-07T16:27:01+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002494s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.009544s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000479s ]
+
+[ 2015-11-07T16:28:00+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002077s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.011236s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 2 )  [ RunTime:0.000568s ]
+
+[ 2015-11-07T16:31:01+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001996s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005448s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 3 )  [ RunTime:0.000298s ]
+
+[ 2015-11-07T16:32:21+08:00 ] ::1 /think04/Home/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002188s ]
+SQL: SHOW COLUMNS FROM `ju_cate` [ RunTime:0.005185s ]
+SQL: SELECT `id`,`name` FROM `ju_cate` WHERE ( `pid` = 1 )  [ RunTime:0.000349s ]
+

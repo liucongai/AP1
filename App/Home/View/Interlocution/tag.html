@@ -1,0 +1,96 @@
+<include file="Public/headerold" />
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Document</title>
+   
+    <load href="__PUBLIC__/js/jquery-1.9.1.js" />
+    <load href="__PUBLIC__/js/bootstrap.min.js" />
+    <load href="__PUBLIC__/css/bootstrap.min.css" />
+    <load href="__PUBLIC__/css/interlocution.css" /> 
+
+     <load href="__PUBLIC__/js/jquery.cookie.js" />    
+
+     <style type="text/css">
+           
+        #nav1 .current a{font-size:20px;color:black;}
+        #nav2  {border-top:0px;}
+        #nav2  li{padding-left:0px; border-bottom:0px;}
+        #nav2  li a{height:40px;line-height:20px; }   
+    </style>
+</head>
+<body>
+    <include file="Public/allheader-nav" />
+	<div class="main  ">
+		<div class="ww">
+
+            
+            <include file="Public/silder" />
+
+			<div class="wd-main">
+            
+                <div class="tagarea">
+                    <div class="tag-infos clearfix">
+                        <img class="tagpic fl" src="__ROOT__/Uploads/{$cdlist.tag-img}" alt="" width="42" hight="42" />
+                        <div class="qa-f-infos fl clearfix">
+                            <h4 class="tag-name">{$cdlist.name}</h4>
+                            <span class="f-num">关注：{$cdlist.care}人</span>
+                        </div>
+                        <a  class="tag-will-fol at-tag" href="javascript:void(0)" data-tagids="2">关注</a>
+                    </div>
+                    <script>
+                        
+                        if({$carelist}==1){
+                           
+                                $('.at-tag').css("color","red");
+                                $('.at-tag').html("已关注");
+                            }else{
+                               
+                                $('.at-tag').css("color","#CED1D1");
+                                $('.at-tag').html("关注");
+                            };
+                        
+                        $('.at-tag').click(function(){
+                            if($('.at-tag').html().length==2){
+                                $('.at-tag').css("color","red");
+                                $('.at-tag').html("已关注");
+                                $.get("{:U(dotagcare)}", { care_id: 1, cate_id:"{$cdlist['id']}"} );
+                            }else{
+                                $('.at-tag').css("color","#CED1D1");
+                                $('.at-tag').html("关注");
+                                $.get("{:U(dotagcare)}", { care_id: 0, cate_id:"{$cdlist['id']}"} );
+                            };
+                        });
+                        
+
+
+                    </script>
+                    <p class="tag-introduce">{$cdlist.content}</p>
+                </div>
+                
+                 <div class="tag-nav">
+                    <ul id="nav2" class="nav nav-pills">
+                        <li role="presentation" class="active" ><a  href="{:U('tag','cid=0&tid='.$tid)}">最新</a></li>
+                        <li role="presentation"  ><a  href="{:U('tag','cid=1&tid='.$tid)}">热门</a></li>
+                        <li role="presentation"  ><a  href="{:U('tag','cid=2&tid='.$tid)}">等待回复</a></li>
+			    	</ul>
+                </div>
+
+                <script>
+                    
+                    $("#nav2 li").eq($.cookie("tg_cid")).addClass('active').siblings().removeClass('active');
+                </script>
+        
+            <include file="Public/questionlist" />
+			
+			
+        </div>
+        </div>
+	</div>
+     <div class="clear"></div>
+    <include file="Public/footer" />
+</body>
+</html>
+
+

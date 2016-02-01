@@ -1,0 +1,634 @@
+[ 2015-11-24T01:08:02+08:00 ] ::1 /think04/
+ERR: 无法加载控制器:Index
+
+[ 2015-11-24T09:12:41+08:00 ] ::1 /think04/
+ERR: 无法加载控制器:Index
+
+[ 2015-11-24T10:17:32+08:00 ] ::1 /think04/Home/space/learned
+ERR: Think\Model:deal方法不存在！
+
+[ 2015-11-24T11:53:27+08:00 ] ::1 /think04/
+ERR: 无法加载控制器:Index
+
+[ 2015-11-24T15:25:12+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004480s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.059129s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.037199s ]
+
+[ 2015-11-24T15:25:12+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001978s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007139s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000279s ]
+
+[ 2015-11-24T15:25:15+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002324s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006579s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000277s ]
+
+[ 2015-11-24T15:25:15+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003126s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.010563s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000674s ]
+
+[ 2015-11-24T15:25:19+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004556s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.009418s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000318s ]
+
+[ 2015-11-24T15:25:19+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004131s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.015134s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000697s ]
+
+[ 2015-11-24T15:25:29+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003622s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007436s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000917s ]
+
+[ 2015-11-24T15:25:30+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003128s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.012432s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000363s ]
+
+[ 2015-11-24T17:34:52+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003021s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.375949s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.094088s ]
+
+[ 2015-11-24T17:34:52+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002277s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.013338s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000315s ]
+
+[ 2015-11-24T17:34:53+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002009s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003389s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.019534s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000376s ]
+
+[ 2015-11-24T17:34:55+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003269s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.047173s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000409s ]
+
+[ 2015-11-24T17:35:00+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002490s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.015013s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000384s ]
+
+[ 2015-11-24T17:35:02+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002073s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005483s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000318s ]
+
+[ 2015-11-24T20:01:54+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002894s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.042106s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.014938s ]
+
+[ 2015-11-24T20:01:56+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002902s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007385s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000292s ]
+
+[ 2015-11-24T20:09:30+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:13:48+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:13:48+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:13:56+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:15:10+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:16:09+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:17:28+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:18:17+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:18:19+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002709s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.018225s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000371s ]
+
+[ 2015-11-24T20:18:23+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002159s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.018767s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000811s ]
+
+[ 2015-11-24T20:18:25+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001941s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005710s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000316s ]
+
+[ 2015-11-24T20:18:29+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002959s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007014s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000362s ]
+
+[ 2015-11-24T20:18:58+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001924s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005802s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000484s ]
+
+[ 2015-11-24T20:19:01+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002302s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005765s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000284s ]
+
+[ 2015-11-24T20:19:59+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003211s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004355s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008357s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000558s ]
+
+[ 2015-11-24T20:20:29+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:20:33+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:20:34+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:20:36+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004665s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005609s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000539s ]
+
+[ 2015-11-24T20:20:54+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005287s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005373s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000391s ]
+
+[ 2015-11-24T20:20:59+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002267s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006377s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000346s ]
+
+[ 2015-11-24T20:21:48+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:21:53+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:21:54+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002764s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007747s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000752s ]
+
+[ 2015-11-24T20:22:10+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004445s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008182s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000491s ]
+
+[ 2015-11-24T20:22:12+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006957s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000316s ]
+
+[ 2015-11-24T20:22:21+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:22:22+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003682s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008130s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000451s ]
+
+[ 2015-11-24T20:23:57+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:24:00+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003184s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006622s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000371s ]
+
+[ 2015-11-24T20:24:02+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002612s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007499s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000528s ]
+
+[ 2015-11-24T20:24:05+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:24:07+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003106s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.020096s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000492s ]
+
+[ 2015-11-24T20:24:49+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:24:50+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002173s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003282s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006621s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000282s ]
+
+[ 2015-11-24T20:26:20+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:26:33+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:26:59+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:27:20+08:00 ] ::1 /think04/Home/Login/index.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:27:22+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:27:30+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001865s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007517s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000538s ]
+
+[ 2015-11-24T20:27:36+08:00 ] ::1 /think04/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:27:38+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003132s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.016680s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000294s ]
+
+[ 2015-11-24T20:27:39+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002259s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006674s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000358s ]
+
+[ 2015-11-24T20:34:32+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:35:02+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:35:02+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:35:12+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003708s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006565s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000343s ]
+
+[ 2015-11-24T20:41:52+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:41:52+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:41:57+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:42:11+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:42:59+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:43:02+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:44:25+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:44:25+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:44:28+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005522s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005916s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000381s ]
+
+[ 2015-11-24T20:47:46+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:49:40+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:50:07+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:50:22+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:50:22+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:53:31+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003722s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.063977s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.014265s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.010991s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000309s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000303s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000230s ]
+
+[ 2015-11-24T20:53:32+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003560s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.017778s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.013569s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.009151s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000408s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000388s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000320s ]
+
+[ 2015-11-24T20:53:33+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003581s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006333s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.005927s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.006553s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000319s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000301s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000247s ]
+
+[ 2015-11-24T20:53:34+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002810s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003496s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.020283s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.009709s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.009934s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000472s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000471s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000365s ]
+
+[ 2015-11-24T20:53:36+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004622s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006017s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006098s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.008781s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.008867s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.000297s ]
+NOTIC: [2] implode(): Invalid arguments passed C:\wamp\www\AP1\ThinkPHP\Library\Think\Db.class.php 第 498 行.
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN () )  [ RunTime:0.000527s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ju_lesson` WHERE ( `id` IN () ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 130 行.
+
+[ 2015-11-24T20:53:37+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003602s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005933s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.005486s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005720s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000270s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000218s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000154s ]
+
+[ 2015-11-24T20:55:29+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:55:32+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:55:39+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:55:39+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:55:46+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003943s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006224s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000411s ]
+
+[ 2015-11-24T20:55:50+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T20:57:23+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003938s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006420s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008133s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000580s ]
+
+[ 2015-11-24T20:57:31+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:04:08+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:04:36+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:04:47+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:06:56+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:06:59+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:10:19+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:10:36+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:10:39+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:10:41+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:10:44+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:10:49+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:10:51+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:10:53+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:13:16+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:13:22+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:15:56+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:18:28+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:19:27+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:19:59+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005747s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006073s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000323s ]
+
+[ 2015-11-24T21:20:03+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006911s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006424s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000730s ]
+
+[ 2015-11-24T21:20:06+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004076s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008024s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000500s ]
+
+[ 2015-11-24T21:30:23+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:30:27+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:30:30+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:30:32+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:30:38+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:30:48+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:30:57+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:33:19+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:33:20+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:33:26+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:33:28+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:33:29+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:33:31+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:33:35+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-24T21:47:19+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004382s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006417s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000355s ]
+
+[ 2015-11-24T21:49:42+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003091s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004129s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008209s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000341s ]
+

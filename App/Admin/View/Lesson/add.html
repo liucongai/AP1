@@ -1,0 +1,171 @@
+<include file="Public/header"/>
+<include file="Public/nav"/>
+
+
+
+	<!-- main container -->
+    <div class="content">
+        
+        <div class="container-fluid">
+            <div id="pad-wrapper" class="new-user">
+                <div class="row-fluid header">
+                    <h3>Create a new lesson</h3>
+                </div>
+
+                <div class="row-fluid form-wrapper">
+                    <!-- left column -->
+                    <div class="span9 with-sidebar">
+                        <div class="container">
+                            <form class="new_user_form inline-input" enctype="multipart/form-data" action="{:U('doadd')}" method="post"/>
+                                <div class="span12 field-box">
+                                    <label>Lesson_name:</label>
+                                    <input id="check1" class="span7" name="lesson" type="text" />
+                                    <span id="span1"></span>
+                                </div>
+                                <div class="span12 field-box textarea">
+                                    <label>Describe:</label>
+                                    <textarea name="lesson_desc"class="span9"></textarea>
+                                    <span class="charactersleft">90 characters remaining. Field limited to 100 characters</span>
+                                </div>
+                                <div class="span12 field-box">
+                                    <label>Category_name:</label>
+                                    <div class="ui-select span5">
+                                        <select  onchange="change(this)">
+                                            <option value="0" />--choose--
+                                            <foreach name="fangx" item="val">
+                                            <option value="{$val.id}">{$val.name}</option>
+                                            </foreach>
+                                            
+                                        </select>
+                                       
+                                        
+                                    </div>
+                                </div>
+                                <div class="span12 field-box">
+                                    <label></label>
+                                    <div class="ui-select span5">
+                                        <select  name="cate_id" id="fenlei">
+                                        <option id="cct" value="0">--choose--</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="span12 field-box" >
+                                    <label class="">First Chapter</label>
+                                    <input class="span7" type="text" name="zh_name" placeholder="Chapter's Name" /><br>
+                                </div>
+                                <div class="span12 field-box textarea" >
+                                    <label>Describe:</label>
+                                    <textarea class="span9" type="text" name="zh_desc" placeholder="Chapter's Describe" ></textarea>
+                                </div>
+                                <div class="span12 field-box" >
+                                    <label class="">First Section</label>
+                                    <input class="form-control" type="text" name="xi_name" placeholder="Section's Name" /><br>
+                                </div>
+                                <div class="pan12 field-box">
+                                    <label>Difficulty</label>
+                                    <div class="ui-select span5">
+
+                                        <select  name="nandu" id="">
+                                            <option value="0">请选择</option>
+                                            <option value="1">初级</option>
+                                            <option value="2">中级</option>
+                                            <option value="3">高级</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+
+                                <div class="span12 field-box" >
+                                    <label>Course's Cover</label>
+
+                                    <input class="form-control" type="file" name="fimg" value=""/>
+                                </div>
+                                <div class="span12 field-box" >
+                                    <label>Section's Video</label>
+
+                                    <input class="form-control" type="file" name="video" value="" /><br>
+                                </div>
+
+
+                                <div class="span11 field-box actions">
+                                    <input type="submit" class="btn-glow primary" value="Create Course" />
+                                    <span>OR</span>
+                                    <input type="reset" value="Cancel" class="reset" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- side right column -->
+                    <div class="span3 form-sidebar pull-right">
+                        <div class="btn-group toggle-inputs hidden-tablet">
+                            <button class="glow left active" data-input="inline">INLINE INPUTS</button>
+                            <button class="glow right" data-input="normal">NORMAL INPUTS</button>
+                        </div>
+                        <div class="alert alert-info hidden-tablet">
+                            <i class="icon-lightbulb pull-left"></i>
+                            Click above to see difference between inline and normal inputs on a form
+                        </div>                        
+                         
+                         <p>Choose one of the following file types:</p>
+                        <ul>
+                            <li><a href="{:U('Lesson/index')}">Lesson_list</a></li>
+                            <li><a href="{:U('Lesson/add')}">Lesson_add</a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end main container -->
+
+    <script type="text/javascript">
+        function change(ob){
+            // alert(1);
+            $('#fenlei').children().remove('.opadd');
+            $.get('{:U('ajaxName')}',{id:ob.value},function(result){
+                console.dir($(result));
+                $.each(result,function(i,val){
+                    $('#cct').after('<option class="opadd"  value="' + val['id'] + '">'+ val['name'] +'</option>');
+                });
+
+            });
+        }
+    </script>
+
+
+		
+       <script type="text/javascript">
+          //模板自带js
+          $(function () {
+
+            // toggle form between inline and normal inputs
+            var $buttons = $(".toggle-inputs button");
+            var $form = $("form.new_user_form");
+
+            $buttons.click(function () {
+                var mode = $(this).data("input");
+                $buttons.removeClass("active");
+                $(this).addClass("active");
+
+                if (mode === "inline") {
+                    $form.addClass("inline-input");
+                } else {
+                    $form.removeClass("inline-input");
+                }
+            });
+        });
+    
+
+
+
+      
+	</script>
+
+
+
+
+
+<include file="Public/footer"/>
+

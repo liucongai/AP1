@@ -1,0 +1,101 @@
+<include file="Public/header"/>
+<include file="Public/nav"/>
+    
+        <!-- main container -->
+    <div class="content">
+         <div class="container-fluid">
+            <div id="pad-wrapper" class="users-list">
+                   
+                    <ul class="breadcrumb" style="margin:-40px 0 50px 0">
+                       <li><a href="{:U('Category/index')}">Category</a> <span class="divider">/</span></li>
+                       <li class="active">Category_list</li>
+                    </ul>
+                    
+                    
+                    
+                    <div class="pull-right">
+                       
+                     <form class="form-search fr" action="" method="get">
+                     <div class="input-append">
+                     <input type="text" name="name" class="span2 search-query" placeholder="Name">
+                     <button type="submit" class="btn"><i class="icon-search"></i>搜索</button>
+                      </div>
+                      </form>
+
+                    </div>
+                <!--
+                </div>
+                -->
+                <!-- Users table -->
+                <div class="row-fluid table">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th class="span3 sortable">
+                                    ID
+                                </th>
+                                <th class="span3 sortable">
+                                    <span class="line"></span>Name
+                                </th>
+                                 <th class="span3 sortable">
+                                    <span class="line"></span>img
+                                </th>
+                                  <th class="span2 sortable">
+                                     <span class="line"></span>color
+                                </th>
+                                  <th class="span5 sortable">
+                                     <span class="line"></span>img_big
+                                </th>
+                                 <th class="span6 sortable">
+                                     <span class="line"></span>intro
+                                </th>
+                               
+                                
+                                <th class="span6">
+                                    <span class="line"></span>Action
+                                   
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- row -->
+                        <notempty name="list">
+                        <foreach name="list" item="val">
+                        <tr>
+                            <td>{$val.id}</td>
+                            <td>{$val.name}</td>
+                            <td><img src="__ROOT__/Uploads/{$val.img}"></td>
+                            <td>{$val.color}</td>
+                            <td><img src="__ROOT__/Uploads/{$val.img_big}"></td>
+                            <td>{$val.intro}</td>
+                
+                            <td>
+                                <a href="{:U('edit?id='.$val[id])}">编辑分享</a>&nbsp;&nbsp;
+                                <a href="{:U('del?id='.$val[id])}">删除分享</a>&nbsp;&nbsp;
+                   
+                            </td>
+
+                        </tr>
+                        </foreach>
+                      
+                            <else />
+                                <tr>
+                                <td colspan="6">查无数据</td>
+                                </tr>
+                             </notempty>
+                        
+                         </tbody>
+                        
+                    </table>
+                    
+                </div>
+                
+           </div>
+        </div>
+    </div>
+    <!-- end main container -->
+
+
+<include file="Public/footer"/>
+
+

@@ -1,0 +1,1872 @@
+[ 2015-11-18T09:08:33+08:00 ] 127.0.0.1 /think04/
+ERR: 无法加载控制器:Index
+
+[ 2015-11-18T09:09:30+08:00 ] ::1 /think04/Admin/Lesson/pl_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002132s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005281s ]
+SQL: SELECT `id`,`name` FROM `ju_plan` WHERE ( pid=1 )  [ RunTime:0.000292s ]
+
+[ 2015-11-18T09:09:31+08:00 ] ::1 /think04/Admin/Lesson/pl2_ajaxName.html?id=8
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002415s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.006226s ]
+SQL: SELECT `id`,`name` FROM `ju_plan` WHERE ( pid=8 )  [ RunTime:0.000307s ]
+
+[ 2015-11-18T09:39:27+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001939s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002783s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.021234s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000311s ]
+
+[ 2015-11-18T09:39:28+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002309s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005089s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000361s ]
+
+[ 2015-11-18T09:39:31+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002167s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005195s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000306s ]
+
+[ 2015-11-18T09:39:32+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002159s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005542s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000342s ]
+
+[ 2015-11-18T09:39:32+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005180s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000296s ]
+
+[ 2015-11-18T09:39:33+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002294s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005524s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000294s ]
+
+[ 2015-11-18T09:39:34+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002045s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005490s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000303s ]
+
+[ 2015-11-18T09:39:35+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002392s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005144s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000291s ]
+
+[ 2015-11-18T09:39:55+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002570s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.015970s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000330s ]
+
+[ 2015-11-18T09:39:57+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002472s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.009859s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.001321s ]
+
+[ 2015-11-18T09:39:58+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T09:39:58+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T09:39:58+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T09:39:58+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T09:39:58+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T09:39:59+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T09:40:17+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003052s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005419s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000319s ]
+
+[ 2015-11-18T09:40:21+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002648s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006590s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000397s ]
+
+[ 2015-11-18T09:40:22+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T09:40:22+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T09:40:22+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T09:40:22+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T09:40:22+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T09:40:23+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T09:40:29+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001564s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002443s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.007238s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000610s ]
+
+[ 2015-11-18T09:42:10+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004256s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.014690s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000485s ]
+
+[ 2015-11-18T09:42:10+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T09:42:10+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T09:42:10+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T09:42:11+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T09:42:11+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:05:34+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003544s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006639s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000396s ]
+
+[ 2015-11-18T10:05:53+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003133s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006697s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000484s ]
+
+[ 2015-11-18T10:05:53+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:05:53+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:05:53+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:05:54+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:05:54+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:07:38+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003720s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005413s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.001754s ]
+
+[ 2015-11-18T10:18:20+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004242s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006023s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000382s ]
+
+[ 2015-11-18T10:18:21+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005205s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.011156s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000601s ]
+
+[ 2015-11-18T10:18:21+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:18:22+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:18:22+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:18:22+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:18:22+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:18:45+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002520s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005769s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000327s ]
+
+[ 2015-11-18T10:18:45+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002922s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.008100s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000286s ]
+
+[ 2015-11-18T10:18:46+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:18:46+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:18:46+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:18:46+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:18:46+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:33:03+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003861s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006802s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.001049s ]
+
+[ 2015-11-18T10:33:04+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004727s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.009419s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000576s ]
+
+[ 2015-11-18T10:33:04+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:33:04+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:33:04+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:33:04+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:33:05+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:33:51+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003226s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005860s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000364s ]
+
+[ 2015-11-18T10:33:52+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004299s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006032s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000296s ]
+
+[ 2015-11-18T10:33:52+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:33:52+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:33:52+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:33:52+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:33:53+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:34:59+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002221s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006094s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000268s ]
+
+[ 2015-11-18T10:35:00+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003086s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006360s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000541s ]
+
+[ 2015-11-18T10:35:00+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:35:00+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:35:00+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:35:00+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:35:00+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:36:03+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003438s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.007372s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000473s ]
+
+[ 2015-11-18T10:36:04+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003718s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.070279s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000310s ]
+
+[ 2015-11-18T10:36:04+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:36:04+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:36:04+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:36:04+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:36:04+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:36:38+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002018s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005523s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000290s ]
+
+[ 2015-11-18T10:36:39+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001876s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002918s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.007256s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000293s ]
+
+[ 2015-11-18T10:36:39+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:36:39+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:36:39+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:36:39+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:36:40+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:37:15+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002955s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006472s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000383s ]
+
+[ 2015-11-18T10:37:16+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001386s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002063s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005662s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000284s ]
+
+[ 2015-11-18T10:37:16+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:37:16+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:37:16+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:37:16+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:37:17+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:37:54+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003033s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005545s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000335s ]
+
+[ 2015-11-18T10:37:54+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004330s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006004s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000792s ]
+
+[ 2015-11-18T10:37:55+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:37:55+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:37:55+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:37:55+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:37:55+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:37:55+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:39:34+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003715s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006746s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000319s ]
+
+[ 2015-11-18T10:39:34+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002010s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002861s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006239s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000351s ]
+
+[ 2015-11-18T10:39:35+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:39:35+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:39:35+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:39:35+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:39:35+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:39:47+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002307s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005838s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000405s ]
+
+[ 2015-11-18T10:39:48+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002464s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.009285s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000365s ]
+
+[ 2015-11-18T10:39:48+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:39:48+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:39:49+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:39:49+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:39:49+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:41:11+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002230s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005271s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000420s ]
+
+[ 2015-11-18T10:41:12+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007134s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.007604s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000294s ]
+
+[ 2015-11-18T10:41:12+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:41:12+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:41:12+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:41:13+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:41:13+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:42:40+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003686s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.008534s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000497s ]
+
+[ 2015-11-18T10:42:41+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003712s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006413s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000291s ]
+
+[ 2015-11-18T10:42:41+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:42:41+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:42:41+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:42:42+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:42:42+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:43:43+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003056s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005199s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000297s ]
+
+[ 2015-11-18T10:43:44+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003810s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005494s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000399s ]
+
+[ 2015-11-18T10:43:44+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:43:44+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:43:44+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:43:44+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:43:45+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:44:22+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002673s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005859s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000406s ]
+
+[ 2015-11-18T10:44:23+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002937s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.014905s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000364s ]
+
+[ 2015-11-18T10:44:23+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:44:23+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:44:23+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:44:23+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:44:24+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:44:58+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002718s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005809s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000422s ]
+
+[ 2015-11-18T10:44:59+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004334s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005263s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000338s ]
+
+[ 2015-11-18T10:44:59+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:44:59+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:45:00+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:45:00+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:45:00+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:46:09+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002017s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005281s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000319s ]
+
+[ 2015-11-18T10:46:10+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002748s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.007925s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000459s ]
+
+[ 2015-11-18T10:46:10+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:46:10+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:46:10+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:46:11+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:46:11+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:48:05+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002935s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.007036s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000394s ]
+
+[ 2015-11-18T10:48:06+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003964s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006571s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000498s ]
+
+[ 2015-11-18T10:48:06+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:48:06+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:48:06+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:48:06+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:48:07+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:48:13+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002802s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.007661s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000344s ]
+
+[ 2015-11-18T10:48:14+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002426s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.009498s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000492s ]
+
+[ 2015-11-18T10:48:14+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:48:14+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:48:14+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:48:14+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T10:48:15+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:01:12+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003041s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005679s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000332s ]
+
+[ 2015-11-18T11:15:05+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005579s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000328s ]
+
+[ 2015-11-18T11:15:06+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002237s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006400s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000363s ]
+
+[ 2015-11-18T11:15:07+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002179s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003472s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.007131s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000423s ]
+
+[ 2015-11-18T11:15:08+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:15:08+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:15:08+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:15:08+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:15:09+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:18:00+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003073s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.018224s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000742s ]
+
+[ 2015-11-18T11:18:02+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002188s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006963s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000496s ]
+
+[ 2015-11-18T11:18:04+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001928s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003517s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006003s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000362s ]
+
+[ 2015-11-18T11:18:04+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:18:04+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:18:04+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:18:04+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:18:04+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:24:37+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003051s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005472s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000301s ]
+
+[ 2015-11-18T11:24:40+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003145s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.007811s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000354s ]
+
+[ 2015-11-18T11:24:40+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:24:40+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:24:40+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:24:41+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:24:41+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:24:50+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002696s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.016278s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000871s ]
+
+[ 2015-11-18T11:24:56+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003686s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.007490s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000394s ]
+
+[ 2015-11-18T11:24:56+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:24:56+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:24:56+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:24:56+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:24:57+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:25:07+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002950s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005560s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000301s ]
+
+[ 2015-11-18T11:27:52+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003208s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.011732s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000584s ]
+
+[ 2015-11-18T11:28:28+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003258s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.008609s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000616s ]
+
+[ 2015-11-18T11:28:28+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:28:28+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:28:28+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:28:28+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:28:29+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:29:47+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002995s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006445s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000361s ]
+
+[ 2015-11-18T11:29:48+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002249s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.017528s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000677s ]
+
+[ 2015-11-18T11:29:49+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003632s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.027065s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000296s ]
+
+[ 2015-11-18T11:29:50+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:29:50+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:29:50+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:29:50+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:29:50+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T11:47:27+08:00 ] ::1 /think04/
+ERR: 无法加载控制器:Index
+
+[ 2015-11-18T14:14:29+08:00 ] ::1 /think04/
+ERR: 无法加载控制器:Index
+
+[ 2015-11-18T14:43:15+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002313s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006551s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000309s ]
+
+[ 2015-11-18T14:43:16+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002753s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.008062s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000323s ]
+
+[ 2015-11-18T14:43:16+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T14:43:17+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T14:43:17+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T14:43:17+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T14:43:17+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-18T15:04:38+08:00 ] ::1 /think04/home/
+ERR: 无法加载控制器:Index
+
+[ 2015-11-18T18:55:52+08:00 ] ::1 /think04/Home/
+ERR: 无法加载控制器:Index
+
+[ 2015-11-18T19:15:55+08:00 ] ::1 /think04/Admin/Lesson/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002016s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006653s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000334s ]
+
+[ 2015-11-18T20:06:09+08:00 ] ::1 /think04/
+ERR: 无法加载控制器:Index
+
+[ 2015-11-18T21:17:11+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003117s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007118s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000654s ]
+
+[ 2015-11-18T21:17:27+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003043s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007808s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000372s ]
+
+[ 2015-11-18T21:17:34+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002113s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007561s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000277s ]
+
+[ 2015-11-18T21:17:42+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002149s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008976s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000307s ]
+
+[ 2015-11-18T21:18:33+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002658s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007825s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000508s ]
+
+[ 2015-11-18T21:18:36+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002876s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006046s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000303s ]
+
+[ 2015-11-18T21:18:38+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002973s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.011467s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000865s ]
+
+[ 2015-11-18T21:18:40+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003153s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008954s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000274s ]
+
+[ 2015-11-18T21:19:48+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006231s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000321s ]
+
+[ 2015-11-18T21:20:25+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003107s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006166s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000303s ]
+
+[ 2015-11-18T21:20:28+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002609s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005894s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000261s ]
+
+[ 2015-11-18T21:21:35+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002162s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008812s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000369s ]
+
+[ 2015-11-18T21:22:47+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002485s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007765s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000293s ]
+
+[ 2015-11-18T21:23:41+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002167s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005883s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000543s ]
+
+[ 2015-11-18T21:23:55+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003089s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006258s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000458s ]
+
+[ 2015-11-18T21:26:06+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003758s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006638s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000384s ]
+
+[ 2015-11-18T21:27:18+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003541s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.009363s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000522s ]
+
+[ 2015-11-18T21:27:22+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003084s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006269s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000314s ]
+
+[ 2015-11-18T21:27:24+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004445s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008848s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000325s ]
+
+[ 2015-11-18T21:27:25+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004231s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.018677s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000827s ]
+
+[ 2015-11-18T21:28:48+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002013s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003049s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006379s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000383s ]
+
+[ 2015-11-18T21:28:54+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005454s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007614s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000415s ]
+
+[ 2015-11-18T21:28:54+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003433s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.011787s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000406s ]
+
+[ 2015-11-18T21:29:44+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006805s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007512s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.001414s ]
+
+[ 2015-11-18T21:30:28+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004869s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008223s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000467s ]
+
+[ 2015-11-18T21:30:42+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005474s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008309s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000473s ]
+
+[ 2015-11-18T21:32:14+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003326s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006147s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000294s ]
+
+[ 2015-11-18T21:32:19+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003124s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006875s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000266s ]
+
+[ 2015-11-18T21:32:43+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004788s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.012868s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000326s ]
+
+[ 2015-11-18T21:33:20+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002063s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003036s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008402s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000387s ]
+
+[ 2015-11-18T21:35:05+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003298s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006559s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000307s ]
+
+[ 2015-11-18T21:36:20+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002403s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006757s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000296s ]
+
+[ 2015-11-18T21:36:23+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004995s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006703s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000482s ]
+
+[ 2015-11-18T21:38:39+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005552s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.015990s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000347s ]
+
+[ 2015-11-18T21:40:27+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004081s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.011993s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000534s ]
+
+[ 2015-11-18T21:40:39+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003386s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008124s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000423s ]
+
+[ 2015-11-18T21:42:34+08:00 ] 192.168.15.11 /think04/
+ERR: 无法加载控制器:Index
+
+[ 2015-11-18T21:42:42+08:00 ] 192.168.15.11 /think04/Home
+ERR: 无法加载控制器:Index
+
+[ 2015-11-18T21:42:59+08:00 ] 192.168.15.11 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002194s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006105s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000283s ]
+
+[ 2015-11-18T21:43:03+08:00 ] 192.168.15.11 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.021723s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000962s ]
+
+[ 2015-11-18T21:45:39+08:00 ] 192.168.15.11 /think04/
+ERR: 无法加载控制器:Index
+
+[ 2015-11-18T21:45:50+08:00 ] 192.168.15.11 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002290s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.022784s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000519s ]
+
+[ 2015-11-18T21:46:16+08:00 ] 192.168.15.11 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002050s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.022607s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.001051s ]
+
+[ 2015-11-18T21:46:19+08:00 ] 192.168.15.11 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002568s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.015810s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000576s ]
+
+[ 2015-11-18T21:46:32+08:00 ] 192.168.15.11 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003182s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005847s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000296s ]
+
+[ 2015-11-18T21:46:49+08:00 ] 192.168.15.11 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004524s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005902s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000313s ]
+
+[ 2015-11-18T21:47:06+08:00 ] 192.168.15.11 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002203s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006449s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000298s ]
+
+[ 2015-11-18T21:50:33+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002835s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006879s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000392s ]
+
+[ 2015-11-18T21:50:47+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003738s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007403s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000940s ]
+
+[ 2015-11-18T21:52:15+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011622s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008140s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000320s ]
+
+[ 2015-11-18T21:52:17+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003530s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.010014s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000605s ]
+
+[ 2015-11-18T21:52:19+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002558s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008566s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) LIMIT 4   [ RunTime:0.000329s ]
+
+[ 2015-11-18T21:53:08+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002652s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007371s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000334s ]
+
+[ 2015-11-18T21:53:23+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001590s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002778s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006220s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000325s ]
+
+[ 2015-11-18T21:53:28+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002055s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007226s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000363s ]
+
+[ 2015-11-18T21:57:56+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004975s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006418s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000330s ]
+
+[ 2015-11-18T21:57:58+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001692s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005886s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000346s ]
+
+[ 2015-11-18T21:57:59+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001865s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002863s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006321s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000326s ]
+
+[ 2015-11-18T21:58:49+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003525s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007556s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000485s ]
+
+[ 2015-11-18T21:59:14+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001937s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003366s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005982s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000422s ]
+
+[ 2015-11-18T21:59:17+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002222s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006001s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000416s ]
+
+[ 2015-11-18T21:59:26+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002023s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005872s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000630s ]
+
+[ 2015-11-18T22:01:35+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003091s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006318s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000335s ]
+
+[ 2015-11-18T22:01:37+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002410s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005885s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000780s ]
+
+[ 2015-11-18T22:01:38+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002623s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007554s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000323s ]
+
+[ 2015-11-18T22:01:43+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002379s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008447s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000370s ]
+
+[ 2015-11-18T22:02:39+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003516s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.010018s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000572s ]
+
+[ 2015-11-18T22:02:40+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003269s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006136s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000283s ]
+
+[ 2015-11-18T22:02:42+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003754s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006267s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000321s ]
+
+[ 2015-11-18T22:02:57+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003266s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.023780s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000449s ]
+
+[ 2015-11-18T22:03:19+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002147s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007799s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000367s ]
+
+[ 2015-11-18T22:03:20+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003588s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007035s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000576s ]
+
+[ 2015-11-18T22:03:25+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005031s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.010043s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000770s ]
+
+[ 2015-11-18T22:03:30+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001649s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002546s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007570s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000500s ]
+
+[ 2015-11-18T22:03:44+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002536s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004074s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006996s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000367s ]
+
+[ 2015-11-18T22:04:13+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002345s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.009824s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000400s ]
+
+[ 2015-11-18T22:04:15+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003709s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.009820s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000357s ]
+
+[ 2015-11-18T22:05:23+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004215s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.013107s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000399s ]
+
+[ 2015-11-18T22:05:24+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004035s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008258s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000377s ]
+
+[ 2015-11-18T22:05:26+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003798s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.009567s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000338s ]
+
+[ 2015-11-18T22:05:39+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003184s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007251s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000420s ]
+
+[ 2015-11-18T22:05:41+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003718s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.010880s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000511s ]
+
+[ 2015-11-18T22:05:57+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003736s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.016815s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.002027s ]
+
+[ 2015-11-18T22:05:59+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003706s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.009751s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000423s ]
+
+[ 2015-11-18T22:07:47+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003169s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004277s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007553s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000363s ]
+
+[ 2015-11-18T22:07:49+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001541s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002683s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.010037s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000375s ]
+
+[ 2015-11-18T22:07:51+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003670s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.009971s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000520s ]
+
+[ 2015-11-18T22:09:55+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001497s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002662s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.009207s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000373s ]
+
+[ 2015-11-18T22:10:15+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003703s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.009770s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000521s ]
+
+[ 2015-11-18T22:10:21+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003293s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008856s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000502s ]
+
+[ 2015-11-18T22:11:38+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003629s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005380s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.012109s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000634s ]
+
+[ 2015-11-18T22:12:58+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002508s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008115s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000402s ]
+
+[ 2015-11-18T22:13:01+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005321s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007120s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000336s ]
+
+[ 2015-11-18T22:13:32+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003575s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.009020s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000338s ]
+
+[ 2015-11-18T22:13:39+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005066s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.010137s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000346s ]
+
+[ 2015-11-18T22:14:19+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001988s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004530s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.010968s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000696s ]
+
+[ 2015-11-18T22:14:20+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004294s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007217s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000432s ]
+
+[ 2015-11-18T22:15:18+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003793s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007165s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000403s ]
+
+[ 2015-11-18T22:15:19+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002362s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003656s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.010696s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.001058s ]
+
+[ 2015-11-18T22:15:57+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006487s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007973s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007592s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000629s ]
+
+[ 2015-11-18T22:15:58+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003459s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.010682s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000619s ]
+
+[ 2015-11-18T22:16:10+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005129s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007854s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000421s ]
+
+[ 2015-11-18T22:16:29+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004464s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.011055s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000322s ]
+
+[ 2015-11-18T22:18:35+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003520s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.009046s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000398s ]
+
+[ 2015-11-18T22:18:36+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003138s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006858s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000355s ]
+
+[ 2015-11-18T22:18:54+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003134s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007809s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000467s ]
+
+[ 2015-11-18T22:18:56+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003574s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008838s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000486s ]
+
+[ 2015-11-18T22:21:05+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005120s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.010236s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000310s ]
+
+[ 2015-11-18T22:21:06+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002695s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003905s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008870s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000516s ]
+
+[ 2015-11-18T22:23:28+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003392s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008243s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000332s ]
+
+[ 2015-11-18T22:23:28+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004221s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005831s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000416s ]
+
+[ 2015-11-18T22:28:58+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003368s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.030855s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000895s ]
+
+[ 2015-11-18T22:29:09+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002326s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.015214s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000325s ]
+
+[ 2015-11-18T22:30:15+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003200s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006227s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000278s ]
+
+[ 2015-11-18T22:30:24+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006300s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000740s ]
+
+[ 2015-11-18T22:33:00+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003641s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005342s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.015262s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000439s ]
+
+[ 2015-11-18T22:33:07+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002508s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008444s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000354s ]
+
+[ 2015-11-18T22:33:13+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003055s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006698s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000288s ]
+
+[ 2015-11-18T22:34:18+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002123s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006335s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000328s ]
+
+[ 2015-11-18T22:34:28+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003670s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006248s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000431s ]
+
+[ 2015-11-18T22:34:34+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003189s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007807s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000317s ]
+
+[ 2015-11-18T22:34:43+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002658s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006541s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000304s ]
+
+[ 2015-11-18T22:35:14+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002464s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007459s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.001106s ]
+
+[ 2015-11-18T22:35:18+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003398s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006928s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000427s ]
+

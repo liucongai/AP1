@@ -1,0 +1,76 @@
+<include file="Public/header"/>
+ <load href="__PUBLIC__/css前台/share/saved_resource_share.css" />
+ 
+<div id="main">
+
+<div class="corp-container">
+    <div class="corp-banner" style="background:{$share.color}">
+        <div class="corp-banner-inner">
+          
+            <div class="corp-pro-logo text-center">
+                <img src="__ROOT__/Uploads/{$share['img_big']}" class="corp-pro-img"><i></i>
+            </div>
+          
+            <div class="corp-items">
+                <ul style="" class="clearfix">
+                   <foreach name="list" item="val"> 
+                       <li id="{$val.id}" class="item ">
+                          <a href="{:U('sharelist',array('share_id'=>$val['id']))}" title="{$val.name}">
+                            <img src="__ROOT__/uploads/{$val.img}" alt="{$val.name}">
+                            <i class="help"></i>
+                          </a>
+                       </li>
+                   </foreach>                 
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="corp-content">
+        <div class="corp-layout clearfix">
+            <div class="corp-main l">
+                <h2 class="corp-h2">课程</h2>
+                <div class="course-list corp-list">
+                    <ul class="clearfix">
+                        
+                         <foreach name="lesson_list" item="val">    
+                        
+                          <li class="course-one">
+                          <a href="{:U('View/index',array('view'=>$val['id']))}" target="_blank">
+                             <div class="course-list-img">
+                                <img width="240" height="135" alt="{$val.lesson}" src="__ROOT__/Uploads/{$val.name}">
+                             </div>
+                    <h5>
+                        <span>{$val.lesson}</span>
+                    </h5>
+                         <div class="tips">
+                            <p class="text-ellipsis">{$val.lesson_desc}</p>
+                            <span class="l">{$val.progress}</span>
+                                                
+                            <span class="l ml20">{$val.per_num}人学习</span>
+                         </div>
+                            <span class="time-label">{$val.nandu}</span>
+                            <b class="follow-label">跟我学</b>
+                         </a>
+                         </li>
+                        </foreach>            
+                    </ul>
+                </div>
+                
+                <div class="page">{$pageButton}</div>
+            </div>
+            <div class="corp-aside r">
+            
+            <div class="corp-take-in">
+                    <h2 class="corp-h2">介绍</h2>
+                    <p class="corp-words">
+                        {$share.intro}
+                    </p>
+                   </div>                     
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<include file="Public/footer"/>
+

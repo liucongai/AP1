@@ -1,0 +1,250 @@
+@import url(./style.css);
+
+
+/****main********************/
+.main{
+    margin-top:20px;
+   
+     height:1000px;
+}
+
+.myclub-silder{
+    width:180px;
+}
+
+.myclub-main{
+    width:1000px;
+   
+}
+
+
+/*****nav***********/
+.wd-nav{
+    width:1000px;
+    height:60px;
+    padding-bottom:20px;
+    border-bottom:1px solid #E3E5E5;
+}
+
+.wd-nav a{
+    color:white;
+     text-decoration:none;   
+}
+
+.wd-nav .wd-me{
+    font-size:14px;
+    color:#787D82;
+    width:100px;
+    height:40px;
+    line-height:40px;
+    margin-right:30px;
+}
+
+.wd-nav .wd-me1:hover {
+    
+}
+
+.wd-nav .wd-on{
+    font-size:18px;
+    color:black;
+}
+
+
+
+.wd-new{
+    display:inline-block;
+    width:140px;
+    height:40px;
+    line-height:40px;
+    background:red;
+    color:white;
+    text-align:center;
+    margin:0 auto;
+    border:1px solid #F0F1F1;
+    
+    margin-right:40px;
+    padding-left:5px;
+    padding-right:5px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.wd-new:hover {
+    color:white;
+    background:#D61503;;
+}
+
+
+/******ques**********/
+.wd-ques a{
+    text-decoration:none;
+}
+
+.wd-pre{
+    width:1000px;
+    height:100px;
+
+    padding:10px 20px 10px 20px; 
+    border-bottom:1px solid #E3E5E5; 
+}
+
+.wd-l{
+    display:inline-block;
+    width:640px;
+}
+
+.wd-l h4 i{
+    color:#0088CC;
+    margin-right:10px;
+    font-size:16px;
+}
+
+.wd-l h4 a{
+    color:black;
+}
+
+.wd-l h4 a:hover {
+    color:red;
+}
+/*
+.wd-l span{
+    width:400px;
+    height:60px;
+}
+*/
+
+
+
+
+
+.wd-addon{
+    margin-top:10px;
+    margin-left:30px;
+}
+
+.wd-addon span{
+    color:#D1D1D1;
+}
+
+.wdtag{
+    display:inline-block;
+}
+
+
+.wdtag-a{
+    color:#787D82;
+    width:30px;
+    background:#EDF1F2;
+    padding:3px 10px 3px 10px;
+    margin-right:5px;
+    margin-top:5px;
+}
+.wdtag-a:hover {
+    color:black;
+    background:#E3E8E8;
+}
+
+/********************/
+
+.wd-r{
+    display:inline-block;
+    width:160px;
+    height:80px;
+    text-align:center;
+    color:#D1D1D1;
+    margin-top:12px;
+}
+.wd-r span{
+    display:block;
+    width:50px;
+    height:30px;
+    text-align:center;
+     color:#D1D1D1;
+
+}
+
+.ans-wen{display:inline-block;width:50px;height:50px;color:#D1D1D1;}
+.ans-liu{display:inline-block;width:50px;height:50px;color:#D1D1D1;}
+
+.actques{
+    width:120px;
+    height:80px;
+} 
+.actques a{
+    color:white;
+    text-decoration:none;
+    margin-bottom:10px;
+}
+
+
+
+/****wd-reply*******************/
+.wd-pre2 .wd-l span{
+    color:#787D82;
+    margin-left:30px;
+}
+
+.wd-pre2 a{
+    text-decoration:none;
+}
+
+.wd-pre2 .wd-l .wd-addon span{
+    color:#D1D1D1;
+    margin-left:0px;
+}
+
+.wd-pre2{
+    width:1000px;
+    height:120px;
+
+    padding:10px 20px 10px 20px; 
+    border-bottom:1px solid #E3E5E5; 
+}
+
+/****wd-care*******************/
+.wd-care a{
+    text-decoration:none;
+}
+
+/********opus*************************/
+.wd-new i{
+
+    margin-right:10px;
+}
+
+
+
+
+
+/**silder******************/
+.myclub-silder a{
+    text-decoration:none; 
+}
+
+.user-info-me{
+    width:120px;
+    height:100px;
+    margin-top:20px;
+    
+}
+
+.user-info-me span{
+ 
+}
+.use-sign{
+    width:180px;
+    height:40px;
+    border-bottom:1px solid #EDF1F2;
+}
+
+.myclub-silder ul li{
+    display:block;
+    font-size:20px;
+    color:#787D82;
+    width:180px;
+    height:60px;
+    line-height:60px;
+    border-bottom:1px solid #EDF1F2;
+    margin-top:10px;
+}
+

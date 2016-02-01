@@ -1,0 +1,106 @@
+<include file="Public/header"/>
+ <load href="__PUBLIC__/css前台/share/saved_resource_share.css" />
+ <link rel="stylesheet" href="http://static.mukewang.com/static/css/??base.css,common/common-less.css,corp/index-less.css?v=1444613646" type="text/css" />
+<div id="main">
+
+<div class="corp-container">
+    <div class="corp-banner">
+        <div class="corp-banner-inner">
+            <h1>分享名企智慧，解密最强代码</h1>
+            <div class="corp-items">
+                <ul style="" class="clearfix">
+                    <foreach name="list" item="val">
+                       <li class="item ">
+                          <a href="{:U('sharelist',array('share_id'=>$val['id']))}" title="{$val.name}">
+                            <img src="__ROOT__/uploads/{$val.img}" alt="{$val.name}">
+                            <i class="help"></i>
+                          </a>
+                       </li>
+                   </foreach>                 
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="corp-content">
+        <div class="corp-layout clearfix">
+            <div class="corp-main l">
+                <h2 class="corp-h2">课程</h2>
+                <div class="course-list corp-list">
+                    <ul class="clearfix">
+        
+                      <foreach name="lesson_list" item="val">    
+                        
+                          <li class="course-one">
+                          <a href="{:U('View/index',array('view'=>$val['id']))}" target="_blank">
+                             <div class="course-list-img">
+                                <img width="240" height="135" alt="{$val.lesson}" src="__ROOT__/Uploads/{$val.name}">
+                             </div>
+                    <h5>
+                        <span>{$val.lesson}</span>
+                    </h5>
+                         <div class="tips">
+                            <p class="text-ellipsis">{$val.lesson_desc}</p>
+                            <span class="l ">{$val.progress}</span>
+                                                
+                            <span class="l ml20">{$val.per_num}人学习</span>
+                         </div>
+                            <span class="time-label">{$val.nandu}</span>
+                            <b class="follow-label">跟我学</b>
+                         </a>
+                         </li>
+                        </foreach>     
+                                       
+                    </ul>
+                </div>
+                
+                <div class="page">{$pageButton}</div>
+            </div>
+            <div class="corp-aside r">
+                                <div class="corp-hot-act">
+                    <h2 class="corp-h2">最新活动</h2>
+                    <ul class="corp-act-list">
+                                                                                            <li class="first">
+                            <img src="./分享_慕课网_files/563b16680001993002400135-240-130.jpg" alt="">
+                            <a href="http://d2forum.alibaba-inc.com/?tracelog=d2forum.10.imooc" target="_blank">【杭州·阿里】第10届D2前端技术论坛</a>
+                            <span class="desc">
+                                D2前端技术论坛，简称D2，为国内前端开发者和网站设计师提供一个交流的机会，一起分享技术的乐趣，探讨行业的发展，以技术会友。它是中国所有前端开发者的节日，2015.12.19 杭州 阿里巴巴西溪园区期待你的光临
+                            </span>
+                        </li>
+                                                                                                                    <li>
+                            <a href="http://www.mongoing.com/mongodbDay2015/index.html">【深圳】MongoDB2015深圳大会</a>
+                            <span class="desc">
+                                坐标：深圳丽雅查尔顿酒店。MongoDB 是 NoSQL 资料库中的领导者，拥有超过 RDBMS 的动态弹性与高可扩展优势，为许多企业带来崭新的应用与商机。 MongoDB不断地提升数据对企业的价值（Value），让企业有著想像与变革的能力！
+                            </span>
+                        </li>
+                                                                                                                    <li>
+                            <a href="http://www.mongoing.com/event/2015/backup_strategies_ops_manager">【免费/MongoDB】11.12 在线讲座：数据库备份策略/Ops Manager</a>
+                            <span class="desc">
+                                对于大数据项目的运维团队和开发人员而言，构建一套可靠健壮的数据备份系统是个挑战。MongoDB Cloud Manager开发了一套备份系统使得这一切变得容易——高可用，可配置备份间隔，时间点恢复，轻量安装以及多种方式恢复数据。本次在线活动将介绍Cloud Backup的基本功能和主要架构，并且简要介绍面向企业级客户的Ops Manager的主要功能。讲座之后会有10-15分钟问答时间，欢迎大家积极参与。
+                            </span>
+                        </li>
+                                                                                                                    <li>
+                            <a href="http://jinshuju.net/f/3TxwSB">【2015Oracle技术嘉年华】门票7折限时抢</a>
+                            <span class="desc">
+                                Oracle向云的全面转型，数据库12.2的即将发布，分布式与大数据产品的创新，一体化与M7处理器的亮色，这一切都挟着Oracle强大的技术和市场能力而来，看Oracle王者风范，再起风云。2015年11月20，北京五洲皇冠国际酒店，约么？
+                            </span>
+                        </li>
+                                                                </ul>
+                </div>
+                                
+                       
+                <div class="corp-take-in">
+                    <h2 class="corp-h2">我要合作</h2>
+                    <p class="corp-words">
+                        我们以积极向上、精益求精的态度，带领国内IT从业者共同找寻梦想，追求卓越。我们致力于为技术团队搭建分享和交流的平台，为推动在线教育发展略尽绵薄。<br>
+                        我们欢迎各大互联网企业的技术研发团队与慕课网合作，在这里展示团队风貌，传递顶尖技术，分享实战经验，共同推动互联网技术的向前发展！
+                        <br>
+                        邮箱：BD@imooc.com
+                    </p>
+                </div>
+                            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+<include file="Public/footer"/>

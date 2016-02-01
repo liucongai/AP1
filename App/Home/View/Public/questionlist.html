@@ -1,0 +1,97 @@
+	            
+			
+                <div id="test" class="wd-list">
+                    <notempty name="list">
+                    <foreach name="list" item="val" >
+					<div class="wenda-list">
+                        
+                        <div class="queshead  ">
+                            <a href="">
+                                <img style="width:40px;height:40px;" id="id" class="img-circle img" src="__ROOT__/Uploads/{$val.user_pic}">
+                                <div>{$val.user_name}</div>
+                            </a>
+                        </div>
+
+						<div class="wendamainlist clearfix ">
+                             
+                            <div class="ans-reply">
+                                <a href="{:U('detail','bw=1&id='.$val[id])}">
+
+                                    <div class="ans-wen">
+                                        <span>{$val.ans_count}</span>
+                                        <div class="da">回答</div>
+                                    </div>
+
+                                    <div class="ans-liu">
+                                        <span>{$val.ans_bw}</span>
+                                        <div class="lan">浏览数</div>
+                                    </div>
+                                </a>
+
+                            </div>
+                            
+                        
+                            
+
+                            <div  class="wendatitle mb10 clearfix">
+                                <small style="color:#0088CC;margin-right:10px;font-size:14px;"><i class="glyphicon glyphicon-question-sign"></i></small>   
+                                <a href="{:U('detail','bw=1&id='.$val[id])}" ><b>{$val.title}</b></a>
+                            </div>
+                            
+
+
+                            <div class="wendare clearfix">
+                                <small style="color:#EDF1F2;margin-right:10px;font-size:14px;"><i class="glyphicon glyphicon-comment"></i></small> 
+                            <?php if($val['ans_count'] == 0){  ?>
+								<span>{$val.ans_content}</span>
+                            <?php }else{ ?>
+                                <span>[{$val.ans_type}]</span>
+                                <a href="{$val.ans_user_id}"><img style="width:16px;height:16px;" id="id" class="img-circle img" src="__ROOT__/Uploads/{$val.ans_user_pic}"></a>
+                                <a href="{$val.ans_user_id}">{$val.ans_user_name}:</a>
+                                <span>{$val.ans_content}</span>
+                            <?php } ?>
+
+
+                            </div>
+                            
+
+
+                            <div class="wdtime-tag">
+                                <span class="wdtime">
+                                    <small>提问时间:{$val.time}</small>
+                                </span>
+                                <span class="wdtag">
+                                	<foreach name="val['tag']" item="val1"> 
+                                    <a class="wdtag-a " href="{:U('tag','tid='.$val1['id'])}">{$val1.name}</a>
+                                    </foreach>
+                                </span>
+                                <span class="wdsourse">
+                                    <small><a href="{:U('View/video','id='.$val['zz_id'])}">{$val.zname}</a></small>
+                                </span>
+                            </div>
+                            
+
+                        </div>
+
+            
+                    </div>
+                    </foreach> 
+                     <else />
+                            <div id="1">
+                                <p>没有了</p>
+                            </div>
+                    </notempty>
+                    
+                    <nav>
+                      <ul class="pagination">                       
+                        {$pageButton}   
+                      </ul>
+                    </nav>
+                    <script>
+                        $('.pagination div a').unwrap('div').wrap('<li></li>');
+                        $('.pagination span').wrap('<li class="active"></li>');
+                    </script>
+                   
+                
+                </div>
+

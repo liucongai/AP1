@@ -1,0 +1,72 @@
+<include file="Public/header"/>
+<load href="__PUBLIC__/css/saved_resource_sp2.css" />
+
+<include file="Public/space_nav"/>
+
+<include file="Public/space_nav_myless"/>
+
+
+    <div class="myspace-courselist myspace-bg r">
+        <div class="main-bd clearfix" id="J_MyClass" data-type="0">
+            <div class="js-course-list my-space-course study-tl">
+
+                <foreach name="list" item="val">
+
+                    <div class="clearfix tl-item  tl-item-first">
+                        <span class="time">
+                           {$val[0]['time']}
+                        </span>
+                        <div class="course-list course-list-m three-colum">
+                            <ul class="clearfix">
+
+                                <foreach name="val" item="pat">
+
+                                    <li class="course-one" data-id="528">
+                                        <a href="http://www.imooc.com/learn/528">
+                                            <div class="course-list-img">
+                                                <img width="240" height="135" alt="MongoDB复制集—快速搭建复制集" src="__ROOT__/Uploads/{$pat.fimg}">
+                                                <div class="media-progress">
+                                                    <div class="progress-val text-ellipsis"><span>{$pat.pro}%</span></div>
+                                                    <div class="mask"></div>
+                                                    <div class="progress-bar">
+                                                        <div class="bar" style="width: 0%"></div>
+                                                    </div>
+                                                </div>
+                                                <i class="btn-add-collection btn-remove-collection"></i>
+                                            </div>
+                                            <h5>
+                                                <span>{$pat.name}</span>
+                                            </h5>
+                                            <div class="tips">
+                                                <p class="text-ellipsis">{$pat.desc}</p>
+                                                <span class="l  update-latest ">{$pat.progress}</span>
+                                                <span class="l ml20">{$pat.per_num}人学习</span>
+                                            </div>
+                                            <span class="time-label">{$pat.nandu}</span>
+                                        </a>
+                                        <span class="del"></span>
+                                    </li>
+
+                                </foreach>
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </foreach>
+
+            </div>
+
+            <div class="page">{$page}</div>
+        </div>
+    </div>
+
+</div>
+</div>
+
+</div>
+
+
+<include file="Public/footer"/>
+
+

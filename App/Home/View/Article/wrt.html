@@ -1,0 +1,152 @@
+<include file="Public/headerold" />
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Document</title>
+    <load href="__PUBLIC__/js/jquery-1.9.1.js" />
+    <load href="__PUBLIC__/js/bootstrap.min.js" />
+    <load href="__PUBLIC__/css/bootstrap.min.css" />
+
+
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/ueditor.config.js"></script> 
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/ueditor.all.min.js"> </script>    
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/lang/zh-cn/zh-cn.js"></script>
+     <script type="text/javascript" charset="utf-8" src="__PUBLIC__/js/ueditor.js"></script>
+
+    <load href="__PUBLIC__/css/wrt.css" />
+</head>
+<body>
+     <include file="Public/allheader-nav" />
+    <div class="main">
+        <div class="ww">
+        <div class="article-right">
+			<div class="rule-body">
+            <h3 class="article-title">投稿须知</h3>
+                <dt>
+                    <dd>1.文章类型：技术、设计/交互、产品、与IT相关的任何学习心得、技术分享、职场经验、项目案例、甚至慕课网自学的励志故事等类型均可；</dd>
+                    <dd>2.拒绝广告：文章内容必须健康，符合国家相关法律法规规定，谢绝任何形式软文、公关稿、新闻稿；</dd>
+                    <dd>3.尊重版权：投稿作品必须为原创，否则慕课网有权拒绝发表或在发表后协助原版权所有者追究其法律责任；</dd>
+                    <dd>4.排版：正文配图务必从本地上传，并保证清晰，请勿超过2M（图片不得添加任何形式广告水印，否则审稿工作人员有权删除）；</dd>
+                    <dd>5.审核时间：您发布的文章均需经工作人员审核；审核通过后，如需再修改，文章将再次进入审核；我们承诺会在投稿后的2个工作日内审核完毕；</dd>
+                    <dd>6.其他：审核通过后，请勿随意编辑文章，若编辑文章过于频繁，慕女神将拒绝发布哦（如果是软文/新闻稿/公关稿，小编将直接删除），谢谢理解。</dd>
+            </dt>
+            </div>
+        </div>
+
+		<div class="article-left">
+            <h4>发布文章</h4>
+			
+			<form action="{:U(dowrt)}" method="post" enctype="multipart/form-data">
+                
+                <div class="art-title">
+                    <span class="allred">*</span>
+                    <span >标题:</span>
+                
+                <input type="text" id="title" class="form-control title" name="title" placeholder="请输入问题标题" maxlength="253" />
+                </div>
+                <p id="errortip"></p>
+                <script>
+                    var error1 = function(){
+                        if($('#title').val().length <= 4){
+                            if($('#errortip').children().length>0){
+                                $('#errortip').empty();
+                            }
+                            $('#errortip').append('<small><i class="glyphicon glyphicon-info-sign"></i>标题不能少于5个字符！</small>');
+                        };
+                        if($('#title').val().length >= 5 ){
+                            $('#errortip').empty(); 
+                        }; 
+                    }
+                    $('#title').bind('blur',error1);   
+                </script>
+                
+                <div id="pic2">
+                <div  class="art-cover">
+                    <span class="allred">&nbsp</span>
+                    <span >封面:</span>
+                    <div class="face-upload">
+                        <div class="coverit" />
+                            <div class="word">上传图片</div>
+                            <input id="pic" class="uppic" type="file" name="file" accept="" />
+                        </div>
+                        <span  class="updes"><small>封面为500*500像素的 PNG/JPG/GIF 格式图片</small></span>
+                    </div> 
+                </div>
+                <div class="showpic"></div>
+                </div>
+                <script>
+                    $("#pic").change(function(){
+                        $('.showpic').children().remove();
+                        var objUrl = getObjectURL(this.files[0]) ;            
+                        $('.showpic').append('<img style="width:100px;" src="'+ objUrl +'" alt="">').append('<span id="delit" onclick="delit()">删除</span>');
+
+                    });
+
+                    //建立一個可存取到改file的url
+                    function getObjectURL(file) {
+                        var url = null ; 
+                        if (window.createObjectURL!=undefined) { // basic
+                            url = window.createObjectURL(file) ;
+                        } else if (window.URL!=undefined) { // mozilla(firefox)
+                            url = window.URL.createObjectURL(file) ;
+                        } else if (window.webkitURL!=undefined) { // webkit or chrome
+                            url = window.webkitURL.createObjectURL(file) ;
+                        }
+                        return url ;
+                    }
+                    //$(".showpic").delegate("#delit","click",delit);
+                    //$("#delit").on("click",delit);
+                    var delit = function(){
+                       // alert(1);
+                        $('.showpic').children().remove();
+                    };
+                        
+                    </script>
+                    
+                    <div class="clear"></div>
+
+                    <div class="art-class">
+                        <span class="allred">*</span>
+                        <span >栏目:</span>
+                    
+                        <select name="cate" >
+                            <option value="000">请选择栏目</option>
+                            <option value="001">前端开发</option>
+                            <option value="002">后端开发</option>
+                            <option value="003">程序人生</option>
+                            <option value="004">设计</option>
+                            <option value="005">移动开发</option>
+                            <option value="006">其他</option>
+                        </select>
+                    </div>
+
+                    <div class="art-content">
+                        <span class="allred">*</span>
+                        <span >内容:</span>
+                        <script id="container" class="content" name="content" type="text/plain" style="width:780px;height:300px;"></script>
+                        
+                    </div>
+                    <div class="clear"></div>
+                    <div class="art-submit">
+                       
+                        <input class="submit"  type="submit"  value="提交" />
+                        <span><small>文章提交审核通过后自动发布，审核期间您可以在个人中心我的文章-我的原创中查看文章审核进度</small></span>
+                    </div>
+                    
+    				
+    				
+    				
+
+
+    			</form>
+    			
+    		</div>
+            </div>
+    
+        </div>
+     <div class="clear"></div>
+    <include file="Public/footer" />
+    </body>
+
+    </html>

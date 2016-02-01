@@ -1,0 +1,191 @@
+@import url(./style.css);
+
+/***qs-main*********/
+.main{
+    margin-top:20px;
+}
+
+.article-left{
+    float:left;
+    width:840px;
+}
+
+.article-right{
+    float:right;
+    width:280px;
+}
+
+
+/*****article-nav**********/
+/*
+.article-nav{
+     height:30px; 
+     line-height:30px;
+}
+
+.article-nav li{
+    float:left;
+    margin-right:20px;
+}
+
+.article-nav li a{
+    text-decoration:none;
+    
+}
+
+.tabactive{
+    font-size:20px;
+    color:black;
+}
+*/
+
+/*****tag-nav******************/
+.article-bar{
+    width:840px;
+    height:40px;
+    line-height:40px;
+    background:#F6F6F6;
+    border-top:1px solid #DAE0E3;
+    margin-top:15px;
+}
+
+.article-bar a{
+    margin-top:20px;
+    text-decoration:none;
+    color:#9A9DA1;
+    margin:0 10px 0 10px;
+}
+
+.article-bar .active{
+    color:black;
+}
+
+/********************/
+.article-allcontent{
+    margin-top:10px;
+     width:840px;
+}
+.article-percontent{
+    width:840px;
+    height:160px;
+    margin:20px 0 20px 0;
+    border-bottom:1px solid #E3E5E5;
+}
+.item-img{
+    float:right;
+}
+
+.item-text{
+    float:left;
+    width:560px;
+}
+
+
+/******wendatitle************************/
+.item-text h3{
+    margin-top:0px;
+}
+
+
+
+
+
+.item-text h3 a{  
+    font-size:20px; 
+    color:black;
+    text-decoration:none;    
+    
+}
+
+
+
+.item-text h3 a:hover {  
+    color:red;    
+}
+
+.item-text{
+  
+}
+
+/*******p*************/
+.item-text p{
+    color:#787D82;
+    /*width:560em;
+    height:70em;*/
+    overflow: hidden; /*自动隐藏文字*/
+   /*white-space: nowrap;*/
+    text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+    width: 40em;/*不允许出现半汉字截断*/
+    height:4em;
+    
+    
+}
+.item-text .item-context{
+    width:560px;
+    height:76px;
+    
+    
+}
+
+/*******item-bd*************/
+.item-bd{
+    margin-top:10px;
+    
+}
+
+.info-left li{
+    float:left;
+    margin-right:15px;
+}
+
+.item-bd a{
+     text-decoration:none;
+}
+.item-bd a:hover {
+    color:red;
+}
+
+
+.info-right{
+    float:right;
+}
+.info-right div{
+    display:inline-block;
+    float:left;
+    margin-left:15px;
+
+}
+
+/*******************/
+.article-right{
+    width:280px;
+}
+
+.article-right .wrt{
+    display:block;
+    width:240px;
+    height:40px;
+    line-height:40px;
+    background:#CC0000;
+    color:white;
+    text-align:center;
+    margin:0 auto;
+    border:1px solid #F1F1F1;
+    margin-top:10px;  
+    text-decoration:none;
+}
+
+/**********/
+.wd-my .user-info{
+    padding:10px;
+    border-bottom:1px solid #E5E5E5; 
+}
+
+
+
+
+
+
+
+
+

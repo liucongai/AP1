@@ -1,0 +1,125 @@
+<include file="Public/header"/>
+<include file="Public/nav"/>
+    
+        <!-- main container -->
+    <div class="content">
+         <div class="container-fluid">
+            <div id="pad-wrapper" class="users-list">
+                   
+                    <ul class="breadcrumb" style="margin:-40px 0 50px 0">
+                       <li><a href="{:U('Category/index')}">Category</a> <span class="divider">/</span></li>
+                       <li class="active">Category_list</li>
+                    </ul>
+                    
+                    
+                    
+                    <div class="pull-right">
+                       
+                     <form class="form-search fr" action="" method="get">
+                     <div class="input-append">
+                     <input type="text" name="name" class="span2 search-query" placeholder="Name">
+                     <button type="submit" class="btn"><i class="icon-search"></i>搜索</button>
+                      </div>
+                      </form>
+
+                    </div>
+                <!--
+                </div>
+                -->
+                <!-- Users table -->
+                <div class="row-fluid table">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th class="span2 sortable">
+                                    ID
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>Name
+                                </th>
+                                 <th class="span2 sortable">
+                                    <span class="line"></span>pid
+                                </th>
+                                 <th class="span2 sortable">
+                                     <span class="line"></span>path
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>display
+                                </th>
+                                <th id="content" class="span4 sortable">
+                                     <span class="line"></span>content
+                                </th>
+                                <th id="pig_h" class="span3 sortable">
+                                     <span class="line"></span>tag-img
+                                </th>
+                                <th class="span7">
+                                    <span class="line"></span>Action
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    
+                                    <span style="font-size:15px"><a href="{:U('index',array('pid'=>$gpid['pid']))}">返回上级</a></span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- row -->
+                        <notempty name="list">
+                        <foreach name="list" item="val">
+                        <tr>
+                            <td>{$val.id}</td>
+                            <td>{$val.name}</td>
+                            <td>{$val.pid}</td>
+                            <td>{$val.path}</td>
+                            <td><a href="{:U('dis?id='.$val[id].'&display='.$val[display])}">{$val.display}</a></td>
+                            <td class="content_d">{$val.content}</td>
+                            <td class="pig_d"><img  src="__ROOT__/Uploads/{$val.tag-img}"/></td>
+                            <td>
+                                <a href="{:U('edit?id='.$val[id])}">编辑分类</a>&nbsp;&nbsp;
+                                <a id="son" href="{:U('index?pid='.$val[id])}">查看子类</a>&nbsp;&nbsp;
+                                <a href="{:U('add?pid='.$val[id].'&path='.$val[path])}">添加子类</a>
+                                <a href="{:U('del?id='.$val[id])}">删除分类</a>
+                   
+                            </td>
+
+                        </tr>
+                        </foreach>
+                      
+                            <else />
+                                <tr>
+                                <td colspan="6">查无数据</td>
+                                </tr>
+                             </notempty>
+                        
+                         </tbody>
+                        
+                    </table>
+                    
+                </div>
+                <div class="pagination">
+                    <ul>
+                        {$pageButton}
+                    </ul>
+                </div>
+                <script>
+                $('.pagination ul a').unwrap('div').wrap('<li></li>');
+                $('.pagination ul span').wrap('<li class="active"></li>');
+                </script>
+                <!-- end users table -->
+           </div>
+        </div>
+    </div>
+    <!-- end main container -->
+    <script>
+          $pid={$val.pid};
+          //console.log($pid);
+          if($pid==0){
+           $('#content').remove();
+           $('.content_d').remove();
+           $('#pig_h').remove();
+           $('.pig_d').remove();
+
+          } 
+
+    </script>
+
+<include file="Public/footer"/>
+

@@ -1,0 +1,222 @@
+<include file="Public/header"/>
+<include file="Public/nav"/>
+
+
+
+	<!-- main container -->
+    <div class="content">
+        
+        <div class="container-fluid">
+            <div id="pad-wrapper" class="new-user">
+                <div class="row-fluid header">
+                    <h3>Create a new user</h3>
+                </div>
+
+                <div class="row-fluid form-wrapper">
+                    <!-- left column -->
+                    <div class="span9 with-sidebar">
+                        <div class="container">
+                            <form class="new_user_form inline-input" action="{:U('User/doadd')}" method="post"/>
+                                <div class="span12 field-box">
+                                    <label>Name:</label>
+                                    <input id="check1" class="span7" name="name" type="text" />
+                                    <span id="span1"></span>
+                                </div>
+                                <div class="span12 field-box">
+                                    <label>password:</label>
+                                    <input class="span7" name="password" type="password" />
+                                </div>
+                                <div class="span12 field-box">
+                                    <label>Repassword:</label>
+                                    <input class="span7" name="repassword" type="password" />
+                                </div>
+                                <div class="span12 field-box">
+                                    <label>Type:</label>
+                                    <div class="ui-select span5">
+                                        <select name="type">
+                                            <option value="0" />会员
+                                            <option value="1" />管理员
+                                            <option value="2" />超级管理员
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="span12 field-box">
+                                    <label>Sex:</label>
+                                    <div class="ui-select span5">
+                                        <select name="sex">
+                                            <option value="0" />女
+                                            <option value="1" />男
+                                            <option value="2" />保密
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="span12a field-box">
+                                    <label>Email:</label>
+                                    <input id="check4" class="span7" name="email" type="text" />
+                                    <span id="span4"></span>
+                                </div>
+                                <div class="span12 field-box">
+                                    <label>Phone:</label>
+                                    <input id="check5" class="span7" name="phone" type="text" />
+                                    <span id="span5"></span>
+                                </div>
+                                <div class="span12 field-box">
+                                    <label>Job:</label>
+                                    <input class="span9" name="job" type="text" />
+                                </div>
+                                <div class="span12 field-box">
+                                    <label>Address:</label>
+                                    
+                                        <input class="span9" name="address" type="text" placeholder="Street address" />
+                                    
+                                </div>
+                                <div class="span12 field-box textarea">
+                                    <label>Sign:</label>
+                                    <textarea name="sign"class="span9"></textarea>
+                                    <span class="charactersleft">90 characters remaining. Field limited to 100 characters</span>
+                                </div>
+                                <div class="span11 field-box actions">
+                                    <input type="submit" class="btn-glow primary" value="Create user" />
+                                    <span>OR</span>
+                                    <input type="reset" value="Cancel" class="reset" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- side right column -->
+                    <div class="span3 form-sidebar pull-right">
+                        <div class="btn-group toggle-inputs hidden-tablet">
+                            <button class="glow left active" data-input="inline">INLINE INPUTS</button>
+                            <button class="glow right" data-input="normal">NORMAL INPUTS</button>
+                        </div>
+                        <div class="alert alert-info hidden-tablet">
+                            <i class="icon-lightbulb pull-left"></i>
+                            Click above to see difference between inline and normal inputs on a form
+                        </div>                        
+                         
+                         <p>Choose one of the following file types:</p>
+                        <ul>
+                            <li><a href="{:U('User/index')}">User_list</a></li>
+                            <li><a href="{:U('User/add')}">User_add</a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end main container -->
+
+    <!-- end main container -->
+
+
+    <!--
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-1.8.3.min.js"></script>-->
+		
+       <script type="text/javascript">
+          //模板自带js
+          $(function () {
+
+            // toggle form between inline and normal inputs
+            var $buttons = $(".toggle-inputs button");
+            var $form = $("form.new_user_form");
+
+            $buttons.click(function () {
+                var mode = $(this).data("input");
+                $buttons.removeClass("active");
+                $(this).addClass("active");
+
+                if (mode === "inline") {
+                    $form.addClass("inline-input");
+                } else {
+                    $form.removeClass("inline-input");
+                }
+            });
+        });
+    
+
+
+
+         //模板自带的js
+
+	//alert(1);
+		// function check(obj){
+		// 	alert(1);
+		// 	var name = obj.value;
+		// 	$.get('{:U('ajaxName')}',{name:name},function(result){
+		// 	      if(result==1)	
+  //                 $('#check').after('<font>’+用户名已存在+’</font>');           
+  
+             
+		// 	});
+		// }
+		$('#check1').blur(function(){
+
+			//alert(1);
+			
+            	var name = $(this).val();
+            	//alert(name);
+			$.get('{:U('ajaxName')}',{name:name},function(result){
+			      if(result==1)	
+			      	//alert(1);
+                  $('#span1').html('<font color="red">用户名已存在</font>');           
+  
+             
+			});
+		})
+
+		$('#check1').focus(function(){
+           //alert(1);
+           $('#check1').val('');
+           $('#span1').html(''); 
+		})
+
+		$('#check4').blur(function(){
+
+			//alert(1);
+			
+            	var email = $(this).val();
+            	//alert(name);
+			$.get('{:U('ajaxEmail')}',{email:email},function(result){
+			      if(result==1)	
+			      	//alert(1);
+                  $('#span4').html('<font color="red">邮箱已存在</font>');           
+  
+             
+			});
+		})
+
+		$('#check4').focus(function(){
+           //alert(1);
+           $('#check4').val('');
+           $('#span4').html(''); 
+		})
+
+		$('#check5').blur(function(){
+
+			//alert(1);
+			
+            	var phone = $(this).val();
+            	//alert(name);
+			$.get('{:U('ajaxPhone')}',{phone:phone},function(result){
+			      if(result==1)	
+			      	//alert(1);
+                  $('#span5').html('<font color="red">手机号已存在</font>');           
+  
+             
+			});
+		})
+
+		$('#check5').focus(function(){
+           //alert(1);
+           $('#check5').val('');
+           $('#span5').html(''); 
+		})
+      
+	</script>
+
+
+
+
+
+<include file="Public/footer"/>

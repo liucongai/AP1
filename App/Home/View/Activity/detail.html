@@ -1,0 +1,238 @@
+<include file="Public/headerold" />
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Document</title>
+    <load href="__PUBLIC__/js/jquery-1.9.1.js" />
+    <load href="__PUBLIC__/js/bootstrap.min.js" />
+    <load href="__PUBLIC__/css/bootstrap.min.css" />
+
+
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/ueditor.config.js"></script> 
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/ueditor.all.min.js"> </script>    
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/lang/zh-cn/zh-cn.js"></script>
+     <script type="text/javascript" charset="utf-8" src="__PUBLIC__/js/ueditor.js"></script>
+
+     <load href="__PUBLIC__/css/wd-detail.css" />
+     <load href="__PUBLIC__/css/reply.css" />
+
+
+
+
+</head>
+<body>
+    <include file="Public/allheader-nav" />
+	<div class="main">
+	    <div class="ww">
+            <div class="dt-silder">
+                
+            </div>
+
+	        <div class="dt-main">
+                <div class="dt-nav"><a href="{:U('Interlocution/index')}">全部问题</a></div>
+                <script>
+                    $('.dt-nav').append(' > <a href="{:U('index')}">官方活动</a>');
+                </script>
+
+                <div class="clear"></div>
+                
+                <div class="dt-header clearfix">
+                                     
+                    <a class="de-header-left" href="">
+                        <img style="width:40px;"  class="img-circle img" src="__ROOT__/Uploads/{$qlist.user_pic}">
+                        <span>{$qlist.user_name}</span>
+                    </a>
+                    
+                    <div class="de-header-right fr">
+                        <ul>
+                           
+                            <li class="header-li"><i  class="glyphicon glyphicon-heart"></i></li>
+                            <li class="header-li header-care">关注</li>
+                        </ul>
+                    </div>
+                    <script>                        
+                        if({$tlist}==1){
+                                $('.glyphicon-heart').css("color","red");
+                                $('.header-care').html("已关注");
+                            }else{
+                                $('.glyphicon-heart').css("color","#CED1D1");
+                                $('.header-care').html("关注");
+                            };
+                        $('.glyphicon-heart').click(function(){
+                            if($('.header-care').html().length==2){
+                                $('.glyphicon-heart').css("color","red");
+                                $('.header-care').html("已关注");
+                                $.get("{:U(docare)}", { care_id: 1, act_id:"{$qlist['id']}"} );
+                            }else{
+                                $('.glyphicon-heart').css("color","#CED1D1");
+                                $('.header-care').html("关注");
+                                $.get("{:U(docare)}", { care_id: 0, act_id:"{$qlist['id']}"} );
+                            };
+                        });
+                        
+                        
+                    </script>
+                </div>
+                
+                <div class="dt-content">
+                    <div class="dt-content-ke">
+                    <div class="dt-content-main">
+                        <h2><B>{$qlist.title}</B></h2>
+                        {$qlist.content|htmlspecialchars_decode}
+                    </div>
+                    
+                    <div class="dt-content-bottom">
+                        <span class="fl">{$qlist.time}</span>
+                        <div class="tag-list">
+                            <span class="wdtag">
+                                <?php foreach($val['tag'] as $key1 => $val1): ?>
+                                <a class="wdtag-a " href="{$val1.id}">{$val1.name}</a>
+                                <?php endforeach; ?>
+                            </span>
+                        </div>
+                        <span class="content-b fr">{$qlist.ans_count} 回答</span>
+                        <span class="content-b fr">{$qlist.ans_bw} 浏览</span>
+                    </div>
+                    </div>
+                </div>
+
+                <div id="dt-allcomment">
+                <foreach name="alist" item="val" >
+                <div class="dt-comment">
+                    <div class="dt-per-comment">
+                        <div class="cm-header">
+                            <a href="">
+                                <img style="width:40px;"  class="img-circle img" src="__ROOT__/Uploads/{$val.user_pic}">
+                                <span>{$val.user_name}</span>
+                            </a>
+                        </div>
+                        <div class="cm-content">
+                            <div class="cm-main">
+                                {$val.answ|htmlspecialchars_decode}
+                            </div>
+                            <div class="cm-b">
+                                <span>{$val.time}</span>
+                                <div class="cm-bf">
+                                    <span  name="{$val.user_id}" onclick="reply(this)"><i class="glyphicon glyphicon-comment"></i>回复</span>
+                                    <!-- <span><i class="glyphicon glyphicon-thumbs-up"></i>赞</span>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <script>
+                        
+                        
+                    </script>
+
+                    <div class="cm-replyall">
+
+                            <?php foreach($val['reply'] as $key1 => $val1): ?>
+                            <div class="cm-replyper">
+                                <a class="cm-replyper-header" href="{$val1.user_id}"><img style="width:40px;" class="img-circle img" src="__ROOT__/Uploads/{$val1.reply_pic}"></a>
+                                <div class="cm-replyper-main">
+                                    <p><a href="{$val1.user_id}">{$val1.reply_name}</a>
+                                    回复
+                                    <a href="{$val1.before_id}">{$val1.reply_qname}</a>
+                                    </p>
+                                    <p>{$val1.reply|htmlspecialchars_decode}</p>
+
+                                    <div class="cm-replyper-b">
+                                        <span class="mr10">{$val1.time}</span>
+                                        <span name2="{$val1.reply_name}" name="{$val1.user_id}" onclick="reply(this)" style="cursor:pointer;" class="repp mr10" >
+                                            <i class="icon-resp"></i>
+                                            回复
+                                        </span>
+                                        <span class="fr">#{$key1+1}</span>
+                                    </div>
+                                </div>
+                            </div>
+                             <?php endforeach; ?>
+                        </div>
+                        <div style="display:none" class="replyit">
+                        <div class="qa-replies">
+                            <div class="js-qa-reply-ibox qa-reply-ibox clearfix" style="">  
+                                <div class="qa-reply-iavator">
+                                    <a title="" href=""><img  class="img-circle myimg"  width="40" height="40" src="__ROOT__/Uploads/{$_SESSION['home']['img']}"></a>
+                                </div>
+                                <form action="{:U('doreplyit')}" method="post">
+                                <input type="hidden" name="answ_id" value="{$val.id}">
+                                <input type="hidden" id="before_id" name="before_id" value="">
+                                <div class="qa-reply-iwrap">
+                                    <div class="qa-reply-iarea">
+                                        <textarea id="ipt" class="js-reply-ipt-default ipt" placeholder="写下你的评论..." name="replyit" /></textarea>
+                                    </div>
+                                </div>
+                                
+                                <div class="qa-reply-ifoot clearfix">
+                                    <div class="qa-reply-footright r">
+                                        <div onclick="iptcancel(this)" class="btn btn-default">取消</div>
+                                        <input type="submit" class="btn btn-primary" value="提交">
+                                    </div>
+                                </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <script>
+                        function iptcancel(ob){
+                            $(ob).parents('.replyit').css("display","none");
+                        }
+                        function reply(ob){
+                            $bid=$(ob).attr('name');
+                           
+                            if($(ob).attr('name2') != undefined){
+                                $bid2='回复 '+ $(ob).attr('name2') +':';
+                            }else{
+                                $bid2='';
+                            }
+                           $('#before_id').val($bid);
+                           $(ob).parents('.dt-comment').children('.replyit').css("display","block").parents().siblings().children('.replyit').css("display","none");
+                           $('#ipt').val($bid2); 
+                           
+                        } 
+                        
+                    </script>
+                </div>
+                </foreach>
+                </div>
+
+
+
+                <div class="dt-input">
+                    <form action="{:U(dodetail)}" method="post">
+                        <input  type="hidden" name="qid" value="{$qlist['id']}" />
+                    <div class="me-header">
+                        <img style="width:40px;" class="img" src="__ROOT__/Uploads/{$_SESSION['home']['img']}">
+                    </div>
+                    <script>
+                        $a = '{$Think.session.home.id}'; 
+                        if($a==''){ $(".myimg").attr({src:"__ROOT__/Public/img/avatar_default.png"});}
+                    </script>
+                    <script id="container" class="content" name="content" type="text/plain" style="width:730px;height:140px;"></script>
+                   <div class="clear"></div>
+                    <p><input type="submit" class="submit" value="回答" /></p>
+                    </form>
+                    
+                </div>
+                
+                <nav>
+                      <ul class="pagination">                       
+                        {$pageButton}   
+                      </ul>
+                    </nav>
+                    <script>
+                        $('.pagination div a').unwrap('div').wrap('<li></li>');
+                        $('.pagination span').wrap('<li class="active"></li>');
+                    </script>
+                </div>
+
+            
+	    </div>
+	</div>
+<div class="clear"></div>
+<include file="Public/footer" />
+</body>
+</html>

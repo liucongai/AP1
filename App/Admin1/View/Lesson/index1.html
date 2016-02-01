@@ -1,0 +1,122 @@
+
+	
+<include file="Public/header"/>
+<include file="Public/nav"/>
+    
+        <!-- main container -->
+    <div class="content">
+         <div class="container-fluid">
+            <div id="pad-wrapper" class="users-list">
+                   
+                    <ul class="breadcrumb" style="margin:-40px 0 50px 0">
+                       <li><a href="{:U('Lesson/index')}">Lesson</a> <span class="divider">/</span></li>
+                       <li class="active">Lesson_list</li>
+                    </ul>
+                    
+                    
+                    
+                    <div class="pull-right">
+                       
+                     <form class="form-search fr" action="" method="get">
+                     <div class="input-append">
+                     <input type="text" name="name" class="span2 search-query" placeholder="Name">
+                     <button type="submit" class="btn"><i class="icon-search"></i>搜索</button>
+                      </div>
+                      </form>
+
+                    </div>
+                <!--
+                </div>
+                -->
+                <!-- Users table -->
+                <div class="row-fluid table">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th class="span2 sortable">
+                                    ID
+                                </th>
+                                <th class="span3 sortable">
+                                    <span class="line"></span>Name
+                                </th>
+                                 <th class="span5 sortable">
+                                    <span class="line"></span>Describe
+                                </th>
+                                 <th class="span2 sortable">
+                                     <span class="line"></span>Nandu
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>Cate_id
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>is_new
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>is_hot
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>is_recom
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>state
+                                </th>
+                                
+                                <th class="span5 sortable align-right">
+                                    <span class="line"></span>Action
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- row -->
+                        <notempty name="list">
+                        <foreach name="list" item="val">
+                        <tr>
+<td>{$val.id}</td>
+                <td>{$val.name}</td>
+                <td>{$val.desc}</td>
+                <td><a href="{:U('nandu?id='.$val[id].'&nandu='.$val[nandu])}">{$val.nandu}</a></td>
+                <td>{$val.cate_id}</td>
+                <td><a href="{:U('is_new?id='.$val[id].'&is_new='.$val[is_new])}">{$val.is_new}</a></td>
+                <td><a href="{:U('is_hot?id='.$val[id].'&is_hot='.$val[is_hot])}">{$val.is_hot}</a></td>
+                <td><a href="{:U('is_recom?id='.$val[id].'&is_recom='.$val[is_recom])}">{$val.is_recom}</a></td>
+                <td><a href="{:U('state?id='.$val[id].'&state='.$val[state])}">{$val.state}</a></td>
+                           
+                            <td class="align-right">
+ <a href="{:U('del',array('id'=>$val['id']))}">删除课程</a>
+                    <a href="{:U('edit',array('id'=>$val['id']))}">编辑课程</a>
+                            
+                            </td>
+                        </tr>
+                        </foreach>
+                      
+                            <else />
+                                <tr>
+                                <td colspan="6">查无数据</td>
+                                </tr>
+                             </notempty>
+                        
+                         </tbody>
+                        
+                    </table>
+                    
+                </div>
+                <div class="pagination">
+                    <ul>
+                        {$pageButton}
+                    </ul>
+                </div>
+                <script>
+                $('.pagination ul a').unwrap('div').wrap('<li></li>');
+                $('.pagination ul span').wrap('<li class="active"></li>');
+                </script>
+                <!-- end users table -->
+           </div>
+        </div>
+    </div>
+    <!-- end main container -->
+
+
+<include file="Public/footer"/>
+
+
+

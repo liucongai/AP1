@@ -1,0 +1,192 @@
+<include file="Public/header"/>
+
+<load href="__PUBLIC__/css/saved_resource_sp.css" />
+<load href="__PUBLIC__/css前台/perset/settings.css" />
+<load href="__PUBLIC__/css前台/perset/login-regist.css" />
+<include file="Public/space_nav"/>
+
+<div class="r space-main">
+
+    <div class="family">
+        <h1 class="family-hd">我的贡献</h1>
+    </div>
+    <div class="course-tool-bar clearfix">
+        <div class="tool-left l">
+            <a href="{:U('cont')}" class="sort-item ">新的课程</a>
+            <a href="{:U('mycou')}" class="sort-item ">我的课程</a>
+        </div>
+        <div class="tool-right r">
+
+        <span class="tool-item total-num">
+            共<b>2</b>个课程
+        </span>
+        <span class="tool-item tool-pager">
+            <span class="pager-num">
+                <b class="pager-cur">1</b>/<em class="pager-total">1</em>
+            </span>
+                        <a href="javascript:void(0)" class="pager-action pager-prev hide-text disabled">上一页</a>
+
+                        <a href="javascript:void(0)" class="pager-action pager-next hide-text disabled">下一页</a>
+
+        </span>
+        <span class="tool-item tool-remove js-program-edit" data-edit="0">
+            <i class="icon icon-del"></i><b>删除</b>
+        </span>
+        </div>
+    </div>
+
+
+    <div class="myspace-courselist myspace-bg">
+
+        <form id="profile" action="{:U('lessadd')}" enctype="multipart/form-data" method="post" >
+            <input type="hidden" class="form-control" name="user_id" value="{$Think.session.home.id}" />
+            <div class="wlfg-wrap">
+                <p class="rlf-tip-wrap"></p>
+                <label class="label-name" >课程名:</label>
+                <div class="rlf-group">
+                    <input type="text" name="lesson" class="rlf-input rlf-input-nick" placeholder="Lesson" aria-describedby="basic-addon1">
+                    <p class="rlf-tip-wrap"></p>
+                </div>
+            </div>
+
+            <div class="wlfg-wrap">
+                <label class="label-name" >课程介绍:</label>
+                <div class="rlf-group">
+                    <textarea name="lesson_desc"  cols="30" rows="5" class="textarea"></textarea>
+                    <p class="rlf-tip-wrap"></p>
+                </div>
+            </div>
+
+
+
+            <div class="wlfg-wrap">
+                <label class="label-name" for="province-select">课程分类：</label>
+                <div class="rlf-group profile-address">
+                    <select id="province-select" hidefocus="true" onchange="change(this)">
+
+                        <option value="0">请选择</option>
+                        <foreach name="fangx" item="val">
+                            <option value="{$val.id}">{$val.name}</option>
+                        </foreach>
+
+                    </select>
+
+                    <select  name="cate_id" id="fenlei" >
+                        <option id="cct" value="0">请选择</option>
+                    </select>
+
+
+                    <p class="rlf-tip-wrap"></p>
+                </div>
+            </div>
+
+
+            <div class="wlfg-wrap">
+                <label class="label-name" >第1章</label>
+                <div class="rlf-group">
+                    <input type="text" name="zh_name"  autocomplete="off" data-validate="nick" class="rlf-input rlf-input-nick"  placeholder="请输入章节名.">
+                    <p class="rlf-tip-wrap"></p>
+                </div>
+            </div>
+
+
+
+            <div class="wlfg-wrap">
+                <label class="label-name" >章节简述:</label>
+                <div class="rlf-group">
+                    <textarea name="zh_desc"  cols="30" rows="5" class="textarea"></textarea>
+                    <p class="rlf-tip-wrap"></p>
+                </div>
+            </div>
+
+
+            <div class="wlfg-wrap">
+                <label class="label-name" >第1节</label>
+                <div class="rlf-group">
+                    <input type="text" name="xi_name"  autocomplete="off" data-validate="nick" class="rlf-input rlf-input-nick"  placeholder="请输入小节名.">
+                    <p class="rlf-tip-wrap"></p>
+                </div>
+            </div>
+
+
+            <div class="wlfg-wrap">
+                <label class="label-name">难度：</label>
+                <div class="rlf-group">
+                    <select class="rlf-select" name="nandu" hidefocus="true" >
+                        <option value="">请选择难度</option>
+                        <option value="1">初级</option>
+                        <option value="2">中级</option>
+                        <option value="3">高级</option>
+                    </select>
+                    <p class="rlf-tip-wrap"></p>
+                </div>
+            </div>
+
+
+            <div class="wlfg-wrap">
+                <label class="label-name" >课程封面:</label>
+                <div class="rlf-group">
+                    <input  type="file" name="fimg" value="课程封面"/>
+                    <p class="rlf-tip-wrap"></p>
+                </div>
+            </div>
+
+
+            <div class="wlfg-wrap">
+                <label class="label-name" >小节视频:</label>
+                <div class="rlf-group">
+                    <input  type="file" name="video" value="小节视频"/>
+                    <p class="rlf-tip-wrap"></p>
+                </div>
+            </div>
+
+
+            <div class="wlfg-wrap">
+                <div class="rlf-group">
+                    <button style="width:400px" type="submit" hidefocus="true" aria-role="button" class="rlf-btn-green btn-block profile-btn">添加</button>
+                </div>
+            </div>
+
+        </form>
+
+
+    </div>
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+    function change(ob){
+        // alert(1);
+        $('#fenlei').children().remove('.opadd');
+        $.get('{:U('ajaxName')}',{id:ob.value},function(result){
+            console.dir($(result));
+            $.each(result,function(i,val){
+                $('#cct').after('<option class="opadd"  value="' + val['id'] + '">'+ val['name'] +'</option>');
+            });
+
+        });
+    }
+    function zchange(ob){
+        $('#xiaojie').children().remove('.opadd');
+        $.get('{:U('ajaxName')}',{id:ob.value},function(result){
+
+            $.each(result,function(i,val){
+
+                $('#cctt').after('<option class="opadd"  value="' + val['id'] + '">'+ val['name'] +'</option>');
+            });
+
+        });
+    }
+
+
+</script>
+
+
+
+<include file="Public/footer"/>
+
+

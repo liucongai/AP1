@@ -1,0 +1,129 @@
+<include file="Public/header"/>
+
+<load href="__PUBLIC__/css/saved_resource_l.css" />
+
+<include file="Public/course_info"/>
+
+    <div class="course-info-main clearfix w">
+
+        <div class="info-bar clearfix" >
+           <!-- <a href="{:U('learn?lesson_id='.$lesson['id'])}"-->
+            <div style="display: {$mask3}">
+                <a href="{:U('video',array('id'=>$memory['video_id']))}" target="_blank" class="btn-red start-study-btn r J-learn-course">继续学习</a>
+                <span class="start-study-title">
+                    {$memory.xi_name}
+                </span>
+
+                <div class="exp-progress">
+                    <span class="exp-txt">
+                        <span class="exp-per">
+                            <strong>{$progress}</strong>%
+                        </span>
+
+                        学习进度
+
+                    </span>
+                    <div class="exp-bar">
+                        <ins style="width:{$progress}%"></ins>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="main_nav" style="display: {$mask4}"><a href="#0" class="btn-red start-study-btn r J-learn-course">开始学习</a></ul>
+
+        </div>
+        <div class="content-wrap clearfix">
+        <div class="content">
+            <div class="mod-tab-menu">
+                <ul class="course-menu clearfix">
+                    <li><a class="ui-tabs-active active" id="learnOn" href="./JavaScript入门篇_技术学习教程_慕课网_files/JavaScript入门篇_技术学习教程_慕课网.html">
+                        <span>章节</span></a></li>
+                    <li><a id="commentOn" class="" href="{:U('learn2',array('lesson_id'=>$lesson['id']))}"><span>评论</span></a></li>
+
+
+                </ul>
+            </div>
+
+
+            <div id="notice" class="clearfix">
+                <div class="l"> <strong>课程公告:</strong> <a href="javascript:void(0)">开放了编程练习参考代码</a> </div>
+            </div>
+
+            <div class="mod-chapters">
+
+                <foreach name="z_detail" item="val">
+                    <div class="chapter" onclick="change(this)">
+                        <p hidden>{$val.id}</p>
+                        <h3>
+                            <span class="icon-plus"></span>
+                            <strong><i class="state-expand"></i>{$val.zh_name}</strong>
+                        </h3>
+                        <ul class="video">
+
+                        </ul>
+                    </div>
+                </foreach>
+            </div>
+
+        </div>
+        <div class="aside r">
+            <div class="bd">
+                <div class="box mb40">
+                    <h4>讲师提示</h4>
+                    <div class="course-info-tip">
+                        <dl class="first">
+                            <dt>课程须知</dt>
+                            <dd class="autowrap">该课程是针对新手的一个简单基础的课程，让您快速了解JS，通过一些简单的代码编写体会JS。如果您已经对JS有所了解，可以跳过本课程，学习JS进阶课程，进一步学习JS相应的基础知识。学习本课程，希望您至少具备HTML/CSS基础知识，认识常用的标签。</dd>
+                        </dl>
+                        <dl>
+                            <dt>老师告诉你能学到什么？</dt>
+                            <dd class="autowrap">1. 理解JavaScript基础语法；
+                                2. 掌握常用语句的使用方法；
+                                3. 学会如何获取DOM元素及进行简单操作。</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>    </div>
+    </div>
+        <div class="clear"></div>
+    </div>
+
+</div>
+<script>
+
+    function change(ob){
+
+
+        $(ob).siblings().removeClass("chapter-active");
+
+        $(ob).toggleClass("chapter-active");
+
+        var $emp = $(ob).find('p').text();
+
+        $(ob).find('ul').children().remove('.del_m');
+
+        $(ob).siblings().find('ul').children().remove('.del_m');
+
+        $.get('{:U('xi_ajaxName')}',{id:$emp},function(result){
+            console.dir($(result));
+
+            var url = '__CONTROLLER__/video';
+            $.each(result,function(i,val){
+
+                var tt = val['video_id'];
+
+                $(ob).find('ul').append( '<li class="del_m"><a target="_blank" href="'+ url + '?id=' +tt + '" class="J-media-item programme">'+ val['xi_name'] +'</a></li>');
+            });
+
+
+
+
+
+        });
+
+    }
+</script>
+
+
+
+<include file="Public/footer"/>

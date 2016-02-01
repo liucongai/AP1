@@ -1,0 +1,62 @@
+<div id="main">
+
+	<div class="main-body container clearfix">
+		<div class="l">
+			<div class="sider">
+				<div class="user-info">
+        <span class="user-pic">
+            <img src="__ROOT__/Uploads/{$inf.img}" title="">
+        </span>
+					<ul class="user-lay">
+						<li class="mynick-name">
+							<span class="user-name">{$inf.name}</span>
+						</li>
+						<li>
+							<span class="user-site"> {$inf.job} </span>
+						</li>
+						<li><a href="{:U('Percenter/perset')}" class="user-setup">设置</a></li>
+					</ul>
+				</div>
+				<div class="user-desc">
+					<div class="sign-wrap">
+						<p id="signed" class="signed">
+							<strong>{$inf.sign}</strong>
+							<em class="publish-sign" id="publishsign"></em>
+						</p>
+						<textarea class="sign-editor" id="js-sign-editor">这位童鞋很懒，什么也没有留下～～！</textarea>
+						<p id="rlf-tip-wrap" class="rlf-tip-wrap"></p>
+					</div>
+				</div>
+				<ul class="mp clearfix">
+					<li class="l mp-item">
+          <span class="mp-atag">
+            <p class="mp-num"> 3小时52分</p>
+            <p class="mp-title">学习</p>
+          </span>
+					</li>
+					<li class="mp-item">
+						<a class="mp-atag" href="http://www.imooc.com/space/experience">
+                        <span class="mp-num mp-hover">
+                0            </span>
+							<span class="mp-title mp-hover">经验</span>
+						</a>
+					</li>
+				</ul>
+				<ul class="nav">
+					<li>
+						<a class="js-count-course active" href="{:U('index')}"><i class="icon-nav icon-tick"></i>我的课程<em class="got-num">{$lenum}</em></a>
+					</li>
+					<li>
+						<a class="js-count-plan " href="{:U('myplan',array('type' => 0))}"><i class="icon-nav icon-plan"></i>我的计划<em class="got-num">{$plnum}</em></a>
+					</li>
+
+					<li>
+						<a class="" href="{:U('Space/cont')}"><i class="icon-nav icon-code"></i>我的贡献<em class="got-num">{$num}</em></a>
+					</li>
+					<li class="rd-dissu">
+						<a class="read-mine" href="http://www.imooc.com/myclub/myquestion/t/ques">查看我的社区</a>
+						<p class="read-notice">看看里面有什么好玩的事情吧～～</p>
+					</li>
+				</ul>
+			</div><!--sider end-->
+		</div>

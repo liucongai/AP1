@@ -1,0 +1,87 @@
+    
+    <include file="Public/header"/>
+<include file="Public/nav"/>
+
+<!-- main container -->
+    <div class="content">
+        
+       
+        
+        <div class="container-fluid">
+            <div id="pad-wrapper" class="new-user">
+                <div class="row-fluid header">
+                    <h3>Edit a new category</h3>
+                </div>
+
+                <div class="row-fluid form-wrapper">
+                    <!-- left column -->
+                    <div class="span9 with-sidebar">
+                        <div class="container">
+                            <form class="new_user_form inline-input" action="{:U('edit')}" method="post" />
+                                <div class="span12 field-box">
+                                    <input class="span9" name="id" value="{$list.id}" type="hidden" />
+                                    <label>Name:</label>
+                                    <input class="span9" name="name" value="{$list.name}" type="text" />
+                                </div>
+                                <div class="span12 field-box">
+                                    <label>pid:</label>
+                                    <input class="span9" name="pid" value="{$list.pid}" type="text" />
+                                </div>
+                                <div class="span12 field-box">
+                                    <label>Path:</label>
+                                    <input class="span9" name="path" value="{$list.path}" type="text" />
+                                </div>
+                                <div class="span11 field-box actions">
+                                    <input type="submit" class="btn-glow primary" value="Create user" />
+                                    <span>OR</span>
+                                    <input type="reset" value="Cancel" class="reset" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- side right column -->
+                    <div class="span3 form-sidebar pull-right">
+                        <div class="btn-group toggle-inputs hidden-tablet">
+                            <button class="glow left active" data-input="inline">INLINE INPUTS</button>
+                            <button class="glow right" data-input="normal">NORMAL INPUTS</button>
+                        </div>
+                        <div class="alert alert-info hidden-tablet">
+                            <i class="icon-lightbulb pull-left"></i>
+                            Click above to see difference between inline and normal inputs on a form
+                        </div>                        
+                        
+                        <p>Choose one of the following file types:</p>
+                        <ul>
+                            <li><a href="{:U('Plan/index')}">Caregory_list</a></li>
+                            <li><a href="{:U('Plan/add')}">Category_add</a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end main container -->
+     <script type="text/javascript">
+          //模板自带js
+          $(function () {
+
+            // toggle form between inline and normal inputs
+            var $buttons = $(".toggle-inputs button");
+            var $form = $("form.new_user_form");
+
+            $buttons.click(function () {
+                var mode = $(this).data("input");
+                $buttons.removeClass("active");
+                $(this).addClass("active");
+
+                if (mode === "inline") {
+                    $form.addClass("inline-input");
+                } else {
+                    $form.removeClass("inline-input");
+                }
+            });
+        });
+    </script>
+<include file="Public/footer"/>
+

@@ -1,0 +1,123 @@
+<include file="Public/headerold" />
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	 
+    <load href="__PUBLIC__/js/jquery-1.9.1.js" />
+    <load href="__PUBLIC__/js/bootstrap.min.js" />
+    <load href="__PUBLIC__/css/bootstrap.min.css" />
+    <load href="__PUBLIC__/css/article.css" />    
+    <load href="__PUBLIC__/js/jquery.cookie.js" />   
+    <style type="text/css">
+        #nav1  {border-top:0px;}
+        #nav1  li{padding-left:0px; border-bottom:0px;}
+        #nav1  li a{height:40px;line-height:20px; }
+    </style>
+</head>
+<body>
+     <include file="Public/allheader-nav" />
+    <div class="main">
+    <div class="ww">
+        <div class="article-right">
+			<div >
+				<a href="{:U('wrt')}" class="wrt">写文章</a>
+                <div class="wd-my">
+                    <div class="user-info">
+                        <a href=""><img style="width:40px;" id="id" class="img-circle fl" src="__ROOT__/Uploads/{$_SESSION['home']['img']}"></a>
+                        <p><a href="">{$_SESSION['home']['name']}</a></p>
+                        <!--<a class="mypoint" href="">我的积分:</a>-->
+                    </div>
+                   
+                </div>
+			</div>
+			<div id="精品推荐"></div>
+			<div id="一周达人"></div>
+        </div>
+
+
+		<div class="article-left">
+			<div class="article-nav clearfix">
+				<ul id="nav1" class="nav nav-pills">
+	        		<li  role="presentation" class="active"><a href="{:U('index','pid=0&qid='.$qid)}"  >全部</a></li>
+		        	<li role="presentation"><a href="{:U('index','pid=1&qid='.$qid)}" >前端开发</a></li>
+		        	<li role="presentation"><a href="{:U('index','pid=2&qid='.$qid)}" >后端开发</a></li>
+		        	<li role="presentation"><a href="{:U('index','pid=3&qid='.$qid)}" >程序人生</a></li>
+		        	<li role="presentation"><a href="{:U('index','pid=4&qid='.$qid)}" >设计</a></li>
+		        	<li role="presentation"><a href="{:U('index','pid=5&qid='.$qid)}" >移动开发</a></li>
+		        	<li role="presentation"><a href="{:U('index','pid=6&qid='.$qid)}" >其它</a></li>
+		        </ul>
+			</div>
+		
+
+			<div id="nav2" class="article-bar clear">
+				<a href="{:U('index','qid=0&pid='.$pid)}" class="sort-item active">最新</a>
+	            <a href="{:U('index','qid=1&pid='.$pid)}" class="sort-item ">热门</a>
+            </div>
+            
+            <script>
+                $("#nav1 li").eq($.cookie("art_pid")).addClass('active').siblings().removeClass('active');
+                $("#nav2 a").eq($.cookie("art_qid")).addClass('active').siblings().removeClass('active');
+            </script>
+
+
+
+            <div class="article-allcontent" >
+                
+                <foreach name="list"  item="val" >                
+				<div class="article-percontent">
+					
+					<div class="item-img">
+                        <a href="{:U('detail','bw=1&id='.$val[id])}"><img style="width:140px;height:140px;" src="__ROOT__/Uploads/{$val.name}" ></a>
+					</div>
+
+					<div class="item-text">
+                        
+                        <h3><a href="{:U('detail','bw=1&id='.$val[id])}"><b>{$val.title}</b></a></h3>
+						
+                        <div  class="item-context"><p>{$val.content|htmlspecialchars_decode}</p></div>
+
+						<div class="item-bd">
+							<ul class="info-left">
+								<li class="header">
+                            <a href="{:U('myclub/index')}之后完善"><img style="width:20px;height:20px;" id="id" class="img-circle img" src="__ROOT__/Uploads/{$val.user_pic}" >
+								{$val.user_name}</a>
+								</li>
+                                <li class="tag">
+                                <a href="{:U('index','pid='.$val['cate_id'])}">{$val.tag}</a>
+                                </li>
+                                <li class="发表时间">{$val.time}</li>
+                                <li class="浏览数">{$val.ans_bw} 浏览数</li>
+							</ul>
+							<div class="info-right">
+							
+                                <div class="item-judge ">{$val.ans_count} 评论</div>		
+							</div>
+						</div>
+                
+                    </div>
+				
+                </div>
+                
+                </foreach>
+
+                <nav>
+                  <ul class="pagination">                       
+                    {$pageButton}   
+                  </ul>
+                </nav>
+                <script>
+                    $('.pagination div a').unwrap('div').wrap('<li></li>');
+                    $('.pagination span').wrap('<li class="active"></li>');
+                </script>
+            
+            </div>
+		</div>
+		
+    </div>
+	</div>
+    <div class="clear"></div>
+<include file="Public/footer" />
+</body>
+</html>

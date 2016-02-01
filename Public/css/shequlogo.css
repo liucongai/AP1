@@ -1,0 +1,33 @@
+.ww {
+  width: 1200px;
+  overflow: visible;
+  margin: 0 auto;
+  min-height: 1000px;
+}
+.allheader-nav {
+  width: 100%;
+  min-width: 1200px;
+  height: 80px;
+  background-color: #eef1f2;
+  border-bottom: 1px solid #edf1f2;
+}
+.allheader-nav .ww {
+  width: 1200px;
+  height: 80px;
+  min-height: 0;
+  line-height: 60px;
+  overflow: hidden;
+}
+
+.allheader-nav a {
+  font-size: 16px;
+  font-family: 'Microsoft Yahei';
+  color: #14191e;
+  margin-left: 80px;
+}
+.allheader-nav a:hover {
+  color: #e71f19;
+}
+.allheader-nav a.mycommunity {
+  float: right;
+}

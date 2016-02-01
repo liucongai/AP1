@@ -1,0 +1,44 @@
+                <div id="pic2">
+                <div  class="art-cover">
+                    <span class="allred">&nbsp</span>
+                    <span >封面:</span>
+                    <div class="face-upload">
+                        <div class="coverit" />
+                            <div class="word">上传图片</div>
+                            <input id="pic" class="uppic" type="file" name="file" accept="" />
+                        </div>
+                        <span  class="updes"><small>封面为500*500像素的 PNG/JPG/GIF 格式图片</small></span>
+
+                    </div> 
+                </div>
+                <div class="showpic"></div>
+                </div>
+                <script>
+                    $("#pic").change(function(){
+                        $('.showpic').children().remove();
+                        var objUrl = getObjectURL(this.files[0]) ;            
+                        $('.showpic').append('<img style="width:100px;" src="'+ objUrl +'" alt="">').append('<span id="delit" onclick="delit3()">删除</span>');
+
+                    });
+
+                    //建立一個可存取到改file的url
+                    function getObjectURL(file) {
+                        var url = null ; 
+                        if (window.createObjectURL!=undefined) { // basic
+                            url = window.createObjectURL(file) ;
+                        } else if (window.URL!=undefined) { // mozilla(firefox)
+                            url = window.URL.createObjectURL(file) ;
+                        } else if (window.webkitURL!=undefined) { // webkit or chrome
+                            url = window.webkitURL.createObjectURL(file) ;
+                        }
+                        return url ;
+                    }
+                    //$(".showpic").delegate("#delit","click",delit);
+                   var delit3 = function(){
+                        $('.showpic').children().remove();
+                    };
+                   
+                        
+                    </script>
+                    
+                    <div class="clear"></div>

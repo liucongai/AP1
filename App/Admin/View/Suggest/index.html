@@ -1,0 +1,108 @@
+<include file="Public/header"/>
+<include file="Public/nav"/>
+    
+        <!-- main container -->
+    <div class="content">
+         <div class="container-fluid">
+            <div id="pad-wrapper" class="users-list">
+                   
+                    <ul class="breadcrumb" style="margin:-40px 0 50px 0">
+                       <li><a href="{:U('Suggest/index')}">Suggest</a> <span class="divider">/</span></li>
+                       <li class="active">Suggest_list</li>
+                    </ul>
+                    
+                    
+                    
+                    <div class="pull-right">
+                       
+                     <form class="form-search fr" action="" method="get">
+                     <div class="input-append">
+                     <input type="text" name="user_id" class="span2 search-query" placeholder="User_id">
+                     <button type="submit" class="btn"><i class="icon-search"></i>搜索</button>
+                      </div>
+                      </form>
+
+                    </div>
+                <!-- Users table -->
+                <div class="row-fluid table">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th class="span3 sortable">
+                                    ID
+                                </th>
+                                <th class="span3 sortable">
+                                    <span class="line"></span>Suggest
+                                </th>
+                                 <th class="span3 sortable">
+                                    <span class="line"></span>cont_info
+                                </th>
+                                 <th class="span3 sortable">
+                                     <span class="line"></span>replay
+                                </th>
+                                <th class="span3 sortable">
+                                     <span class="line"></span>state
+                                </th>
+                                 <th class="span3 sortable">
+                                     <span class="line"></span>user_id
+                                </th>
+                                 <th class="span5 sortable">
+                                     <span class="line"></span>cre_time
+                                </th>
+                                <th class="span4">
+                                    <span class="line"></span>Action
+                                   
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- row -->
+                        <notempty name="suggest">
+                        <foreach name="suggest" item="val">
+                        <tr>
+                            <td>{$val.id}</td>
+                            <td>{$val.suggest}</td>
+                            <td>{$val.cont_info}</td>
+                            <td>{$val.reply}</td>
+                            <td><a href="{:U('state',array(id=>$val['id'],state=>$val['state']))}">{$val.state}</a></td>
+                            <td>{$val.user_id}</td>
+                            <td><?php echo date( 'Y-m-d H:i:s', $val['cre_time'])  ?></td>
+                
+                            <td>
+                                <a href="{:U('edit?id='.$val[id])}">回复意见</a>&nbsp;&nbsp;
+                                <a href="{:U('del?id='.$val[id])}">删除意见</a>&nbsp;&nbsp;
+                   
+                            </td>
+
+                        </tr>
+                        </foreach>
+                      
+                            <else />
+                                <tr>
+                                <td colspan="6">查无数据</td>
+                                </tr>
+                             </notempty>
+                        
+                         </tbody>
+                        
+                    </table>
+                    
+                </div>
+                <div class="pagination">
+                    <ul>
+                        {$pageButton}
+                    </ul>
+                </div>
+                <script>
+                $('.pagination ul a').unwrap('div').wrap('<li></li>');
+                $('.pagination ul span').wrap('<li class="active"></li>');
+                </script>
+           </div>
+        </div>
+    </div>
+    <!-- end main container -->
+
+
+<include file="Public/footer"/>
+
+

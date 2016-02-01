@@ -1,0 +1,125 @@
+
+<include file="Public/header"/>
+<load href="__PUBLIC__/css/saved_resource_pl.css" />
+
+<div id="main">
+
+    <div class="program-wrap clearfix">
+        <div class="program-main">
+            <div class="program-category">
+                <h2>求职路线</h2>
+            </div><!--program-category end-->
+            <div class="course-list job-route-list">
+                <ul class="clearfix">
+                    <foreach name="planlist" item="val">
+                        <li id="program_{$val.id}">
+                            <a href="{:U('plandetail',array('id'=>$val['id']))}" title="">
+                                <div class="course-list-img">
+                                    <img width="240" height="180" alt="" src="__ROOT__/Uploads/{$val.path}">
+                                </div>
+                                <h5>
+                                    <span>{$val.name}</span>
+                                </h5>
+                                <div class="tags">
+
+                                    <span>求职</span>
+                                    <span>实战</span>
+                                </div>
+                                <div class="tips">
+                                    <span class="l">{$val.cou_num}门课程</span>
+                                    <span class="l ml20">{$val.per_num}</span>
+                                </div>
+                            </a>
+                        </li>
+                    </foreach>
+
+                </ul>
+            </div>
+
+
+            <div class="program-category">
+                <h2>加薪利器</h2>
+            </div>
+            <div>
+                <div class="course-nav-row clearfix">
+                    <span class="hd l">方向：</span>
+                    <div class="bd">
+                        <ul class="plan_mask">
+                            <li class="course-nav-item">
+                                <a href="{:U('index',array('px_id'=> null))}">全部</a>
+                            </li>
+                            <foreach name="catelist" item="vol">
+                                <li class="course-nav-item ">
+                                    <a href="{:U('index?px_id='.$vol['id'])}">{$vol.name}</a>
+                                </li>
+                           </foreach>
+                        </ul>
+                    </div>
+                </div>
+                <div class="course-tool-bar clearfix">
+                    <div class="tool-left l">
+                        <a href="http://www.imooc.com/course/program?sort=last" class="sort-item active">最新</a>
+                        <a href="http://www.imooc.com/course/program?sort=pop" class="sort-item">最热</a>
+
+                    </div>
+                    <div class="tool-right r">
+                                                    <span class="tool-item">
+
+                                                                                                                                    <a href="http://www.imooc.com/course/program?hide=1" class="hide-learned tool-chk ">隐藏已参加计划
+                                                                                                                                    </a>
+                            </span>
+
+                        <span class="tool-item total-num">
+                            共<b>25</b>个计划
+                        </span>
+                        <span class="tool-item tool-pager">
+                                                        <span class="pager-num">
+                                <b class="pager-cur">1</b>/<em class="pager-total">2</em>
+                            </span>
+                                                        <a href="javascript:void(0)" class="pager-action pager-prev hide-text disabled">上一页</a>
+
+                                                        <a href="http://www.imooc.com/course/program?page=2" class="pager-action pager-next hide-text">下一页</a>
+
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="course-list salary-raise program-medias">
+                <ul class="clearfix">
+                    <foreach name="planlist_a" item="val">
+                        <li class="course-one">
+                            <a href="{:U('plandetail2',array('id'=>$val['id']))}" title="{$val.name}">
+                                <div class="course-list-img">
+                                    <img width="240" height="180" alt="" src="__ROOT__/Uploads/{$val.path}">
+                                </div>
+                                <h5>
+                                    <span>{$val.name}</span>
+                                </h5>
+                                <div class="tags">
+                                    <span>求职</span>
+                                    <span>实战</span>
+                                </div>
+                                <div class="tips">
+                                    <span class="l">{$val.cou_num}门课程</span>
+                                    <span class="l ml20">{$val.per_num}人学习</span>
+                                </div>
+                            </a>
+                        </li>
+                    </foreach>
+
+                </ul>
+            </div>
+            <div class="page">{$page}</div>
+            <ul class="program-list clearfix hide"></ul><!--program end-->
+            <div class="bg-loading"></div>
+        </div><!--program-main end-->
+    </div><!--wrap end-->
+
+</div>
+<script>
+    $('.plan_mask .course-nav-item').eq($.cookie("pl_px")).addClass('on');
+</script>
+
+
+<include file="Public/footer"/>

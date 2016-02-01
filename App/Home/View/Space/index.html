@@ -1,0 +1,61 @@
+<include file="Public/header"/>
+
+<load href="__PUBLIC__/css/saved_resource_sp.css" />
+
+<include file="Public/space_nav"/>
+
+<include file="Public/space_nav_myless"/>
+
+
+
+            <ul class="follow-list">
+
+                <foreach name="list" item="val">
+                <li data-id="528">
+                    <a class="btn-del js-btn-del"></a>
+                    <div class="box-left l">
+                        <a href="{:U('View/index',array('view'=>$val['lesson_id']))}" title="{$val.name}" target="_blank">
+                            <div class="course-list-img">
+                                <img src="__ROOT__/Uploads/{$val.fimg}" width="220" height="123" alt="{$val.name}">
+                                <div class="pro-bg"></div>
+                                <em class="dot-progress">{$val.pro}%</em>
+                                <div class="progress-bar">
+                                    <i class="studyrate bar" value="0" data-finishval="0" style="width: 0%"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="box-right">
+                        <h3 class="box-hd">
+                            <span>{$val.name}</span>
+                            <span class="span-new ">1小时前更新至4-2</span>
+                        </h3>
+                        <div class="study-points">
+              <span class="span-left span-common">
+                            已学习至：{$val.progress}</span>
+                            <span class="span-mid span-common">学习耗时： 0分</span>
+                            <span class="span-right span-common">最后学习：0</span>
+                        </div>
+                        <div class="study-btm">
+                            <a href="{:U('View/video',array('id'=>$val['video']))}" class="beginstudy" data-title="1-1 内容简介" target="_blank">开始学习</a>
+
+                        </div>
+
+                    </div>
+                </li>
+                </foreach>
+            </ul>
+
+            <div class="page">{$page}</div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+<include file="Public/footer"/>
+
+

@@ -1,0 +1,63 @@
+@import url(./style.css);
+/***act-main*********/
+.main{
+    margin-top:20px;
+}
+.act-main{
+    float:left;
+    width:840px;
+}
+
+.act-silder{
+    float:right;
+    width:240px;
+}
+
+/*********/
+.act-type{
+    width:840px;
+    height:40px;
+    
+    border-bottom:1px solid #E3E5E5;
+}
+
+.act-type li{
+     margin-right:25px;
+}
+.act-type li a{
+    text-decoration:none;
+}
+
+.act-type .select{
+    font-size:20px;
+    color:black;
+}
+/***act-list*************/
+.act-list{
+    width:900px;
+}
+
+
+.act-item{
+    width:422px;
+    height:260px;
+    padding:20px;
+    margin:10px;
+    border:1px solid black;
+}
+
+.act-peritem{
+    width:338px;
+    height:218px;
+}
+
+.act-peritem h4 a{
+    color:black;
+    text-decoration:none;
+} 
+.act-peritem h4 a:hover {
+    color:red;
+} 
+
+
+

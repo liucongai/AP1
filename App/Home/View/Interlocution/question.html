@@ -1,0 +1,207 @@
+<include file="Public/headerold" />
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Document</title>
+    <load href="__PUBLIC__/js/jquery-1.9.1.js" />
+    <load href="__PUBLIC__/js/bootstrap.min.js" />
+    <load href="__PUBLIC__/css/bootstrap.min.css" />
+
+
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/ueditor.config.js"></script> 
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/ueditor.all.min.js"> </script>    
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/lang/zh-cn/zh-cn.js"></script>
+     <script type="text/javascript" charset="utf-8" src="__PUBLIC__/js/ueditor.js"></script>
+
+     <load href="__PUBLIC__/css/question.css" />
+     <style type="text/css">
+         .yzm{border:1px solid black;}
+         #footer{margin-top:40px;}
+     </style>
+</head>
+<body>
+     <include file="Public/allheader-nav" />
+    <div class="main">
+        <div class="ww">
+
+        <div class="qs-rule">
+            <div class="rule-body">
+                <h3>今天你问了吗?</h3>
+                <dl>
+                    <dt>上面没有写错，是您看错啦。</dt>
+                    <dd>1、大家每天可以免费提出两个问题，从第三个问题起，每个问题扣除2点积分，请知晓哦；</dd>
+                    <dd>2、您是来解决问题？请先搜索是否已经有同类问题吧。这样您就省心少打字。</dd>
+                    <dd>3、没找到是么？就在发问题时精确描述你的问题，不要写与问题无关的内容哟；</dd>
+                    <dd>4、慕课讨论更热衷于解达您想要的答案。能引起思考和讨论的知识性问题；</dd>
+                    <dt>问答禁止这些提问</dt>
+                    <dd>1、禁止发布求职、交易、推广、广告类与问答无关信息将一律清理。</dd>
+                    <dd>2、尽可能详细描述您的问题，如标题与内容不符，或与问答无关的信息将被关闭。</dd>
+                    <dd>3、问答刷屏用户一律冻结帐号</dd>
+                </dl>
+                
+            </div>
+        </div>
+
+		<div class="qs-main">
+            <h4>我要提问题</h4>
+
+            <form action="{:U(doques)}" method="post">
+                           
+            <div  class="qs-class">
+                <span>分类:</span>
+                <a href="javascript:;">技术问答</a>
+            </div>
+            
+            
+            <div class="qs-title">
+                <span >标题:</span>
+                
+                <input id="title" type="text" class="form-control title" name="title" placeholder="请输入问题标题" maxlength="253" />
+                <p id="errortip"></p>
+            </div>
+            <script>
+                var error1 = function(){
+                    
+                    if($('#title').val().length <= 4){
+                        if($('#errortip').children().length>0){
+                            $('#errortip').empty();
+                        }
+                        $('#errortip').append('<small><i class="glyphicon glyphicon-info-sign"></i>标题不能少于5个字符！</small>');
+                        
+                    };
+                    if($('#title').val().length >= 5 ){
+                       
+                       $('#errortip').empty(); 
+                    }; 
+                }
+                $('#title').bind('blur',error1);   
+            </script>
+
+            <div class="qs-content ">
+                <span>内容:</span>
+                 <script id="container" class="content" name="content" type="text/plain" style="width:796px;height:300px;"></script>
+             </div>
+
+            <div class="clear"></div>
+
+            <div id="tags" class="qs-tags clearfix">
+                <span>标签:</span>
+                <div id="tagcontent" class="tags-content">
+                    <span style="display: inline;" >您最多可以选择3个标签哟！</span>
+                </div>
+
+                <div id="js-tags" class="alltags clearfix" >
+					<foreach name="tlist" item="tval">
+                    <div ><a class="per-tag"  name="{$tval[id]}" href="javascript:;">{$tval.name}</a></div>
+					</foreach>
+                </div>
+                <script>
+                    //添加标签
+                    var addit = function () {  
+                        if($('.onactive').length == 2){
+                            
+                            $(this).siblings().unbind("click",addit);
+                        }
+
+                        $(this).clone(true).appendTo('#tagcontent').children().addClass('onactive1').append('<i class="glyphicon glyphicon-remove"></i>').parent().unbind("click", addit);
+                       
+                        $value = $(this).children().attr("name");
+                        
+                        $(this).unbind("click", addit); 
+                        $('#tagcontent span').css("display","none");
+                        $(this).children().addClass('onactive');
+                        
+                    };
+                    
+                    //删除标签
+                    var delit = function () {
+                        
+                        if($('.onactive').length == 3 ){      
+                            $(this).parent().siblings().bind("click",addit);
+                            $('#js-tags').find(".onactive").parent().unbind("click",addit);
+                        }
+                        if($('.onactive').length == 1 ){   
+                            $('#tagcontent span').css("display","inline");
+                        }
+
+
+                        $(this).removeClass('onactive');
+                        $(this).parent().bind("click", addit); 
+                        $name1=$(this).attr("name");
+                        $('#tagcontent').find('a[name ='+ $name1 +' ]').parent().remove();
+                        
+                        
+                    };
+
+                    var delit2 = function () {
+                         if($('.onactive').length == 3 ){      
+                            $('#js-tags').children().bind("click",addit);
+                            $('#js-tags').find(".onactive").parent().unbind("click",addit);
+                        }
+
+                        if($('.onactive').length == 1 ){   
+                            $('#tagcontent span').css("display","inline");
+                        }
+
+                        $(this).parent().remove(); 
+                        $name1=$(this).attr("name");
+                        $('#js-tags').find('a[name ='+ $name1 +' ]').removeClass('onactive').parent().bind("click", addit); 
+                        
+                       
+                    };
+                     
+                     //当点击时添加标签  
+                     $("#js-tags").children().bind("click", addit); 
+                     $("#js-tags").children().delegate(".onactive","click",delit);
+                     $("#tagcontent").delegate(".onactive1","click",delit2);
+                                
+                </script>
+            </div>
+
+            <div class="clear"></div>
+
+            <div class="qs-yzm  fl">
+                <input name="yzm" class="yzm" type="text" placeholder="请输入验证码" maxlength="4">
+                <img id="yzmcode" src="{:U('yzm')}" alt="验证码" title="点击刷新" onclick="this.src=this.src+'?i='+Math.random()" >   
+            </div>
+            <div id="yy" class="yy fl" >看不清<br/>换一个</div>
+            <script>
+                $('.yy').click(function(){
+                    
+                    $('#yzmcode').attr("src",function(){ return this.src+'?i='+Math.random() });
+                    
+                });
+            </script>
+            <div class="clear"></div>
+            <div id="qs-sub" class="qs-submit">
+                
+                <input class="submit" id="sub"  type="submit"  value="发布" />
+                    
+            </div>
+            <script>
+                var tags=function(){
+                    var tag=new Array();
+                    $("#js-tags").children().each(function(){
+                         if($(this).children().hasClass("onactive"))
+                        tag.push($(this).children().attr("name"));
+                    });
+                    $(this).before('<input  type="hidden" name="alltag" value="'+tag+'" />'); 
+                };   
+                $("#sub").bind("click",tags);           
+            </script>
+
+            </form>
+        </div>
+
+
+        
+
+        </div>
+    
+    </div>
+    <div class="clear"></div>
+    <include file="Public/footer" />
+</body>
+</html>

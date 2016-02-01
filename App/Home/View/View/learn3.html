@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<!-- saved from url=(0027)http://www.imooc.com/qa/550 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>
+python正则表达式_技术问答_慕课网
+</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="renderer" content="webkit">
+<meta property="qc:admins" content="77103107776157736375">
+<meta property="wb:webmaster" content="c4f857219bfae3cb">
+<meta http-equiv="Access-Control-Allow-Origin" content="*">
+
+<meta name="Keywords" content="">
+
+
+<meta name="Description" content="介绍了Python正则表达式基本概念、为什么使用正则表达式、正则语法、re模块及相关方法使用，如何使用正则表达式处理文件，让您对python正则全面了解。">
+
+
+
+
+<script src="./python正则表达式_技术问答_慕课网_files/push.js"></script><script type="text/javascript" async="" src="./python正则表达式_技术问答_慕课网_files/rt.js"></script><script type="text/javascript">
+  var OP_CONFIG={"module":"course","page":"qa","userInfo":{"uid":"2527093","nickname":"\u9c7c\u91cc\u7684\u7f50\u5934","head":"http:\/\/img.mukewang.com\/user\/5637058b0001fabf01000100-80-80.jpg","usertype":"1","roleid":0}};
+  var isLogin = 1;
+  var seajsTimestamp="v=210511181910";
+    var ownName="1733653530@qq.com"
+  </script>
+
+
+<script>
+/*学习页通用配置*/
+var GC = {
+  course: {
+    id: 550,
+    name: 'python正则表达式',
+    pic: 'http://img.mukewang.com/56556ecb00010b7806000338-240-135.jpg',
+    video_url: ''
+  },
+  classmates: 20 // 你的同学一页显示数量
+};
+</scr
+<div class="course-info-main clearfix w has-progress" style="">
+  
+  <div class="info-bar clearfix">
+  <a href="http://www.imooc.com/video/10505" target="_blank" class="btn-red start-study-btn r J-learn-course">继续学习</a>
+          <span class="start-study-title">
+      1-1 正则简介
+    </span>
+        <div class="exp-progress">
+        <span class="exp-txt">
+            <span class="exp-per">
+                <strong>0</strong>%
+            </span>
+            用时
+            <span class="exp-time"><i>0</i>分</span>
+        </span>
+        <div class="exp-bar">
+          <ins style="width: 0%"></ins>
+        </div>
+    </div>
+  </div>  <div class="content-wrap clearfix" style="">
+    <div class="content" style="">
+      <div class="mod-tab-menu">
+	<ul class="course-menu clearfix">
+		<li><a class="ui-tabs-active " id="learnOn" href="http://www.imooc.com/learn/550"><span>章节</span></a></li>
+		<li><a id="commentOn" class="" href="http://www.imooc.com/comment/550"><span>评论</span></a></li>
+		<li><a id="qaOn" class="active" href="./python正则表达式_技术问答_慕课网_files/python正则表达式_技术问答_慕课网.htm"><span>问答</span></a></li>
+		<li><a id="noteOn" class="" href="http://www.imooc.com/note/550?sort=last"><span>笔记</span></a></li>
+	    <li><a id="wikiOn" class="" href="http://www.imooc.com/wiki/550">WIKI</a></li>
+	</ul>
+	</div>
+
+      
+<!--发布问题-->
+<div id="js-pub-container" class="issques qa-form no-border clearfix" style="">
+ <div class="quesdetail mbottom" id="issuequestitle">
+      <span class="ques-label">标题：</span>
+      <div class="question-area form-ctrl">
+      <a href="http://www.imooc.com/wenda/detail/292353" target="_blank" class="another-meth">如何更好<br>的提问？</a>
+      <input type="text" id="ques-title" maxlength="255" name="title" placeholder="请输入问题标题" class="autocomplete wgt-ipt custom-width block defaultbox error" value="">
+      <p class="errortip" style="display: block;">标题不能少于5个字符！</p>
+      <dl class="send-area-result" style="display: none;"></dl>
+      </div>
+ </div>
+ <div class="quesdetail" style="overflow: hidden; padding-top: 10px;">
+      <span class="ques-label">内容：</span>
+
+      <div id="editor-wrap" class="editor form-ctrl clearfix" style="">
+           <div class="textarea-unlogin  " style="">
+             <div class="block block-editor edui-imooc" id="pub-editor" style=""><div id="edui1" class="edui-editor  edui-imooc" style="width: 100%; z-index: 999;"><div id="edui1_toolbarbox" class="edui-editor-toolbarbox edui-imooc"><div id="edui1_toolbarboxouter" class="edui-editor-toolbarboxouter edui-imooc"><div class="edui-editor-toolbarboxinner edui-imooc"><div id="edui2" class="edui-toolbar   edui-imooc" onselectstart="return false;" onmousedown="return $EDITORUI[&quot;edui2&quot;]._onMouseDown(event, this);" style="-webkit-user-select: none;"><div id="edui3" class="edui-box edui-combox edui-for-insertcode edui-imooc"><div title="代码语言" id="edui3_state" onmousedown="$EDITORUI[&quot;edui3&quot;].Stateful_onMouseDown(event, this);" onmouseup="$EDITORUI[&quot;edui3&quot;].Stateful_onMouseUp(event, this);" onmouseover="$EDITORUI[&quot;edui3&quot;].Stateful_onMouseOver(event, this);" onmouseout="$EDITORUI[&quot;edui3&quot;].Stateful_onMouseOut(event, this);" class="edui-imooc"><div class="edui-combox-body edui-imooc"><div id="edui3_button_body" class="edui-box edui-button-body edui-imooc" onclick="$EDITORUI[&quot;edui3&quot;]._onButtonClick(event, this);">代码语言</div><div class="edui-box edui-splitborder edui-imooc"></div><div class="edui-box edui-arrow edui-imooc" onclick="$EDITORUI[&quot;edui3&quot;]._onArrowClick();"></div></div></div></div><div id="edui17" class="edui-box edui-button edui-for-bold edui-imooc"><div id="edui17_state" onmousedown="$EDITORUI[&quot;edui17&quot;].Stateful_onMouseDown(event, this);" onmouseup="$EDITORUI[&quot;edui17&quot;].Stateful_onMouseUp(event, this);" onmouseover="$EDITORUI[&quot;edui17&quot;].Stateful_onMouseOver(event, this);" onmouseout="$EDITORUI[&quot;edui17&quot;].Stateful_onMouseOut(event, this);" class="edui-imooc"><div class="edui-button-wrap edui-imooc"><div id="edui17_body" unselectable="on" title="加粗" class="edui-button-body edui-imooc" onmousedown="return $EDITORUI[&quot;edui17&quot;]._onMouseDown(event, this);" onclick="return $EDITORUI[&quot;edui17&quot;]._onClick(event, this);"><div class="edui-box edui-icon edui-imooc"></div></div></div></div></div><div id="edui18" class="edui-box edui-button edui-for-italic edui-imooc"><div id="edui18_state" onmousedown="$EDITORUI[&quot;edui18&quot;].Stateful_onMouseDown(event, this);" onmouseup="$EDITORUI[&quot;edui18&quot;].Stateful_onMouseUp(event, this);" onmouseover="$EDITORUI[&quot;edui18&quot;].Stateful_onMouseOver(event, this);" onmouseout="$EDITORUI[&quot;edui18&quot;].Stateful_onMouseOut(event, this);" class="edui-imooc"><div class="edui-button-wrap edui-imooc"><div id="edui18_body" unselectable="on" title="斜体" class="edui-button-body edui-imooc" onmousedown="return $EDITORUI[&quot;edui18&quot;]._onMouseDown(event, this);" onclick="return $EDITORUI[&quot;edui18&quot;]._onClick(event, this);"><div class="edui-box edui-icon edui-imooc"></div></div></div></div></div><div id="edui19" class="edui-box edui-button edui-for-underline edui-imooc"><div id="edui19_state" onmousedown="$EDITORUI[&quot;edui19&quot;].Stateful_onMouseDown(event, this);" onmouseup="$EDITORUI[&quot;edui19&quot;].Stateful_onMouseUp(event, this);" onmouseover="$EDITORUI[&quot;edui19&quot;].Stateful_onMouseOver(event, this);" onmouseout="$EDITORUI[&quot;edui19&quot;].Stateful_onMouseOut(event, this);" class="edui-imooc"><div class="edui-button-wrap edui-imooc"><div id="edui19_body" unselectable="on" title="下划线" class="edui-button-body edui-imooc" onmousedown="return $EDITORUI[&quot;edui19&quot;]._onMouseDown(event, this);" onclick="return $EDITORUI[&quot;edui19&quot;]._onClick(event, this);"><div class="edui-box edui-icon edui-imooc"></div></div></div></div></div><div id="edui26" class="edui-box edui-button edui-for-insertimage edui-imooc"><div id="edui26_state" onmousedown="$EDITORUI[&quot;edui26&quot;].Stateful_onMouseDown(event, this);" onmouseup="$EDITORUI[&quot;edui26&quot;].Stateful_onMouseUp(event, this);" onmouseover="$EDITORUI[&quot;edui26&quot;].Stateful_onMouseOver(event, this);" onmouseout="$EDITORUI[&quot;edui26&quot;].Stateful_onMouseOut(event, this);" class="edui-imooc"><div class="edui-button-wrap edui-imooc"><div id="edui26_body" unselectable="on" title="多图上传" class="edui-button-body edui-imooc" onmousedown="return $EDITORUI[&quot;edui26&quot;]._onMouseDown(event, this);" onclick="return $EDITORUI[&quot;edui26&quot;]._onClick(event, this);"><div class="edui-box edui-icon edui-imooc"></div><div class="edui-box edui-label edui-imooc"></div></div></div></div></div><div id="edui31" class="edui-box edui-button edui-for-link edui-imooc"><div id="edui31_state" onmousedown="$EDITORUI[&quot;edui31&quot;].Stateful_onMouseDown(event, this);" onmouseup="$EDITORUI[&quot;edui31&quot;].Stateful_onMouseUp(event, this);" onmouseover="$EDITORUI[&quot;edui31&quot;].Stateful_onMouseOver(event, this);" onmouseout="$EDITORUI[&quot;edui31&quot;].Stateful_onMouseOut(event, this);" class="edui-imooc"><div class="edui-button-wrap edui-imooc"><div id="edui31_body" unselectable="on" title="超链接" class="edui-button-body edui-imooc" onmousedown="return $EDITORUI[&quot;edui31&quot;]._onMouseDown(event, this);" onclick="return $EDITORUI[&quot;edui31&quot;]._onClick(event, this);"><div class="edui-box edui-icon edui-imooc"></div><div class="edui-box edui-label edui-imooc"></div></div></div></div></div><div id="edui32" class="edui-box edui-button edui-for-unlink edui-imooc"><div id="edui32_state" onmousedown="$EDITORUI[&quot;edui32&quot;].Stateful_onMouseDown(event, this);" onmouseup="$EDITORUI[&quot;edui32&quot;].Stateful_onMouseUp(event, this);" onmouseover="$EDITORUI[&quot;edui32&quot;].Stateful_onMouseOver(event, this);" onmouseout="$EDITORUI[&quot;edui32&quot;].Stateful_onMouseOut(event, this);" class="edui-imooc edui-state-disabled"><div class="edui-button-wrap edui-imooc"><div id="edui32_body" unselectable="on" title="取消链接" class="edui-button-body edui-imooc" onmousedown="return $EDITORUI[&quot;edui32&quot;]._onMouseDown(event, this);" onclick="return $EDITORUI[&quot;edui32&quot;]._onClick(event, this);"><div class="edui-box edui-icon edui-imooc"></div></div></div></div></div><div id="edui33" class="edui-box edui-button edui-for-insertunorderedlist edui-imooc"><div id="edui33_state" onmousedown="$EDITORUI[&quot;edui33&quot;].Stateful_onMouseDown(event, this);" onmouseup="$EDITORUI[&quot;edui33&quot;].Stateful_onMouseUp(event, this);" onmouseover="$EDITORUI[&quot;edui33&quot;].Stateful_onMouseOver(event, this);" onmouseout="$EDITORUI[&quot;edui33&quot;].Stateful_onMouseOut(event, this);" class="edui-imooc"><div class="edui-button-wrap edui-imooc"><div id="edui33_body" unselectable="on" title="无序列表" class="edui-button-body edui-imooc" onmousedown="return $EDITORUI[&quot;edui33&quot;]._onMouseDown(event, this);" onclick="return $EDITORUI[&quot;edui33&quot;]._onClick(event, this);"><div class="edui-box edui-icon edui-imooc"></div><div class="edui-box edui-label edui-imooc"></div></div></div></div></div><div id="edui34" class="edui-box edui-button edui-for-insertorderedlist edui-imooc"><div id="edui34_state" onmousedown="$EDITORUI[&quot;edui34&quot;].Stateful_onMouseDown(event, this);" onmouseup="$EDITORUI[&quot;edui34&quot;].Stateful_onMouseUp(event, this);" onmouseover="$EDITORUI[&quot;edui34&quot;].Stateful_onMouseOver(event, this);" onmouseout="$EDITORUI[&quot;edui34&quot;].Stateful_onMouseOut(event, this);" class="edui-imooc"><div class="edui-button-wrap edui-imooc"><div id="edui34_body" unselectable="on" title="有序列表" class="edui-button-body edui-imooc" onmousedown="return $EDITORUI[&quot;edui34&quot;]._onMouseDown(event, this);" onclick="return $EDITORUI[&quot;edui34&quot;]._onClick(event, this);"><div class="edui-box edui-icon edui-imooc"></div><div class="edui-box edui-label edui-imooc"></div></div></div></div></div><div id="edui35" class="edui-box edui-button edui-for-blockquote edui-imooc"><div id="edui35_state" onmousedown="$EDITORUI[&quot;edui35&quot;].Stateful_onMouseDown(event, this);" onmouseup="$EDITORUI[&quot;edui35&quot;].Stateful_onMouseUp(event, this);" onmouseover="$EDITORUI[&quot;edui35&quot;].Stateful_onMouseOver(event, this);" onmouseout="$EDITORUI[&quot;edui35&quot;].Stateful_onMouseOut(event, this);" class="edui-imooc"><div class="edui-button-wrap edui-imooc"><div id="edui35_body" unselectable="on" title="引用" class="edui-button-body edui-imooc" onmousedown="return $EDITORUI[&quot;edui35&quot;]._onMouseDown(event, this);" onclick="return $EDITORUI[&quot;edui35&quot;]._onClick(event, this);"><div class="edui-box edui-icon edui-imooc"></div></div></div></div></div><div id="edui36" class="edui-box edui-button edui-for-redo edui-imooc"><div id="edui36_state" onmousedown="$EDITORUI[&quot;edui36&quot;].Stateful_onMouseDown(event, this);" onmouseup="$EDITORUI[&quot;edui36&quot;].Stateful_onMouseUp(event, this);" onmouseover="$EDITORUI[&quot;edui36&quot;].Stateful_onMouseOver(event, this);" onmouseout="$EDITORUI[&quot;edui36&quot;].Stateful_onMouseOut(event, this);" class="edui-imooc edui-state-disabled"><div class="edui-button-wrap edui-imooc"><div id="edui36_body" unselectable="on" title="重做" class="edui-button-body edui-imooc" onmousedown="return $EDITORUI[&quot;edui36&quot;]._onMouseDown(event, this);" onclick="return $EDITORUI[&quot;edui36&quot;]._onClick(event, this);"><div class="edui-box edui-icon edui-imooc"></div></div></div></div></div><div id="edui37" class="edui-box edui-button edui-for-undo edui-imooc"><div id="edui37_state" onmousedown="$EDITORUI[&quot;edui37&quot;].Stateful_onMouseDown(event, this);" onmouseup="$EDITORUI[&quot;edui37&quot;].Stateful_onMouseUp(event, this);" onmouseover="$EDITORUI[&quot;edui37&quot;].Stateful_onMouseOver(event, this);" onmouseout="$EDITORUI[&quot;edui37&quot;].Stateful_onMouseOut(event, this);" class="edui-imooc edui-state-disabled"><div class="edui-button-wrap edui-imooc"><div id="edui37_body" unselectable="on" title="撤销" class="edui-button-body edui-imooc" onmousedown="return $EDITORUI[&quot;edui37&quot;]._onMouseDown(event, this);" onclick="return $EDITORUI[&quot;edui37&quot;]._onClick(event, this);"><div class="edui-box edui-icon edui-imooc"></div></div></div></div></div><div id="edui40" class="edui-box edui-button edui-for-preview edui-imooc"><div id="edui40_state" onmousedown="$EDITORUI[&quot;edui40&quot;].Stateful_onMouseDown(event, this);" onmouseup="$EDITORUI[&quot;edui40&quot;].Stateful_onMouseUp(event, this);" onmouseover="$EDITORUI[&quot;edui40&quot;].Stateful_onMouseOver(event, this);" onmouseout="$EDITORUI[&quot;edui40&quot;].Stateful_onMouseOut(event, this);" class="edui-imooc"><div class="edui-button-wrap edui-imooc"><div id="edui40_body" unselectable="on" title="预览" class="edui-button-body edui-imooc" onmousedown="return $EDITORUI[&quot;edui40&quot;]._onMouseDown(event, this);" onclick="return $EDITORUI[&quot;edui40&quot;]._onClick(event, this);"><div class="edui-box edui-icon edui-imooc"></div><div class="edui-box edui-label edui-imooc"></div></div></div></div></div></div></div></div><div id="edui1_toolbarmsg" class="edui-editor-toolbarmsg edui-imooc" style="display:none;"><div id="edui1_upload_dialog" class="edui-editor-toolbarmsg-upload edui-imooc" onclick="$EDITORUI[&quot;edui1&quot;].showWordImageDialog();">点击上传</div><div class="edui-editor-toolbarmsg-close edui-imooc" onclick="$EDITORUI[&quot;edui1&quot;].hideToolbarMsg();">x</div><div id="edui1_toolbarmsg_label" class="edui-editor-toolbarmsg-label edui-imooc"></div><div style="height:0;overflow:hidden;clear:both;" class="edui-imooc"></div></div><div id="edui1_message_holder" class="edui-editor-messageholder edui-imooc" style="top: 42px; z-index: 1000;"></div></div><div id="edui1_iframeholder" class="edui-editor-iframeholder edui-imooc" style="width: 100%; height: 80px; z-index: 999; overflow: hidden;"><iframe id="ueditor_0" width="100%" height="100%" frameborder="0" src="javascript:void(function(){document.open();document.write("<!DOCTYPE html><html xmlns='http://www.w3.org/1999/xhtml' class='view' ><head><style type='text/css'>.view{padding:0;word-wrap:break-word;cursor:text;height:90%;}
+body{margin:8px;font-family:sans-serif;font-size:16px;}p{margin:5px 0;}</style><link rel='stylesheet' type='text/css' href='http://www.imooc.com/static/lib/ueditor/themes/iframe.css'/><style>p{line-height:1.5em;font-size:13px;color:#444}</style></head><body class='view' ></body><script type='text/javascript'  id='_initialScript'>setTimeout(function(){editor = window.parent.UE.instants['ueditorInstant0'];editor._setup(document);},0);var _tmpScript = document.getElementById('_initialScript');_tmpScript.parentNode.removeChild(_tmpScript);</script></html>");document.close();}())"></iframe></div><div id="edui1_bottombar" class="edui-editor-bottomContainer edui-imooc"><table class="edui-imooc"><tbody class="edui-imooc"><tr class="edui-imooc"><td id="edui1_elementpath" class="edui-editor-bottombar edui-imooc" style="display: none;"></td><td id="edui1_wordcount" class="edui-editor-wordcount edui-imooc" style="display: none;"></td><td id="edui1_scale" class="edui-editor-scale edui-imooc" style="display: none;"><div class="edui-editor-icon edui-imooc"></div></td></tr></tbody></table></div><div id="edui1_scalelayer" class="edui-imooc"></div></div></div><textarea name="" cols="30" rows="10" class="block block-editor" placeholder="请输入问答内容..." style="display: none;"></textarea>
+           </div>
+     </div>
+      <p class="errortip" style="display: none;">您还没有填写内容！</p>
+ </div>
+ <div id="pub-btm" class="pub-btm clearfix">
+   <div class="verify-box l js-verify-box" style="display: none">
+     <input type="text" class="ipt l" placeholder="请输入验证码">
+     <a href="javascript:;" class="js-verify-refresh"><img data-src="/course/getcoursequestioncode" class="verify-media l"></a>
+     <span class="verify-help l">
+       看不清
+       <a href="javascript:;" class="verify-refresh js-verify-refresh">换一换</a>
+     </span>
+   </div>
+   <input type="button" id="js-pub-btn" class="pub-btn r" data-cid="550" value="发布">
+ </div>
+</div>
+
+
+<div class="comp-filter-bar">
+   <a href="http://www.imooc.com/qa/550/t/1" class="bar-item  active">全部</a>
+   <a href="http://www.imooc.com/qa/550/t/2" class="bar-item ">精华</a>
+</div>
+<div class="answertabcon">
+  <div class="course_quescon">
+        <div class="wenda-listcon mod-qa-list clearfix">
+       <div class="headslider qa-medias l">
+         <a href="http://www.imooc.com/space/u/uid/244647" class="media" target="_blank" title="淡夏的绿茶">
+         <img src="./python正则表达式_技术问答_慕课网_files/551c01880001ca5107410741-40-40.jpg" width="40" height="40">
+         <span class="name">
+           淡夏的绿...
+         </span>
+         </a>
+       </div>
+       <div class="wendaslider qa-content">
+         <a href="http://www.imooc.com/qadetail/107171" target="_blank" class="replynumber static-count ">
+           <span class="static-item answer">
+              <b class="val">0</b>
+             <span class="key">回答</span>
+           </span>
+           <span class="static-item">
+              <b class="val">6</b>
+             <span class="key">浏览</span>
+           </span>
+         </a>
+         <h2 class="wendaquetitle qa-header">
+                      <i class="nofinish"></i>
+                      <div class="wendatitlecon qa-header-cnt">
+                          <a href="http://www.imooc.com/qadetail/107171" target="_blank" class="qa-tit">老师的命令行工具</a>
+           </div>
+         </h2>
+         <div class="replycont qa-body clearfix">
+           <i class="replyicon l"></i>
+           
+           <div class="l replydes">
+             <span class="replydet">嗯～～，这个提问大家都在考虑......</span>
+           </div>
+
+                    </div>
+         <div class="replymegfooter qa-footer">
+           <div class="wenda-time">
+           <em>时间：1小时前</em>
+                      <a href="http://www.imooc.com/video/10507" target="_blank" class="from">源自：2-2 re模块使用（二）</a>
+                      </div>
+         </div>
+       </div>
+     </div>
+        <div class="wenda-listcon mod-qa-list clearfix">
+       <div class="headslider qa-medias l">
+         <a href="http://www.imooc.com/space/u/uid/1275857" class="media" target="_blank" title="穷人孩子早当家丶">
+         <img src="./python正则表达式_技术问答_慕课网_files/5333a2320001acdd02000200-40-40.jpg" width="40" height="40">
+         <span class="name">
+           穷人孩子...
+         </span>
+         </a>
+       </div>
+       <div class="wendaslider qa-content">
+         <a href="http://www.imooc.com/qadetail/107130" target="_blank" class="replynumber static-count ">
+           <span class="static-item answer">
+              <b class="val">0</b>
+             <span class="key">回答</span>
+           </span>
+           <span class="static-item">
+              <b class="val">3</b>
+             <span class="key">浏览</span>
+           </span>
+         </a>
+         <h2 class="wendaquetitle qa-header">
+                      <i class="nofinish"></i>
+                      <div class="wendatitlecon qa-header-cnt">
+                          <a href="http://www.imooc.com/qadetail/107130" target="_blank" class="qa-tit">linux下grep使用非贪婪模式匹配不上</a>
+           </div>
+         </h2>
+         <div class="replycont qa-body clearfix">
+           <i class="replyicon l"></i>
+           
+           <div class="l replydes">
+             <span class="replydet">嗯～～，这个提问大家都在考虑......</span>
+           </div>
+
+                    </div>
+         <div class="replymegfooter qa-footer">
+           <div class="wenda-time">
+           <em>时间：6小时前</em>
+                      <a href="http://www.imooc.com/video/10509" target="_blank" class="from">源自：3-2 正则表达式语法（二）</a>
+                      </div>
+         </div>
+       </div>
+     </div>
+        <div class="wenda-listcon mod-qa-list clearfix">
+       <div class="headslider qa-medias l">
+         <a href="http://www.imooc.com/space/u/uid/1275857" class="media" target="_blank" title="穷人孩子早当家丶">
+         <img src="./python正则表达式_技术问答_慕课网_files/5333a2320001acdd02000200-40-40.jpg" width="40" height="40">
+         <span class="name">
+           穷人孩子...
+         </span>
+         </a>
+       </div>
+       <div class="wendaslider qa-content">
+         <a href="http://www.imooc.com/qadetail/107127" target="_blank" class="replynumber static-count ">
+           <span class="static-item answer">
+              <b class="val">0</b>
+             <span class="key">回答</span>
+           </span>
+           <span class="static-item">
+              <b class="val">7</b>
+             <span class="key">浏览</span>
+           </span>
+         </a>
+         <h2 class="wendaquetitle qa-header">
+                      <i class="nofinish"></i>
+                      <div class="wendatitlecon qa-header-cnt">
+                          <a href="http://www.imooc.com/qadetail/107127" target="_blank" class="qa-tit">选中多行，并同时调整多行格式是怎么做到的</a>
+           </div>
+         </h2>
+         <div class="replycont qa-body clearfix">
+           <i class="replyicon l"></i>
+           
+           <div class="l replydes">
+             <span class="replydet">嗯～～，这个提问大家都在考虑......</span>
+           </div>
+
+                    </div>
+         <div class="replymegfooter qa-footer">
+           <div class="wenda-time">
+           <em>时间：7小时前</em>
+                      <a href="http://www.imooc.com/video/10505" target="_blank" class="from">源自：1-1 正则简介</a>
+                      </div>
+         </div>
+       </div>
+     </div>
+        <div class="wenda-listcon mod-qa-list clearfix">
+       <div class="headslider qa-medias l">
+         <a href="http://www.imooc.com/space/u/uid/2549001" class="media" target="_blank" title="stephen_imooc">
+         <img src="./python正则表达式_技术问答_慕课网_files/5458508600019e2602200220-40-40.jpg" width="40" height="40">
+         <span class="name">
+           stephen_i...
+         </span>
+         </a>
+       </div>
+       <div class="wendaslider qa-content">
+         <a href="http://www.imooc.com/qadetail/106962" target="_blank" class="replynumber static-count  hasanswer">
+           <span class="static-item answer">
+              <b class="val">1</b>
+             <span class="key">回答</span>
+           </span>
+           <span class="static-item">
+              <b class="val">23</b>
+             <span class="key">浏览</span>
+           </span>
+         </a>
+         <h2 class="wendaquetitle qa-header">
+                      <i class="isfinish"></i>
+                      <div class="wendatitlecon qa-header-cnt">
+                          <a href="http://www.imooc.com/qadetail/106962" target="_blank" class="qa-tit">python前景</a>
+           </div>
+         </h2>
+         <div class="replycont qa-body clearfix">
+           <i class="replyicon l"></i>
+                                                                                                                 <div class="l replydes">
+                <span class="replysign adopt">[已采纳答案]</span>
+                <a href="http://www.imooc.com/space/u/uid/128142" target="_blank" title="Perona" class="replyuserhead"><img src="./python正则表达式_技术问答_慕课网_files/557e54c10001c62c02750275-80-80.jpg" width="20" height="20"> </a>
+                <a href="http://www.imooc.com/space/u/uid/128142" target="_blank" title="Perona" class="nickname">Perona: </a>
+                <span class="replydet">嗯，火~~~</span>
+              </div>
+                    </div>
+         <div class="replymegfooter qa-footer">
+           <div class="wenda-time">
+           <em>时间：1天前</em>
+                      <a href="http://www.imooc.com/video/10505" target="_blank" class="from">源自：1-1 正则简介</a>
+                      </div>
+         </div>
+       </div>
+     </div>
+        <div class="wenda-listcon mod-qa-list clearfix">
+       <div class="headslider qa-medias l">
+         <a href="http://www.imooc.com/space/u/uid/324175" class="media" target="_blank" title="Vericlongmore">
+         <img src="./python正则表达式_技术问答_慕课网_files/54191abf0001798801000100-40-40.jpg" width="40" height="40">
+         <span class="name">
+           Vericlong...
+         </span>
+         </a>
+       </div>
+       <div class="wendaslider qa-content">
+         <a href="http://www.imooc.com/qadetail/106761" target="_blank" class="replynumber static-count ">
+           <span class="static-item answer">
+              <b class="val">0</b>
+             <span class="key">回答</span>
+           </span>
+           <span class="static-item">
+              <b class="val">9</b>
+             <span class="key">浏览</span>
+           </span>
+         </a>
+         <h2 class="wendaquetitle qa-header">
+                      <i class="nofinish"></i>
+                      <div class="wendatitlecon qa-header-cnt">
+                          <a href="http://www.imooc.com/qadetail/106761" target="_blank" class="qa-tit">linux操作解答</a>
+           </div>
+         </h2>
+         <div class="replycont qa-body clearfix">
+           <i class="replyicon l"></i>
+           
+           <div class="l replydes">
+             <span class="replydet">嗯～～，这个提问大家都在考虑......</span>
+           </div>
+
+                    </div>
+         <div class="replymegfooter qa-footer">
+           <div class="wenda-time">
+           <em>时间：3天前</em>
+                      <a href="http://www.imooc.com/video/10505" target="_blank" class="from">源自：1-1 正则简介</a>
+                      </div>
+         </div>
+       </div>
+     </div>
+        <div class="wenda-listcon mod-qa-list clearfix">
+       <div class="headslider qa-medias l">
+         <a href="http://www.imooc.com/space/u/uid/2503553" class="media" target="_blank" title="TUFEI">
+         <img src="./python正则表达式_技术问答_慕课网_files/5458502c00012d4a02200220-40-40.jpg" width="40" height="40">
+         <span class="name">
+           TUFEI
+         </span>
+         </a>
+       </div>
+       <div class="wendaslider qa-content">
+         <a href="http://www.imooc.com/qadetail/106753" target="_blank" class="replynumber static-count ">
+           <span class="static-item answer">
+              <b class="val">0</b>
+             <span class="key">回答</span>
+           </span>
+           <span class="static-item">
+              <b class="val">9</b>
+             <span class="key">浏览</span>
+           </span>
+         </a>
+         <h2 class="wendaquetitle qa-header">
+                      <i class="nofinish"></i>
+                      <div class="wendatitlecon qa-header-cnt">
+                          <a href="http://www.imooc.com/qadetail/106753" target="_blank" class="qa-tit">关于教学视频</a>
+           </div>
+         </h2>
+         <div class="replycont qa-body clearfix">
+           <i class="replyicon l"></i>
+           
+           <div class="l replydes">
+             <span class="replydet">嗯～～，这个提问大家都在考虑......</span>
+           </div>
+
+                    </div>
+         <div class="replymegfooter qa-footer">
+           <div class="wenda-time">
+           <em>时间：3天前</em>
+                      <a href="http://www.imooc.com/video/10506" target="_blank" class="from">源自：2-1 re模块使用（一）</a>
+                      </div>
+         </div>
+       </div>
+     </div>
+        <div class="wenda-listcon mod-qa-list clearfix">
+       <div class="headslider qa-medias l">
+         <a href="http://www.imooc.com/space/u/uid/2613347" class="media" target="_blank" title="junjunj">
+         <img src="./python正则表达式_技术问答_慕课网_files/54584ef20001deba02200220-40-40.jpg" width="40" height="40">
+         <span class="name">
+           junjunj
+         </span>
+         </a>
+       </div>
+       <div class="wendaslider qa-content">
+         <a href="http://www.imooc.com/qadetail/106659" target="_blank" class="replynumber static-count  hasanswer">
+           <span class="static-item answer">
+              <b class="val">2</b>
+             <span class="key">回答</span>
+           </span>
+           <span class="static-item">
+              <b class="val">18</b>
+             <span class="key">浏览</span>
+           </span>
+         </a>
+         <h2 class="wendaquetitle qa-header">
+                      <i class="nofinish"></i>
+                      <div class="wendatitlecon qa-header-cnt">
+                          <a href="http://www.imooc.com/qadetail/106659" target="_blank" class="qa-tit">有个问题非常难懂，我不知道该任何学起</a>
+           </div>
+         </h2>
+         <div class="replycont qa-body clearfix">
+           <i class="replyicon l"></i>
+                                                                                                                 <div class="l replydes">
+                <span class="replysign praise">[最新回答]</span>
+                <a href="http://www.imooc.com/space/u/uid/2610178" target="_blank" title="Py_隽恬" class="replyuserhead"><img src="./python正则表达式_技术问答_慕课网_files/5458626a0001503602200220-80-80.jpg" width="20" height="20"> </a>
+                <a href="http://www.imooc.com/space/u/uid/2610178" target="_blank" title="Py_隽恬" class="nickname">Py_隽恬: </a>
+                <span class="replydet">&lt;...code...&gt;</span>
+              </div>
+                    </div>
+         <div class="replymegfooter qa-footer">
+           <div class="wenda-time">
+           <em>时间：3天前</em>
+                      </div>
+         </div>
+       </div>
+     </div>
+      </div>
+    
+</div>
+
+    </div>
+    <div class="aside r">
+      <div class="bd">
+      <div class="box mb40">
+      <h4>讲师提示</h4>
+            <div class="teacher-info">
+        <a href="http://www.imooc.com/space/teacher/id/1970574" target="_blank">
+          <img src="./python正则表达式_技术问答_慕课网_files/55598e050001d00505680568-80-80.jpg" width="80" height="80">
+        </a>
+        <span class="tit">
+          <a href="http://www.imooc.com/space/teacher/id/1970574" target="_blank">Meshare_huan...</a><i class="icon-imooc"></i>
+        </span>
+        <span class="job">Linux系统工程师</span>
+      </div>
+                  <div class="course-info-tip">
+                <dl class="first">
+          <dt>课程须知</dt>
+          <dd class="autowrap">本课程是Python中级课程
+1、本课程在linux讲解，最好有linux开发环境
+1、熟练掌握Python开发语言基础语法</dd>
+        </dl>
+                        <dl>
+          <dt>老师告诉你能学到什么？</dt>
+          <dd class="autowrap">1.正则表达式基本语法
+2.使用re模块处理文本</dd>
+        </dl>
+              </div>
+        </div>
+      <div class="box">
+      <div class="box-hd clearfix">
+          <a href="javascript:;" class="refresh r js-refresh-classmates">换一批</a>
+          <h4>你的同学<small>2721人</small></h4>
+      </div>
+      <div class="users-mini-wrap">
+        <ul class="users-mini" id="users-mini">
+                            <li class="">
+                  <a href="http://www.imooc.com/space/u/uid/116152" target="_blank" title="curtain"><img src="./python正则表达式_技术问答_慕课网_files/5545ba9c000123c419201200-80-80.jpg" width="80" height="80" title="curtain" alt="curtain"></a>
+                </li>
+                            <li class="">
+                  <a href="http://www.imooc.com/space/u/uid/249017" target="_blank" title="whoami"><img src="./python正则表达式_技术问答_慕课网_files/53d7265c0001ce9201000100-80-80.jpg" width="80" height="80" title="whoami" alt="whoami"></a>
+                </li>
+                            <li class="">
+                  <a href="http://www.imooc.com/space/u/uid/256418" target="_blank" title="Cassie256418"><img src="./python正则表达式_技术问答_慕课网_files/55c317100001825501000100-80-80.jpg" width="80" height="80" title="Cassie256418" alt="Cassie256418"></a>
+                </li>
+                            <li class="row-last">
+                  <a href="http://www.imooc.com/space/u/uid/266627" target="_blank" title="爱过方知情深"><img src="./python正则表达式_技术问答_慕课网_files/53e9f39e00015fa501000100-80-80.jpg" width="80" height="80" title="爱过方知情深" alt="爱过方知情深"></a>
+                </li>
+                            <li class="">
+                  <a href="http://www.imooc.com/space/u/uid/306286" target="_blank" title="雨落风止后"><img src="./python正则表达式_技术问答_慕课网_files/540ac8690001a0c001800180-80-80.jpg" width="80" height="80" title="雨落风止后" alt="雨落风止后"></a>
+                </li>
+                            <li class="">
+                  <a href="http://www.imooc.com/space/u/uid/335625" target="_blank" title="笑看风云_0006"><img src="./python正则表达式_技术问答_慕课网_files/542028ed000143c101000100-80-80.jpg" width="80" height="80" title="笑看风云_0006" alt="笑看风云_0006"></a>
+                </li>
+                            <li class="">
+                  <a href="http://www.imooc.com/space/u/uid/450210" target="_blank" title="▓゜孫丶尛聖。↗"><img src="./python正则表达式_技术问答_慕课网_files/55f79ad40001efae06400640-80-80.jpg" width="80" height="80" title="▓゜孫丶尛聖。↗" alt="▓゜孫丶尛聖。↗"></a>
+                </li>
+                            <li class="row-last">
+                  <a href="http://www.imooc.com/space/u/uid/451698" target="_blank" title="韩宝"><img src="./python正则表达式_技术问答_慕课网_files/533e4d470001a00a02000200-80-80.jpg" width="80" height="80" title="韩宝" alt="韩宝"></a>
+                </li>
+                            <li class="">
+                  <a href="http://www.imooc.com/space/u/uid/471834" target="_blank" title="semion"><img src="./python正则表达式_技术问答_慕课网_files/533e51f30001edf702000200-80-80.jpg" width="80" height="80" title="semion" alt="semion"></a>
+                </li>
+                            <li class="">
+                  <a href="http://www.imooc.com/space/u/uid/481545" target="_blank" title="learningxm"><img src="./python正则表达式_技术问答_慕课网_files/54505a0f00013aeb01000100-80-80.jpg" width="80" height="80" title="learningxm" alt="learningxm"></a>
+                </li>
+                            <li class="">
+                  <a href="http://www.imooc.com/space/u/uid/487283" target="_blank" title="ailovezly"><img src="./python正则表达式_技术问答_慕课网_files/5333a2a10001064f02000200-80-80.jpg" width="80" height="80" title="ailovezly" alt="ailovezly"></a>
+                </li>
+                            <li class="row-last">
+                  <a href="http://www.imooc.com/space/u/uid/492847" target="_blank" title="uniscope"><img src="./python正则表达式_技术问答_慕课网_files/533e4c9c0001975102200220-80-80.jpg" width="80" height="80" title="uniscope" alt="uniscope"></a>
+                </li>
+                            <li class="">
+                  <a href="http://www.imooc.com/space/u/uid/1012061" target="_blank" title="今月曾经照古人"><img src="./python正则表达式_技术问答_慕课网_files/54601b0d000134cf00340100-80-80.jpg" width="80" height="80" title="今月曾经照古人" alt="今月曾经照古人"></a>
+                </li>
+                            <li class="">
+                  <a href="http://www.imooc.com/space/u/uid/1022617" target="_blank" title="木头鱼"><img src="./python正则表达式_技术问答_慕课网_files/546424b50001682101000100-80-80.jpg" width="80" height="80" title="木头鱼" alt="木头鱼"></a>
+                </li>
+                            <li class="">
+                  <a href="http://www.imooc.com/space/u/uid/1027585" target="_blank" title="D.D.D"><img src="./python正则表达式_技术问答_慕课网_files/546631f3000110c701000100-80-80.jpg" width="80" height="80" title="D.D.D" alt="D.D.D"></a>
+                </li>
+                            <li class="row-last">
+                  <a href="http://www.imooc.com/space/u/uid/1031142" target="_blank" title="求MJ附体过四级"><img src="./python正则表达式_技术问答_慕课网_files/5468932800014bd801800180-80-80.jpg" width="80" height="80" title="求MJ附体过四级" alt="求MJ附体过四级"></a>
+                </li>
+                            <li class="">
+                  <a href="http://www.imooc.com/space/u/uid/1035592" target="_blank" title="梦一场2"><img src="./python正则表达式_技术问答_慕课网_files/533e52b90001456f02000200-80-80.jpg" width="80" height="80" title="梦一场2" alt="梦一场2"></a>
+                </li>
+                            <li class="">
+                  <a href="http://www.imooc.com/space/u/uid/1040146" target="_blank" title="一畸零人"><img src="./python正则表达式_技术问答_慕课网_files/545866d10001a57002200220-80-80.jpg" width="80" height="80" title="一畸零人" alt="一畸零人"></a>
+                </li>
+                            <li class="">
+                  <a href="http://www.imooc.com/space/u/uid/1050277" target="_blank" title="灵感自你"><img src="./python正则表达式_技术问答_慕课网_files/561281da000140fd01000100-80-80.jpg" width="80" height="80" title="灵感自你" alt="灵感自你"></a>
+                </li>
+                            <li class="row-last">
+                  <a href="http://www.imooc.com/space/u/uid/1062149" target="_blank" title="King哲"><img src="./python正则表达式_技术问答_慕课网_files/5478868100015cc601000100-80-80.jpg" width="80" height="80" title="King哲" alt="King哲"></a>
+                </li>
+                    </ul>
+      </div>
+  </div>
+  </div>    </div>
+  </div>
+  <div class="clear"></div>
+      
+    <div class="cp-other-learned  js-comp-tabs">
+  <div class="cp-header clearfix">
+    <h2 class="cp-tit l">学过该课的人还学过</h2>
+    <ul class="cp-tabs l">
+      <li class="l">
+        <a href="javascript:;" class="on js-comp-tab-item" data-pannel="course">课程</a>
+      </li>
+          </ul>
+  </div>
+  <div class="cp-body">
+    <div class="cp-tab-pannel js-comp-tab-pannel" data-pannel="course" style="display: block">
+    <!-- img 200 x 112 -->
+      <ul class="other-list">
+                <li>
+          <a href="http://www.imooc.com/view/177?src=sug" target="_blank">
+            <img src="./python正则表达式_技术问答_慕课网_files/540e57300001d6d906000338-240-135.jpg" alt="Python入门">
+            <span class="name autowrap">Python入门</span>
+          </a>
+        </li>
+                <li>
+          <a href="http://www.imooc.com/view/317?src=sug" target="_blank">
+            <img src="./python正则表达式_技术问答_慕课网_files/54c886740001b85d06000338-240-135.jpg" alt="python进阶">
+            <span class="name autowrap">python进阶</span>
+          </a>
+        </li>
+                <li>
+          <a href="http://www.imooc.com/view/175?src=sug" target="_blank">
+            <img src="./python正则表达式_技术问答_慕课网_files/53fbd87f0001e4c006000338-240-135.jpg" alt=" Linux达人养成计划 I">
+            <span class="name autowrap"> Linux达人养成计划 I</span>
+          </a>
+        </li>
+                <li>
+          <a href="http://www.imooc.com/view/416?src=sug" target="_blank">
+            <img src="./python正则表达式_技术问答_慕课网_files/556ed6a200019cdc06000338-240-135.jpg" alt="Python文件处理">
+            <span class="name autowrap">Python文件处理</span>
+          </a>
+        </li>
+                <li class="last">
+          <a href="http://www.imooc.com/view/397?src=sug" target="_blank">
+            <img src="./python正则表达式_技术问答_慕课网_files/555a8d4d000108bc06000338-240-135.jpg" alt="Python开发环境搭建">
+            <span class="name autowrap">Python开发环境搭建</span>
+          </a>
+        </li>
+              </ul>
+    </div>
+      </div>
+</div>  </div>
+
+</div>
+
+<div id="footer">
+    <div class="waper">
+        <div class="footerwaper clearfix">
+            <div class="followus r">
+                <a class="followus-weixin" href="javascript:;" target="_blank" title="微信">
+                    <div class="flw-weixin-box"></div>
+                </a>
+                <a class="followus-weibo" href="http://weibo.com/u/3306361973" target="_blank" title="新浪微博"></a>
+                <a class="followus-qzone" href="http://user.qzone.qq.com/1059809142/" target="_blank" title="QQ空间"></a>
+            </div>
+            <div class="footer_intro l">
+                <div class="footer_link">
+                    <ul>
+                        <li><a href="http://www.imooc.com/" target="_blank">网站首页</a></li>
+                        <li><a href="http://www.imooc.com/about/job" target="_blank">人才招聘</a></li>
+                        <li> <a href="http://www.imooc.com/about/contact" target="_blank">联系我们</a></li>
+                        <li><a href="http://yun.imooc.com/" target="_blank">慕课云</a></li>
+                        <li><a href="http://www.imooc.com/about/us" target="_blank">关于我们</a></li>
+                        <li> <a href="http://www.imooc.com/about/recruit" target="_blank">讲师招募</a></li>
+                        <li> <a href="http://www.imooc.com/user/feedback" target="_blank">意见反馈</a></li>
+                        <li> <a href="http://www.imooc.com/about/friendly" target="_blank">友情链接</a></li>
+                    </ul>
+                </div>
+                <p>Copyright © 2015 imooc.com All Rights Reserved | 京ICP备 13046642号-2</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="J_GotoTop" class="elevator">
+    <a class="elevator-weixin" href="javascript:;">
+        <div class="elevator-weixin-box">
+        </div>
+    </a>
+    <a class="elevator-msg" href="http://www.imooc.com/user/feedback" target="_blank" id="feedBack"></a>
+    <a class="elevator-app" href="http://www.imooc.com/mobile/app">
+        <div class="elevator-app-box">
+        </div>
+    </a>
+    <a class="elevator-top" href="javascript:;" style="display: none;" id="backTop"></a>
+</div>
+
+
+
+<script type="text/javascript" charset="utf-8" src="./python正则表达式_技术问答_慕课网_files/ueditor.final.min.js"></script>
+
+<!--script-->
+<script src="./python正则表达式_技术问答_慕课网_files/ssologin.js"></script>
+<script type="text/javascript" src="./python正则表达式_技术问答_慕课网_files/sea.js"></script>
+<script type="text/javascript" src="./python正则表达式_技术问答_慕课网_files/sea_config.js"></script>
+<script type="text/javascript">seajs.use("/static/page/"+OP_CONFIG.module+"/"+OP_CONFIG.page);</script>
+
+ 
+<script type="text/javascript">
+  (function(){
+    var imgPic = GC.course.pic || 'http://img.mukewang.com/static/img/common/logo.png',
+        text = '我正在参加@慕课网 的一门课程【' + GC.course.name + '】，很不错哦！快来一起学习吧！', //节名称
+        url = 'http://www.mukewang.com' + window.location.pathname;
+
+    window._bd_share_config = {
+        "common": {
+            "bdUrl": url,
+            "bdSnsKey": {
+              'tsina':'2788596354'
+            },
+            "bdText": text,
+            "bdMini": "2",
+            "bdMiniList": false,
+            "bdPic": imgPic,
+            "bdStyle": "0",
+            "bdSize": "16"
+        },
+        "share": {}
+    };
+    with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];
+  })();
+</script>
+<div class="mask"></div>
+
+<!--积分弹出框-->
+<div class="integral-pop" id="no-credit">
+    <div class="pop-con">
+        <span class="icon-point"></span>
+                    <p>本次提问将花费2个积分</p>
+                <p>你的积分不足，无法发表</p>
+        <a class="integral-rule" href="http://www.imooc.com/myclub/rule" target="_blank">为什么扣积分？</a>
+        <div class="ft clearfix">
+            <a href="javascript:void(0)" class="btn btn-green l cancel-cf">确认</a>
+            <a href="javascript:void(0)" class="btn btn-grey r cancel-cf">取消</a>
+        </div>
+    </div>
+</div>
+<div class="integral-pop" id="enough-credit">
+    <div class="pop-con">
+        <span class="icon-point"></span>
+                    <p>本次提问将花费2个积分</p>
+                <p>继续发表请点击 "确定"</p>
+        <a class="integral-rule" href="http://www.imooc.com/myclub/rule" target="_blank">为什么扣积分？</a>
+        <div class="ft clearfix">
+            <a id="interal-use" href="javascript:void(0)" class="btn btn-green l">确认</a>
+            <a id="interal-cancel" href="javascript:void(0)" class="btn btn-grey r">取消</a>
+        </div>
+    </div>
+</div>
+
+<script type="text/imooc-tpl" id="tpl_qa">
+
+<div class="wenda-listcon mod-qa-list clearfix" data-qid={id}>
+  <div class="headslider qa-medias l">
+    <a href="space/index" class="media" target="_blank" title="{nickname}">
+      <img src="{upic}" width="40" height="40" />
+    <span class="name">
+      {nickname}
+    </span>
+    </a>
+  </div>
+  <div class="wendaslider qa-content">
+    <a href="/qadetail/{id}" target="_blank" class="replynumber static-count">
+      <span class="static-item answer">
+         <b class="val">0</b>
+        <span class="key">回答</span>
+      </span>
+      <span class="static-item">
+         <b class="val">0</b>
+        <span class="key">浏览</span>
+      </span>
+    </a>
+    <h2 class="wendaquetitle qa-header">
+      <i class="nofinish"></i>
+      <div class="wendatitlecon qa-header-cnt">
+        <a href="/qadetail/{id}" target="_blank" class="qa-tit">{title}</a>
+      </div>
+    </h2>
+    <div class="replycont qa-body clearfix">
+      <i class="replyicon l"></i>
+      <div class="l replydes">
+        <span class="replydet">嗯～～，这个提问大家都在考虑......</span>
+      </div>
+    </div>
+    <div class="replymegfooter qa-footer">
+      <div class="wenda-time">
+      <em>时间：{time}</em>
+      </div>
+    </div>
+  </div>
+</div>
+
+</script>
+
+
+<div style="display: none">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ff0cfcccd7b1393990c78efdeebff3968' type='text/javascript'%3E%3C/script%3E"));
+(function (d) {
+window.bd_cpro_rtid="rHT4P1c";
+var s = d.createElement("script");s.type = "text/javascript";s.async = true;s.src = location.protocol + "//cpro.baidu.com/cpro/ui/rt.js";
+var s0 = d.getElementsByTagName("script")[0];s0.parentNode.insertBefore(s, s0);
+})(document);
+</script><script src="./python正则表达式_技术问答_慕课网_files/h.js" type="text/javascript"></script><a href="http://tongji.baidu.com/hm-web/welcome/ico?s=f0cfcccd7b1393990c78efdeebff3968" target="_blank"><img border="0" src="./python正则表达式_技术问答_慕课网_files/21.gif" width="20" height="20"></a>
+<script>
+(function(){
+    var bp = document.createElement('script');
+    bp.src = '//push.zhanzhang.baidu.com/push.js';
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+</div>
+
+
+<div id="edui_fixedlayer" class="edui-imooc" style="position: fixed; left: 0px; top: 0px; width: 0px; height: 0px;"><div id="edui41" class="edui-popup  edui-bubble edui-imooc" onmousedown="return false;" style="display: none;"> <div id="edui41_body" class="edui-popup-body edui-imooc"> <iframe style="position:absolute;z-index:-1;left:0;top:0;background-color: transparent;" frameborder="0" width="100%" height="100%" src="about:blank" class="edui-imooc"></iframe> <div class="edui-shadow edui-imooc"></div> <div id="edui41_content" class="edui-popup-content edui-imooc">  </div> </div></div></div><div id="global-zeroclipboard-html-bridge" class="global-zeroclipboard-container" style="position: absolute; left: 0px; top: -9999px; width: 1px; height: 1px; z-index: 999999999;"><object id="global-zeroclipboard-flash-bridge" name="global-zeroclipboard-flash-bridge" width="100%" height="100%" type="application/x-shockwave-flash" data="http://www.imooc.com/static/lib/ueditor/third-party/zeroclipboard/ZeroClipboard.swf?noCache=1448805323996"><param name="allowScriptAccess" value="sameDomain"><param name="allowNetworking" value="all"><param name="menu" value="false"><param name="wmode" value="transparent"><param name="flashvars" value="trustedOrigins=www.imooc.com%2C%2F%2Fwww.imooc.com%2Chttp%3A%2F%2Fwww.imooc.com"></object></div></body></html>

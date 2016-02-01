@@ -1,0 +1,380 @@
+[ 2015-11-23T09:13:07+08:00 ] ::1 /think04/
+ERR: 无法加载控制器:Index
+
+[ 2015-11-23T09:19:13+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002697s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.004838s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000266s ]
+
+[ 2015-11-23T09:19:15+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002261s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006436s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000309s ]
+
+[ 2015-11-23T09:19:15+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T09:19:15+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T09:19:15+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T09:19:15+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T09:19:16+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T09:19:16+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T10:41:19+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001951s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012139s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.104787s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000341s ]
+
+[ 2015-11-23T10:41:21+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002832s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005992s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000310s ]
+
+[ 2015-11-23T11:33:43+08:00 ] ::1 /think04/Home/space
+ERR: 模板不存在:./App/Home/View/Space/index.html
+
+[ 2015-11-23T11:34:40+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002728s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003616s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.016164s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000349s ]
+
+[ 2015-11-23T16:49:02+08:00 ] ::1 /think04/Home/Space/add.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012947s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006548s ]
+
+[ 2015-11-23T18:01:17+08:00 ] ::1 /think04/Home/View/reat.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002334s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.019772s ]
+SQL: DELETE FROM `ju_att` WHERE ( `user_id` = 1 ) AND ( `lesson_id` = 5 ) [ RunTime:0.111988s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004313s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004541s ]
+
+[ 2015-11-23T18:01:22+08:00 ] ::1 /think04/Home/View/attention.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002919s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.005591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001922s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002022s ]
+
+[ 2015-11-23T18:01:28+08:00 ] ::1 /think04/Home/View/attention.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002532s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.005536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001722s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001809s ]
+
+[ 2015-11-23T18:01:35+08:00 ] ::1 /think04/Home/View/attention.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003074s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.005869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002126s ]
+
+[ 2015-11-23T18:02:36+08:00 ] ::1 /think04/Home/View/attention.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.005604s ]
+SQL: INSERT INTO `ju_att` (`user_id`,`lesson_id`) VALUES (1,5) [ RunTime:0.021035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001465s ]
+
+[ 2015-11-23T18:02:44+08:00 ] ::1 /think04/Home/View/reat.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002344s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.006307s ]
+SQL: DELETE FROM `ju_att` WHERE ( `user_id` = 1 ) AND ( `lesson_id` = 5 ) [ RunTime:0.002488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001534s ]
+
+[ 2015-11-23T18:02:48+08:00 ] ::1 /think04/Home/View/attention.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002278s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.005423s ]
+SQL: INSERT INTO `ju_att` (`user_id`,`lesson_id`) VALUES (1,5) [ RunTime:0.042093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006828s ]
+
+[ 2015-11-23T18:03:02+08:00 ] ::1 /think04/Home/View/reat.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003093s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.014511s ]
+SQL: DELETE FROM `ju_att` WHERE ( `user_id` = 1 ) AND ( `lesson_id` = 5 ) [ RunTime:0.002346s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003464s ]
+
+[ 2015-11-23T18:03:12+08:00 ] ::1 /think04/Home/View/attention.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002112s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.006521s ]
+SQL: INSERT INTO `ju_att` (`user_id`,`lesson_id`) VALUES (1,5) [ RunTime:0.066962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009108s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009439s ]
+
+[ 2015-11-23T18:10:29+08:00 ] ::1 /think04/Home/View/reat.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002823s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.021710s ]
+SQL: DELETE FROM `ju_att` WHERE ( `user_id` = 1 ) AND ( `lesson_id` = 6 ) [ RunTime:0.008536s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004799s ]
+
+[ 2015-11-23T18:10:30+08:00 ] ::1 /think04/Home/View/attention.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002047s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.024750s ]
+SQL: INSERT INTO `ju_att` (`user_id`,`lesson_id`) VALUES (1,6) [ RunTime:0.017028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006863s ]
+
+[ 2015-11-23T18:46:46+08:00 ] ::1 /think04/home/aa
+ERR: 无法加载控制器:Aa
+
+[ 2015-11-23T18:46:46+08:00 ] ::1 /think04/home/aa
+ERR: 无法加载控制器:Aa
+
+[ 2015-11-23T18:47:15+08:00 ] ::1 /think04/Home/Interlocution/aa
+ERR: 非法操作:aa
+
+[ 2015-11-23T18:47:51+08:00 ] ::1 /think04/Home/
+ERR: 无法加载控制器:Index
+
+[ 2015-11-23T18:48:01+08:00 ] ::1 /think04/home/aa
+ERR: 无法加载控制器:Aa
+
+[ 2015-11-23T19:01:33+08:00 ] ::1 /think04/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003373s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.012641s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000326s ]
+
+[ 2015-11-23T19:10:57+08:00 ] ::1 /think04/Admin/Lesson/ajaxName.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002410s ]
+SQL: SHOW COLUMNS FROM `ju_category` [ RunTime:0.006097s ]
+SQL: SELECT `id`,`name` FROM `ju_category` WHERE ( `pid` = 3 )  [ RunTime:0.000332s ]
+
+[ 2015-11-23T19:11:42+08:00 ] ::1 /think04/Admin/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+SQL: SHOW COLUMNS FROM `ju_category` [ RunTime:0.012794s ]
+SQL: SELECT `id`,`name` FROM `ju_category` WHERE ( `pid` = 2 )  [ RunTime:0.000563s ]
+
+[ 2015-11-23T19:13:36+08:00 ] ::1 /think04/Admin/Lesson/ajaxName.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001993s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002976s ]
+SQL: SHOW COLUMNS FROM `ju_category` [ RunTime:0.006186s ]
+SQL: SELECT `id`,`name` FROM `ju_category` WHERE ( `pid` = 3 )  [ RunTime:0.000425s ]
+
+[ 2015-11-23T21:02:28+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002680s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006247s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000368s ]
+
+[ 2015-11-23T21:02:29+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002088s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.021390s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000984s ]
+
+[ 2015-11-23T21:40:04+08:00 ] ::1 /think04/Home/View/attention.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003130s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.021724s ]
+SQL: INSERT INTO `ju_att` (`user_id`,`lesson_id`) VALUES (1,9) [ RunTime:0.010747s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002177s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002273s ]
+
+[ 2015-11-23T21:40:05+08:00 ] ::1 /think04/Home/View/reat.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001861s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.019326s ]
+SQL: DELETE FROM `ju_att` WHERE ( `user_id` = 1 ) AND ( `lesson_id` = 9 ) [ RunTime:0.077635s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002638s ]
+
+[ 2015-11-23T22:01:03+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003348s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005699s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000310s ]
+
+[ 2015-11-23T22:01:06+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003057s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006120s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000347s ]
+
+[ 2015-11-23T22:01:07+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:01:07+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:01:07+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:01:07+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:01:07+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:01:08+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:02:19+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005064s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.015894s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000668s ]
+
+[ 2015-11-23T22:02:20+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002455s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.007403s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000542s ]
+
+[ 2015-11-23T22:02:20+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:02:20+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:02:20+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:02:21+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:02:21+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:02:21+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:10:49+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002758s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005849s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000345s ]
+
+[ 2015-11-23T22:10:51+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003109s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006142s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000596s ]
+
+[ 2015-11-23T22:10:51+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:10:51+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:10:51+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:10:51+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:10:52+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:16:10+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001892s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002745s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.020942s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000781s ]
+
+[ 2015-11-23T22:16:14+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002338s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.008160s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000373s ]
+
+[ 2015-11-23T22:16:14+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:16:14+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:16:15+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:16:15+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:16:15+08:00 ] ::1 /think04/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-23T22:17:15+08:00 ] ::1 /think04/Home/View/xi_ajaxName.html?id=6
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001895s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006240s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 6 ) ORDER BY id desc  [ RunTime:0.000355s ]
+

@@ -1,0 +1,61 @@
+<include file="Public/header"/>
+
+<load href="__PUBLIC__/css前台/perset/settings.css" />
+<load href="__PUBLIC__/css前台/perset/login-regist.css" />
+<load href="__PUBLIC__/css前台/perset/a.css" />
+<div id="main" style="background-color: white">
+
+<div class="wcontainer set-space-cont clearfix">
+  <div class="setting-left l">
+    <ul class="wrap-boxes">
+      <li>
+        <a href="{:U('perset')}" class="onactive">个人资料</a>
+      </li>
+      <li class="nav-active">
+         <a href="{:U('settou')}">头像设置</a>
+       </li>
+
+      <li>
+         <a href="{:U('setpwd')}">修改密码</a>
+      </li>
+
+    </ul>
+  </div>
+  <div class="setting-right ">
+    <div class="setting-right-wrap wrap-boxes settings">
+
+  <div id="setting-avator" style="margin-left: 100px;margin-top: -30px" class="setting-wrap setting-avator clearfix">
+	  <div class="avator-img l">
+		    <div><img src='__ROOT__/Uploads/{$img.name}'/></div>
+		    <div>
+            <form action="{:U('settou')}" method="post" enctype="multipart/form-data">
+              <table width="200" style="margin-top:10px">
+              <tr>
+                 <td>
+                    <input type="file" class="a-upload" title="上传头像" name="name"   />
+                 </td>
+              </tr>
+              <tr>
+                <td>
+
+                    <input type="submit" style="width: 120px;height: 30px;line-height:30px;font-size: 14px;font-family: '微软雅黑';padding: 0;margin: 0;border: 1px solid #04d;background:#059999; " value="上传" /> 
+                </td>
+              </tr>  
+              </table>  
+            </form>
+
+        </div>
+	  </div>
+	  
+	         
+				      
+                
+	       
+	</div>
+
+</div>
+
+    </div>
+  </div>
+</div>
+<include file="Public/footer"/>

@@ -1,0 +1,66 @@
+<include file="Public/headerold" />
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Document</title>
+   
+    <load href="__PUBLIC__/js/jquery-1.9.1.js" />
+    <load href="__PUBLIC__/js/bootstrap.min.js" />
+    <load href="__PUBLIC__/css/bootstrap.min.css" />
+    <load href="__PUBLIC__/css/interlocution.css" /> 
+
+     <load href="__PUBLIC__/js/jquery.cookie.js" />    
+
+     <style type="text/css">
+           
+        
+        #nav1 .current a{font-size:20px;color:black;}
+        #nav2  {border-top:0px;}
+        #nav2  li{padding-left:0px; border-bottom:0px;}
+        #nav2  li a{height:40px;line-height:20px; }
+    </style>
+</head>
+<body>
+    <include file="Public/allheader-nav" />
+	<div class="main  ">
+		<div class="ww">
+            
+            
+            <include file="Public/silder" />
+
+			<div class="wd-main">
+                
+                <div style="height:30px; line-height:30px;" id="nav1" class="classify-nav clearfix">
+                    <ul>
+                        <li class="current"><a href="{:U('index','id=0&cid='.$cid)}"   >全部问题</a></li>
+                        <li><a href="{:U('index','id=1&cid='.$cid)}" >技术问答</a></li>
+                        <li><a href="{:U('index','id=2&cid='.$cid)}" >课堂问答</a></li>
+                       
+			    	</ul>
+				</div>
+                <div class="clear"></div>
+                <div class="tag-nav">
+                    <ul id="nav2" class="nav nav-pills">
+                        <li role="presentation" class="active" ><a  href="{:U('index','cid=0&id='.$id)}">最新</a></li>
+                        <li role="presentation"  ><a  href="{:U('index','cid=1&id='.$id)}">热门</a></li>
+                        <li role="presentation"  ><a  href="{:U('index','cid=2&id='.$id)}">等待回复</a></li>
+			    	</ul>
+                </div>
+
+                <script>
+                    $("#nav1 li").eq($.cookie("wd_id")).addClass('current').siblings().removeClass('current');
+                    $("#nav2 li").eq($.cookie("wd_cid")).addClass('active').siblings().removeClass('active');
+                </script>
+        
+            <include file="Public/questionlist" />
+			
+			
+        </div>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <include file="Public/footer" />
+</body>
+</html>
+

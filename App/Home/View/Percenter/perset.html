@@ -1,0 +1,96 @@
+<include file="Public/header"/>
+<load href="__PUBLIC__/css前台/perset/settings.css" />
+<load href="__PUBLIC__/css前台/perset/login-regist.css" />
+<load href="__PUBLIC__/css前台/perset/a.css" />
+<div id="main" style="background-color: white">
+
+<div class="wcontainer set-space-cont clearfix">
+  <div class="setting-left l">
+    <ul class="wrap-boxes">
+      <li class="nav-active">
+        <a href="{:U('perset')}" class="onactive">个人资料</a>
+      </li>
+      <li>
+         <a href="{:U('settou')}">头像设置</a>
+       </li>
+
+      <li>
+        <a href="{:U('setpwd')}">修改密码</a>
+      </li>
+
+    </ul>
+  </div>
+  <div class="setting-right ">
+    <div class="setting-right-wrap wrap-boxes settings">
+        
+
+<div id="setting-profile" class="setting-wrap setting-profile">
+    <form id="profile" action="{:U('perset')}" method="post">
+        <div class="wlfg-wrap">
+            <label class="label-name">昵称</label>
+            <div class="rlf-group">
+                <input type="hidden" name="id"  class="rlf-input rlf-input-nick" value="{$list.id}">
+                <input type="text" name="nick"  class="rlf-input rlf-input-nick" value="{$list.nick}" placeholder="请输入昵称.">
+                <p class="rlf-tip-wrap"></p>
+            </div>
+        </div>
+        <div class="wlfg-wrap">
+            <label class="label-name" for="job">职位</label>
+            <div class="rlf-group">
+                <select class="rlf-select" name="job" hidefocus="true" id="job">
+                    <option value="">请选择职位</option>
+                                            <option value="1" {$list['job'] ==1?'selected':''}>页面重构设计
+                                            <option value="6" {$list['job'] ==6?'selected':''}>Web前端工程师
+                                            <option value="5" {$list['job'] ==5?'selected':''}>JS工程师
+                                            <option value="8" {$list['job'] ==8?'selected':''}>PHP开发工程师</option>
+                                            <option value="11" {$list['job'] ==11?'selected':''}>JAVA开发工程师</option>
+                                            <option value="7" {$list['job'] ==7?'selected':''}>移动开发工程师</option>
+                                            <option value="9" {$list['job'] ==9?'selected':''}>软件测试工程师</option>
+                                            <option value="10" {$list['job'] ==10?'selected':''}>Linux系统工程师</option>
+                                            <option value="2" {$list['job'] ==2?'selected':''}>交互设计师</option>
+                                            <option value="3" {$list['job'] ==3?'selected':''}>产品经理</option>
+                                            <option value="4" {$list['job'] ==4?'selected':''}>UI设计师</option>
+                                            <option value="12"{$list['job'] ==12?'selected':''}>学生</option>
+                                            <option value="13"{$list['job'] ==13?'selected':''}>其他</option>
+                                    </select>
+                <p class="rlf-tip-wrap"></p>
+            </div>
+        </div>
+
+        <div class="wlfg-wrap">
+            <label class="label-name">性别</label>
+            <div class="rlf-group rlf-radio-group">
+                <label><input type="radio" hidefocus="true" value="2" name="sex" {$list['sex'] ==2?'checked':''}>保密</label>
+                <label><input type="radio" hidefocus="true" value="1" name="sex" {$list['sex'] ==1?'checked':''}>男</label>
+                <label><input type="radio" hidefocus="true" value="0" name="sex" {$list['sex'] ==0?'checked':''}>女</label>
+            </div>
+            <p class="rlf-tip-wrap"></p>
+        </div>
+        <div class="wlfg-wrap">
+            <label class="label-name" for="aboutme">个性签名</label>
+            <div class="rlf-group">
+                <textarea name="sign"  id="aboutme" cols="30" rows="5" class="textarea"></textarea>
+                <p class="rlf-tip-wrap"></p>
+            </div>
+        </div>
+        <div class="wlfg-wrap">
+            <div class="rlf-group">
+                <input type="submit" style="width:415px" id="profile-submit" aria-role="button" class="rlf-btn-green btn-block profile-btn" value="保存" />
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+
+
+    </div>
+  </div>
+</div>
+<script>
+    var sign = "{$list['sign']}";
+    $('textarea').text(sign);
+</script>
+
+<include file="Public/footer"/>
+
+

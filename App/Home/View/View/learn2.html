@@ -1,0 +1,163 @@
+<include file="Public/header"/>
+
+<load href="__PUBLIC__/css/saved_resource_l2.css" />
+
+<include file="Public/course_info"/>
+
+    <div class="course-info-main clearfix w">
+
+        <div class="info-bar clearfix" >
+           <!-- <a href="{:U('learn?lesson_id='.$lesson['id'])}"-->
+            <div style="display: {$mask3}">
+                <a href="{:U('video',array('id'=>$memory['video_id']))}" target="_blank" class="btn-red start-study-btn r J-learn-course">继续学习</a>
+                <span class="start-study-title">
+                    {$memory.xi_name}
+                </span>
+
+                <div class="exp-progress">
+                    <span class="exp-txt">
+                        <span class="exp-per">
+                            <strong>{$progress}</strong>%
+                        </span>
+
+                        学习进度
+
+                    </span>
+                    <div class="exp-bar">
+                        <ins style="width:{$progress}%"></ins>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="main_nav" style="display: {$mask4}"><a href="#0" class="btn-red start-study-btn r J-learn-course">开始学习</a></ul>
+
+        </div>
+        <div class="content-wrap clearfix">
+        <div class="content">
+
+            <div class="mod-tab-menu">
+                <ul class="course-menu clearfix">
+                    <li><a class="ui-tabs-active " id="learnOn"  href="/learn/538"><span>章节</span></a></li>
+                    <li><a id="commentOn" class="active" href="/comment/538"><span>评论</span></a></li>
+                    <li><a id="qaOn" class="" href="/qa/538"><span>问答</span></a></li>
+                    <li><a id="noteOn" class="" href="/note/538?sort=last"><span>笔记</span></a></li>
+                    <li><a id="wikiOn" class="" href="/wiki/538">WIKI</a></li>
+                </ul>
+            </div>
+
+            <!--发布评论-->
+            <form action="{:U('dolearn2')}" method="get">
+
+            <div id="js-pub-container" class="issques clearfix js-form">
+                <div class="wgt-ipt-wrap pub-editor-wrap " id="js-pl-input-fake">
+                    <textarea id="js-pl-textarea" name="comment" class="" placeholder="扯淡、吐槽、表扬、鼓励……想说啥就说啥！" ></textarea>
+                    <p><input  type="hidden" name="zz_id" value="{$lesson.id}" /></p>
+                    <span class="num-limit"><span id="js-pl-limit">0</span>/300</span>
+                </div>
+                <div id="pub-btm" class="pub-btm clearfix">
+                    <div class="verify-box l js-verify-box" style="display: none">
+                        <input type="text" class="ipt l" placeholder="请输入验证码">
+                        <a href="javascript:;" class="js-verify-refresh"><img data-src="/course/getcoursecommentcode" class="verify-media l"/></a>
+      <span class="verify-help l">
+        看不清
+        <a href="javascript:;" class="verify-refresh js-verify-refresh">换一换</a>
+      </span>
+                    </div>
+                    <input type="submit" id="js-pl-submit" class="pub-btn r" data-cid="538" value="发表评论">
+                    <span class="errortip r">您还没有填写内容！</span>
+                </div>
+                <p class="global-errortip js-global-error"></p>
+            </div>
+             </form>
+            
+            <div id="course_note">
+
+                <ul class="mod-post" id="comment-list">
+                    <foreach name="comlist" item="cval" >
+                    <li class="post-row">
+                        <div class="media">
+                            <a href="我的慕课" target="_blank"><img  src='__ROOT__/Uploads/{$cval['user_pic']}' width='40' height='40' /></a>
+                        </div>
+                        <div class="bd">
+                            <div class="tit">
+                                <a href="/space/u/uid/2532666" target="_blank">{$cval['user_name']}</a>
+                            </div>
+                            <p class="cnt">{$cval['comment']}</p>
+                            <div class="footer clearfix">
+                                <span title="创建时间" class="l timeago">时间：{$cval['time']}</span>
+                                <a href="/video/10497" class="from">源自：{$cval['zname']}</a>
+                                <div class="actions r">
+                                    <!--<a title="赞" href="javascript:;" class="js-pl-praise list-praise post-action "  data-id="137819">
+                                        <span class="icon-thumb "></span>-->
+                                        <em>{$key+1}</em>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        </li>
+                        </foreach>
+                    </ul>
+                    <div class="page">{$pageButton}</div>
+
+            </div>
+        <div class="aside r">
+            <div class="bd">
+                <div class="box mb40">
+                    <h4>讲师提示</h4>
+                    <div class="course-info-tip">
+                        <dl class="first">
+                            <dt>课程须知</dt>
+                            <dd class="autowrap">该课程是针对新手的一个简单基础的课程，让您快速了解JS，通过一些简单的代码编写体会JS。如果您已经对JS有所了解，可以跳过本课程，学习JS进阶课程，进一步学习JS相应的基础知识。学习本课程，希望您至少具备HTML/CSS基础知识，认识常用的标签。</dd>
+                        </dl>
+                        <dl>
+                            <dt>老师告诉你能学到什么？</dt>
+                            <dd class="autowrap">1. 理解JavaScript基础语法；
+                                2. 掌握常用语句的使用方法；
+                                3. 学会如何获取DOM元素及进行简单操作。</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>    </div>
+    </div>
+        <div class="clear"></div>
+    </div>
+
+</div>
+<script>
+
+    function change(ob){
+
+
+        $(ob).siblings().removeClass("chapter-active");
+
+        $(ob).toggleClass("chapter-active");
+
+        var $emp = $(ob).find('p').text();
+
+        $(ob).find('ul').children().remove('.del_m');
+
+        $(ob).siblings().find('ul').children().remove('.del_m');
+
+        $.get('{:U("xi_ajaxName")}',{id:$emp},function(result){
+            console.dir($(result));
+
+            var url = '__CONTROLLER__/video';
+            $.each(result,function(i,val){
+
+                var tt = val['video_id'];
+
+                $(ob).find('ul').append( '<li class="del_m"><a target="_blank" href="'+ url + '?id=' +tt + '" class="J-media-item programme">'+ val['xi_name'] +'</a></li>');
+            });
+
+
+
+
+
+        });
+
+    }
+</script>
+
+
+
+<include file="Public/footer"/>

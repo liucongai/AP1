@@ -1,0 +1,95 @@
+@import url(./style.css);
+/***act-main*********/
+.main{
+    margin-top:20px;
+}
+.opus-main{
+    float:right;
+    width:1000px;
+}
+
+.opus-nav{
+    float:left;
+    width:120px;
+}
+
+/*****opus-header******************/
+.opus-header{
+    width:1000px;
+    height:50px;
+    margin:10px 0 10px 0;
+    padding-bottom:10px;
+    border-bottom:1px solid #DAE0E3;
+}
+
+.opus-header h3{
+    display:inline-block;
+    margin-top:0px;
+    margin-left:5px;
+    width:100px;
+}
+.opus-header div{
+    float:right;
+}
+
+.opus-header div a{
+     text-decoration:none;
+}
+
+.opus-header .create-opus{
+    display:inline-block;
+    width:100px;
+    height:40px;
+    line-height:40px;
+    text-align:center;
+    
+    background:red;
+    color:white;
+    padding:3px 10px 3px 10px;
+    margin-left:30px;
+    border-radius:3px;
+
+}
+
+.opus-header .create-opus:hover {
+    background:#E00505;
+}
+
+.opus-header .my-opus{
+    color:red;
+}
+
+
+/************************/
+.opus-list{
+    width:1000px;
+}
+
+.item-box{
+    width:450px;
+    height:140px;
+    border:1px solid #DAE0E3;
+    padding:5px;
+    margin:10px;
+}
+.item-main{
+    width:350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

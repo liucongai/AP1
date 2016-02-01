@@ -1,0 +1,38 @@
+±¸ÍüÂ¼
+viewcontrol  47
+
+coursectro  113
+
+view  67   60
+
+spacectro  17 32
+
+ColllessModel  43
+
+planctro   151
+
+
+array (size=2)
+  'd2d977c58444271d9c780187e93f80e5' =>
+    array (size=2)
+      'verify_code' => string 'a2f0c75836e53daf54fda41efd76ea74' (length=32)
+      'verify_time' => int 1448505393
+  'home' =>
+    array (size=17)
+      'id' => string '3' (length=1)
+      'name' => string 'fuck' (length=4)
+      'password' => string '36122c9ac8ee2fd4fd8b9f1fa7f16762' (length=32)
+      'sex' => string '0' (length=1)
+      'job' => string '6' (length=1)
+      'address' => null
+      'sign' => null
+      'phone' => string '0' (length=1)
+      'email' => string '1327724115@qq.com' (length=17)
+      'score' => string '0' (length=1)
+      'experience' => string '0' (length=1)
+      'timg_id' => string '0' (length=1)
+      'type' => string '5' (length=1)
+      'reg_time' => string '1448503807' (length=10)
+      'last_login_time' => string '0' (length=1)
+      'nick' => string 'hehe' (length=4)
+      'img' => string './Public/Uploads/2015-11-26/56566a23240a8.jpg' (length=45)

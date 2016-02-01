@@ -1,0 +1,83 @@
+<div class="course-infos">
+	<div class="w pr">
+		<div class="path">
+			<a href="{:U('Course/index')}">课程</a>
+			<i class="path-split">\</i><a href="{:U('Course/index?fx_id='.$fangx['id'])}">{$fangx.name}</a>
+			<i class="path-split">\</i><a href="{:U('Course/index?ca_id='.$cate['id'])}">{$cate.name}</a>
+			<i class="path-split">\</i><span>{$lesson.lesson}</span>
+		</div>
+		<div class="hd">
+			<h2 class="l">{$lesson.lesson}</h2>
+
+		</div>
+		<div class="statics clearfix">
+			<div class="static-item ">
+				<span class="meta-value"><strong>{$lesson.nandu}</strong></span>
+				<span class="meta">难度</span>
+				<em></em>
+			</div>
+			<div class="static-item static-time">
+				<span class="meta-value"><strong> 1</strong>小时<strong>35</strong>分</span>
+				<span class="meta">时长</span>
+				<em></em>
+			</div>
+			<div class="static-item">
+				<span class="meta-value"><strong>{$per_num}</strong></span>
+				<span class="meta">学习人数</span>
+				<em></em>
+			</div>
+			<!-- <div class="static-item">
+              <span class="meta-value"><strong>4.8分</strong></span>
+              <span class="meta">
+                <i class="meta-star"></i>
+                <i class="meta-star"></i>
+                <i class="meta-star"></i>
+              </span>
+              <em></em>
+            </div> -->
+		</div>
+		<div class="extra">
+			<!-- credit -->
+			<div class="share-rl-tips share-posi js-share-statue" style="display: none;">
+				<span>分享即可 +</span><strong>1积分</strong>
+				<span class="rule-arrow"></span>
+			</div>
+			<!-- share -->
+			<div class="share-action r bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1447312324643">
+				分享
+				<a href="javascript:;" class="share wx js-share" data-cmd="weixin" title="分享到微信"></a>
+				<a href="javascript:;" class="share qq js-share" data-cmd="qzone" title="分享到QQ空间"></a>
+				<a href="javascript:;" class="share sina js-share" data-cmd="tsina" title="分享到新浪微博"></a>
+			</div>
+			<i class="split-line r"></i>
+			<p hidden>{$lesson.id}</p>
+			{$attr}
+				　
+			<script>
+				$('.extra').find('span').click(function(){
+					if($(this).text().length == 2){
+
+						$(this).css('background','url("__PUBLIC__/img/info_s.png") no-repeat 0 -157px').text('已关注');
+
+						$.get('{:U("View/attention")}', {'id':$(this).prev().text() });
+
+					}else{
+						$(this).css('background','url("__PUBLIC__/img/info_s.png") no-repeat 0 -37px').text('关注');
+
+						$.get('{:U("View/reat")}', {'id':$(this).prev().text() });
+					}
+				});
+			</script>
+		</div>
+	</div>
+	<div class="info-bg" id="js-info-bg">
+		<div class="cover-img-wrap">
+			<img data-src="__ROOT__/Uploads/{$lesson.fimg}" alt="" style="display: none" id="js-cover-img">
+		</div>
+		<div class="cover-mask"></div>
+		<canvas style="opacity:0.3;filter:'alpha(opacity=50)';background-size:100% 100%" width="1349" height="240" class="cover-canvas" id="js-cover-canvas"></canvas></div>
+</div>
+<script>
+	var img = $('#js-cover-img').attr('data-src');
+	$('.cover-canvas').css("background-image", "url("+ img + ")");
+</script>

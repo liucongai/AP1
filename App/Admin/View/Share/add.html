@@ -1,0 +1,118 @@
+<include file="Public/header"/>
+<include file="Public/nav"/>
+
+
+
+	<!-- main container -->
+    <div class="content">
+        
+        <div class="container-fluid">
+            <div id="pad-wrapper" class="new-user">
+                <div class="row-fluid header">
+                    <h3>Create a new share</h3>
+                </div>
+
+                <div class="row-fluid form-wrapper">
+                    <!-- left column -->
+                    <div class="span9 with-sidebar">
+                        <div class="container">
+                            <form class="new_user_form inline-input" action="{:U('doadd')}" method="post" enctype="multipart/form-data"/>
+                                <div class="span12 field-box">
+                                    <label>Share_name:</label>
+                                    <input id="check1" class="span7" name="name" type="text" />
+                                    <span id="span1"></span>
+                                </div>
+
+                                <div class="span12 field-box">
+                                    <label>bgcolor:</label>
+                                    <input id="check1" class="span7" name="color" type="text" />
+                                    <span id="span1"></span>
+                                </div>
+
+                                 <div class="span12 field-box">
+                                    <label>Share_img:</label>
+                                    <input  class="span7" name="img" type="file" value="分享图片"/>
+                                    <span id="span1"></span>
+                                </div>
+
+                                <div class="span12 field-box">
+                                    <label>Share_img_big:</label>
+                                    <input  class="span7" name="img_big" type="file" value="分享图片"/>
+                                    <span id="span1"></span>
+                                </div>
+                              
+                              
+                               
+
+
+                                <div class="span12 field-box textarea">
+                                    <label>Intro:</label>
+                                    <textarea name="intro"class="span9"></textarea>
+                                    <span class="charactersleft">90 characters remaining. Field limited to 100 characters</span>
+                                </div>
+                                <div class="span11 field-box actions">
+                                    <input type="submit" class="btn-glow primary" value="Create user" />
+                                    <span>OR</span>
+                                    <input type="reset" value="Cancel" class="reset" />
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <!-- side right column -->
+                    <div class="span3 form-sidebar pull-right">
+                        <div class="btn-group toggle-inputs hidden-tablet">
+                            <button class="glow left active" data-input="inline">INLINE INPUTS</button>
+                            <button class="glow right" data-input="normal">NORMAL INPUTS</button>
+                        </div>
+                        <div class="alert alert-info hidden-tablet">
+                            <i class="icon-lightbulb pull-left"></i>
+                            Click above to see difference between inline and normal inputs on a form
+                        </div>                        
+                         
+                         <p>Choose one of the following file types:</p>
+                        <ul>
+                            <li><a href="{:U('Share/index')}">Share_list</a></li>
+                            <li><a href="{:U('Share/add')}">Share_add</a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end main container -->
+		
+       <script type="text/javascript">
+          //模板自带js
+          $(function () {
+
+            // toggle form between inline and normal inputs
+            var $buttons = $(".toggle-inputs button");
+            var $form = $("form.new_user_form");
+
+            $buttons.click(function () {
+                var mode = $(this).data("input");
+                $buttons.removeClass("active");
+                $(this).addClass("active");
+
+                if (mode === "inline") {
+                    $form.addClass("inline-input");
+                } else {
+                    $form.removeClass("inline-input");
+                }
+            });
+        });
+    
+
+
+
+      
+	</script>
+
+
+
+
+
+<include file="Public/footer"/>
+
+

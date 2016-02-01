@@ -1,0 +1,42 @@
+                <div class="myclub-silder fl">
+                    <div class="user-info-me">
+                        <a href=""><img id="img" style="width:60px;height:60px;" class="img-circle fl" src="__ROOT__/Uploads/{$_SESSION['home']['img']}"></a>
+                        <span><a class="myname" href=""><h4>{$_SESSION['home']['name']}</h4></a></span>
+                        <span style="width:100px;" id="myjob"><small>{$myjob}</small></span>
+                    </div>
+                    <div class="use-sign">
+                        {$_SESSION['home']['sign']}
+                    </div>
+                    <script>
+                        $a = '{$Think.session.home.sign}'; 
+                        if($a==''){ 
+                            $('.use-sign').html('此人什么都没留下');
+                        }
+                    </script>
+                    <div class="clear"></div>
+                    <ul>
+                        <li><a href="{:U('index')}">我的问答</a></li>
+                        <li><a href="{:U('myopus')}">我的作品</a></li>
+                        <li><a href="{:U('myarticle')}">我的文章</a></li>
+                        <li><a href="{:U('Space/index')}">我的设置</a></li>
+                        <li><a href="{:U('Percenter/perset')}">我的课程</a></li>
+                    
+                    </ul>
+                   
+                </div>
+
+                 <!--问答列-->
+                <div style="display:inline;" class="myclub-main fr">
+                    <div id="nav1" class="wd-nav">
+                        <a class="wd-me wd-on" href="{:U('index')}">我的问答</a>
+                        <a class="wd-me" href="{:U('myanswer')}">我的回复</a>
+                        <a class="wd-me" href="{:U('mywdcare')}">我的关注</a>
+                        <a class="wd-new fr" href="{:U('Interlocution/question')}">发现新问题</a>
+                    </div>
+                    <script>
+                        $a={$ppd};
+                        $("#nav1 a").eq($a).addClass('wd-on').siblings().removeClass('wd-on');    
+                    </script>
+                
+
+               

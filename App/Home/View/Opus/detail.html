@@ -1,0 +1,153 @@
+<include file="Public/headerold" />
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+        <title>Detail</title>
+        <load href="__PUBLIC__/js/jquery-1.9.1.js" />
+        <load href="__PUBLIC__/js/bootstrap.min.js" />
+        <load href="__PUBLIC__/css/bootstrap.min.css" />
+        <load href="__PUBLIC__/css/op-detail.css" />
+        <style type="text/css">
+            #footer{margin-top:100px;}
+            .own-text{border:1px solid black;}
+        </style>
+    </head>
+    <body>
+        <include file="Public/allheader-nav" />  
+        <div class="main">
+            <div class="ww">
+              
+            <div class="opus-header">
+                <h3 class="fl">{$list.title}</h3>
+                <div class="my-opus fr">
+                    <a style="color:red;" class="opusme" href="">我的作品</a>
+                    <a style="color:white;" class="opuscr" href="{:U('create')}"><i class="glyphicon glyphicon-plus" ></i> 创建作品</a>
+                </div>    
+                <script>
+                     $a = '{$Think.session.home.id}';
+                  
+                    if($a==''){$('.my-opus').css('display','none');}else{$('.my-opus').css('display','inline');}
+                </script>
+            </div>
+            <div class="clear"></div>
+            <div class="opus-main">
+                <div class="opus-l fl">
+                    <p>{$list.content}</p>
+                    <div class="tags">  
+                        <foreach name="list['tag']" item="val1">
+                        <a class="wdtag-a " href="{:U('index','cid='.$val1['id'])}">{$val1.name}</a>
+                        </foreach>
+                    </div>
+                </div>
+
+                <div class="opus-r fl">
+                    <a class="op-user" href="作者"><img  class="img-circle img" src="__ROOT__/Uploads/{$list.user_pic}"><span>{$list.user_name}</span><span>作品{$list.opus_count}</span></a>
+                    <a class="op-fav" id="careit"  href="javascript:void(0)"><i class="glyphicon glyphicon-star-empty"></i><b>收藏</b></a>
+                    <!--
+                    <a class="op-zan"  href="javascript:void(0)"><i class="glyphicon glyphicon-thumbs-up"></i>点赞</a>
+                    <a class="op-share" href="javascript:void(0)">分享</a>
+                    -->
+                </div>
+                 <script>
+                    if({$tlist}==1){
+                        $('#careit').children().first().removeClass("glyphicon glyphicon-star-empty").addClass("glyphicon glyphicon-star");
+                            $('#careit b').html('已收藏');
+                            $('#careit').css('color','red');
+                    }else{
+                         $('#careit').children().first().removeClass("glyphicon glyphicon-star").addClass("glyphicon glyphicon-star-empty");
+                            $('#careit b').html('收藏');
+                            $('#careit').css('color','black');
+                    };
+                    $('#careit').click(function(){
+                        if($('#careit b').html().length==2){
+                            $('#careit').children().first().removeClass("glyphicon glyphicon-star-empty").addClass("glyphicon glyphicon-star");
+                            $('#careit b').html('已收藏');
+                            $('#careit').css('color','red');
+                            $.get("{:U(docare)}", { care_id: 1, opus_id:"{$list['id']}"} );
+                        }else{
+                            $('#careit').children().first().removeClass("glyphicon glyphicon-star").addClass("glyphicon glyphicon-star-empty");
+                            $('#careit b').html('收藏');
+                            $('#careit').css('color','black');
+                            $.get("{:U(docare)}", { care_id: 0, opus_id:"{$list['id']}"} );
+                        }
+                        
+                    });
+                </script>
+
+
+
+            </div>
+            <div class="clear"></div>
+
+            <div class="opus-apfile">
+                <div class="opus-point">
+                    <a class="active" href="javascript:void(0)">文件下载</a> 
+                    <a href="javascript:void(0)">评论</a>
+                </div>
+                <div>
+                    <div  class="opus-download">
+                        <span class="fl"><i class="glyphicon glyphicon-file"></i>{$list.tname}</span>
+                        <a class="fr" href="__ROOT__/Uploads/{$list.opus}"><i class="glyphicon glyphicon-download-alt" ></i>下载源码</a>
+                    </div>
+                
+
+
+
+                    <div style="display:none;" class="opus-comment">
+
+                        <div class="cmt-content">   
+                            <foreach name="anslist" item="val" >
+                            <div class="cmt-prect">
+                                <div class="pre-author">
+                                    <a href=""><img style="width:40px;height:40px" id="id" class="img-circle img" src="__ROOT__/Uploads/{$val.user_pic}">
+                                        <p>{$val.user_name}</p>
+                                    </a>   
+                                </div>
+
+                                <div class="pre-content">
+                                    <p>{$val.answ}</p>
+                                    <div class="cmt-info">
+                                        <span>{$val.time}</span>
+                                        <!-- <a class="fr" href="javascript:void(0)"><i class="glyphicon glyphicon-thumbs-up"></i>点赞</a>-->
+                                    </div>
+                                </div>
+                            </div>
+                            </foreach>
+                        </div>
+                        
+                        <div class="clear"></div>
+                        <div class="reply">
+                            <div class="own-author fl">
+                                <a href=""><img id="id" style="width:40px;" class="img-circle myimg" src="__ROOT__/Uploads/{$_SESSION['home']['img']}"></a>   
+                            </div>
+                            <script>
+                                $a = '{$Think.session.home.id}'; 
+                                if($a==''){ $(".myimg").attr({src:"__ROOT__/Public/img/avatar_default.png"});}
+                            </script>
+                            <div class="own-cmt fl">
+                                <form action="{:U(dodetail)}" method="post">
+                                    <input  type="hidden" name="opus_id" value="{$list.id}" />
+                                    <textarea class="own-text" name="content" ></textarea>                               
+                                    <p><input class="submit fr" type="submit"  value="提交" /></p>
+                                </form>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+            <script>
+                $('.opus-point').children().click(function(){
+                   
+                     $(this).addClass('active').siblings().removeClass('active').parent().next().children().eq($(this).index()).show().siblings().hide();     
+                }); 
+            </script>
+
+            </div>
+        </div>
+
+
+   <div style="height:200px;" class="clear"></div>
+<include file="Public/footer" />
+    </body>
+</html>

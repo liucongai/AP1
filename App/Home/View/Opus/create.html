@@ -1,0 +1,193 @@
+<include file="Public/headerold" />
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<load href="__PUBLIC__/js/jquery-1.9.1.js" />
+    <load href="__PUBLIC__/js/bootstrap.min.js" />
+    <load href="__PUBLIC__/css/bootstrap.min.css" />
+    <load href="__PUBLIC__/css/opus-create.css" />   
+     <style type="text/css">
+            #footer{margin-top:40px;}
+        </style>
+    
+</head>
+<body>
+     <include file="Public/allheader-nav" />
+	<div class="main">
+		<div class="ww">
+		<div class="opus-silder"></div>
+		
+		<div class="opus-main">
+			<h4 class="header">创建作品</h4>
+			<form action="{:U('docreate')}" method="post" enctype="multipart/form-data">
+                
+                <h4 class="title"><b>*</b>作品名称</h4>
+                <div class="form"><input type="text" id="title" name="title"  class="form-control title" placeholder="请输入有效的作品名称，40字以内。">
+                    <span id="errortip"></span>
+                </div>
+                <script>
+                    var error1 = function(){
+                    
+                        if($('#title').val().length <= 4){
+                            if($('#errortip').children().length>0){
+                                $('#errortip').empty();
+                            }
+                            $('#errortip').append('<small><i class="glyphicon glyphicon-info-sign"></i>标题不能少于5个字符！</small>');
+                            
+                        };
+                        if($('#title').val().length >= 5 ){
+                           
+                           $('#errortip').empty(); 
+                        }; 
+                    }
+                    $('#title').bind('blur',error1);   
+                </script>
+
+				<h4 class="title"><b>*</b>作品描述</h4>
+				<div class="form"><textarea  class="form-control title" name="content" id="" placeholder="请输入作品描述，300字以内。" cols="80" rows="10" ></textarea></div>
+				
+                <div class="clear"></div>
+                <div class="clear"></div>
+				<h4 class="title"><b>*</b>作品语言类型</h4>
+
+				<div id="tags" class="opus-tags clearfix">
+                    <span>标签:</span>
+                    <div id="tagcontent" class="tags-content">
+                        <span>您最多可以选择3个标签哟！</span>
+                    </div>
+
+                    <div id="js-tags"  class="alltags clearfix" >
+					    <foreach name="tlist" item="tval">
+                        <div><a class="per-tag " name="{$tval[id]}" href="javascript:;">{$tval.name}</a></div>
+					    </foreach>
+                    </div>
+                    <script>
+                    //添加标签
+                    var addit = function () {  
+                        if($('.onactive').length == 2){
+                            
+                            $(this).siblings().unbind("click",addit);
+                        }
+
+                        $(this).clone(true).appendTo('#tagcontent').children().addClass('onactive1').append('<i class="glyphicon glyphicon-remove"></i>').parent().unbind("click", addit);
+                       
+                        $value = $(this).children().attr("name");
+                        
+                        $(this).unbind("click", addit); 
+                        $('#tagcontent span').css("display","none");
+                        $(this).children().addClass('onactive');
+                        
+                    };
+                    
+                    //删除标签
+                    var delit = function () {
+                        
+                        if($('.onactive').length == 3 ){      
+                            $(this).parent().siblings().bind("click",addit);
+                            $('#js-tags').find(".onactive").parent().unbind("click",addit);
+                        }
+                        if($('.onactive').length == 1 ){   
+                            $('#tagcontent span').css("display","inline");
+                        }
+
+
+                        $(this).removeClass('onactive');
+                        $(this).parent().bind("click", addit); 
+                        $name1=$(this).attr("name");
+                        $('#tagcontent').find('a[name ='+ $name1 +' ]').parent().remove();
+                        
+                        
+                    };
+
+                    var delit2 = function () {
+                         if($('.onactive').length == 3 ){      
+                            $('#js-tags').children().bind("click",addit);
+                            $('#js-tags').find(".onactive").parent().unbind("click",addit);
+                        }
+
+                        if($('.onactive').length == 1 ){   
+                            $('#tagcontent span').css("display","inline");
+                        }
+
+                        $(this).parent().remove(); 
+                        $name1=$(this).attr("name");
+                        $('#js-tags').find('a[name ='+ $name1 +' ]').removeClass('onactive').parent().bind("click", addit); 
+                        
+                       
+                    };
+                     
+                     //当点击时添加标签  
+                     $("#js-tags").children().bind("click", addit); 
+                     $("#js-tags").children().delegate(".onactive","click",delit);
+                     $("#tagcontent").delegate(".onactive1","click",delit2);
+                             
+                </script>
+            </div>
+
+            <div class="clear"></div>
+                <h4 class=""><b>*</b>上传源码</h4>
+               <div class="clear"></div>
+                <input type="text" name="tname"  class="form-control title" placeholder="源码包名">
+                <div class="clear"></div>
+                <div class="face-upload">
+                    <div class="coverit" />
+                        <div class="word">上传源码</div>
+                        
+                        <input id="pic" class="uppic" type="file" name="file" accept="" />
+                    </div>
+                    <span  class="updes">请打包后再上传(支持rar/zip格式)</span>
+                </div> 
+                
+                </div>
+            <div class="clear"></div>
+            <script>
+                $('#pic').change(function(){
+                    $('.updes').empty().append('<i class="glyphicon glyphicon-ok-circle"></i>');
+                });
+            </script>
+            <div class="qs-yzm  fl">
+                <input name="yzm" class="yzm" type="text" placeholder="请输入验证码" maxlength="4">
+                <img id="yzmcode" src="{:U('yzm')}" alt="验证码" title="点击刷新" onclick="this.src=this.src+'?i='+Math.random()" >   
+            </div>
+            <div id="yy" class="yy fl" >看不清<br/>换一个</div>
+            <script>
+                $('.yy').click(function(){
+                    
+                    $('#yzmcode').attr("src",function(){ return this.src+'?i='+Math.random() });
+                    
+                });
+            </script>
+            <div class="clear"></div>
+            <div id="qs-sub" class="opus-submit">
+                  
+                <input class="submit" id="sub"  type="submit"  value="创建作品" />
+                    
+            </div>
+            <script>
+                var tags=function(){
+                    var tag=new Array();
+                    $("#js-tags").children().each(function(){
+                         if($(this).children().hasClass("onactive"))
+                        tag.push($(this).children().attr("name"));
+                    });
+                    $("#js-tags").before('<input  type="hidden" name="alltag" value="'+tag+'" />'); 
+                };   
+                $("#sub").bind("click",tags);            
+            </script>
+
+
+		
+
+</form>	
+        </div>
+        
+    </div>
+    	
+
+</div>
+<div class="clear"></div>
+    <include file="Public/footer" />
+</body>
+</html>

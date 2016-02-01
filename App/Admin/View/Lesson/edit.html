@@ -1,0 +1,250 @@
+    
+<include file="Public/header"/>
+<include file="Public/nav"/>
+    <load href="__PUBLIC__/js/jquery.cookie.js" />
+<!-- main container -->
+    <div class="content">
+        
+       
+        
+        <div class="container-fluid">
+            <div id="pad-wrapper" class="new-user">
+                <div class="row-fluid header">
+                    <h3>Edit a new course</h3>
+                </div>
+
+                <div class="row-fluid form-wrapper">
+                    <!-- left column -->
+                    <div class="span9 with-sidebar">
+                        <div class="container">
+                            <form class="new_user_form inline-input" action="{:U('doedit')}" method="post">
+                                <div class="span12 field-box">
+                                    <input class="span9" name="id" value="{$list.id}" type="hidden" />
+                                    <label>Name:</label>
+                                    <input class="span9" name="name" value="{$list.lesson}" type="text" />
+                                </div>
+                                <div class="span12 field-box">
+                                    <label>Describe:</label>
+                                    <textarea id="txarea" name="desc" class="span9" placeholder="{$list.lesson_desc}"></textarea>
+
+                                    <span class="charactersleft">90 characters remaining. Field limited to 100 characters</span>
+                                </div>
+
+                                <div class="span12 field-box">
+                                    <label>Category_name:</label>
+                                    <div class="ui-select span5">
+                                        <select class="mysel"  onchange="change(this)">
+                                            <option value="0" />--choose--
+
+                                            <foreach name="fangx" item="val">
+                                                <option value="{$val.id}">{$val.name}</option>
+                                            </foreach>
+
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="span12 field-box">
+                                    <label></label>
+                                    <div class="ui-select span5">
+                                        <select class="mysell"  name="cate_id" id="fenlei">
+                                            <option id="cct" value="0">--choose--</option>
+                                            <foreach name="category" item="catt">
+                                                <option class="opadd" value="{$catt.id}">{$catt.name}</option>
+                                            </foreach>
+                                        </select>
+                                    </div>
+                                </div>
+
+                            <div class="span12 field-box" >
+                                <label> Chapter: </label>
+                                <div class="ui-select span5" >
+                                    <select name="ed_cid"  onchange="zchange(this)" id="add_zhang">
+                                        <option  value="0">--choose--</option>
+                                        <foreach name="info_z" item="catt">
+                                            <option value="{$catt.id}">{$catt.zh_name}</option>
+                                        </foreach>
+                                    </select>
+                                </div>
+
+                                <input class="span5" name="ed_cna" value="" type="text" />
+                            </div>
+
+                            <div class="span12 field-box">
+                                <label>Section:</label>
+                                <div class="ui-select span5" id="add_xiao">
+                                    <select name="ed_sid" onchange="section(this)" id="editx">
+                                        <option id="ccx" value="0">--choose--</option>
+                                    </select>
+                                </div>
+
+                                <input class="span5" name="ed_sca" value="" type="text" />
+                            </div>
+
+                                <div class="span11 field-box actions" id="fbut">
+                                    <input type="submit" class="btn-glow primary" value="Create user" />
+                                    <span>OR</span>
+                                    <input type="reset" value="Cancel" class="reset" />
+                                </div>
+                            </form>
+
+
+                            <div class="span12 field-box">
+                                <div class="add_zhang" style="display: none">
+                                    <form action="{:U('zhangadd')}" enctype="multipart/form-data" method="post">
+                                        <input type="hidden" name="lesson_id" value="{$lesson_id}" class="get_lesson">
+                                        <label>New Chapter:</label>
+                                        <input type="text" class="span9" name="zh_name" placeholder="" />
+                                        <div style="width: 50px;height: 20px">　</div>
+                                        <label>Chapter Describe:</label>
+                                        <textarea class="span9" type="text" name="zh_desc" placeholder="" ></textarea>
+                                        <label>Section's Name</label>
+                                        <input type="text" class="span9" name="xi_name" placeholder="小节名" />
+                                        <div style="width: 50px;height: 20px">　</div>
+                                        <label>Section's Video:</label>
+                                        <input class="span9" type="file" name="video"  />
+                                        <div class="span11 field-box actions">
+                                            <input type="submit" class="btn-glow primary" value="Add Chapter" />
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="span12 field-box">
+                                <div class="add_xiao" style="display: none" >
+                                    <form action="{:U('xiaoadd')}" enctype="multipart/form-data" method="post">
+                                        <input type="hidden" name="zh_id" value="" class="get_zhang">
+                                        <label>Section's Name</label>
+                                        <input class="span9" type="text" name="xi_name" placeholder="小节名" />
+                                        <div style="width: 50px;height: 20px">　</div>
+                                        <label>Section's Video:</label>
+                                        <input class="span9" type="file" name="video" value="" />
+                                        <div class="span11 field-box actions">
+                                            <input type="submit" class="btn-glow primary" value="Add Section" />
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                    <!-- side right column -->
+                    <div class="span3 form-sidebar pull-right">
+                        <div class="btn-group toggle-inputs hidden-tablet">
+                            <button class="glow left active" data-input="inline">INLINE INPUTS</button>
+                            <button class="glow right" data-input="normal">NORMAL INPUTS</button>
+                        </div>
+                        <div class="alert alert-info hidden-tablet">
+                            <i class="icon-lightbulb pull-left"></i>
+                            Click above to see difference between inline and normal inputs on a form
+                        </div>                        
+                        
+                        <p>Choose one of the following file types:</p>
+                        <ul>
+                            <li><a href="{:U('index')}">Lesson_list</a></li>
+                            <li><a href="{:U('add')}">Lesson_add</a></li>
+                        </ul> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end main container -->
+     <script type="text/javascript">
+
+         $('#txarea').text($('#txarea').attr('placeholder'));
+
+         // 默认选中
+         var cat = $.cookie("ad_fx");
+         var cate = $.cookie("ad_ca");
+
+         //$(".mysel").children().eq(1).attr("selected",true);
+         $(".mysel").find('option[value=' + cat + ']').attr("selected",true);
+          //  change($(".mysel").find('option[value=' + cat + ']'));
+         $(".mysell").find('option[value=' + cate + ']').attr("selected",true);
+
+
+         $('#add_zhang').mousedown(function(e){
+             if(e.which == 3) {
+                 $('#fbut').css('display','none');
+                 $(".add_zhang").fadeIn("slow","linear");
+                 $(".add_xiao").hide();
+
+                 $(this).bind("contextmenu",function(e){
+                     return false;
+                 });
+             }
+         });
+
+
+         $('#add_xiao').mousedown(function(e){
+             if(e.which == 3) {
+                 $('.get_zhang').attr('value',$('#add_zhang').val());
+                 $(".add_xiao").fadeIn("slow","linear");
+                 $(".add_zhang").hide();
+
+                 $(this).bind("contextmenu",function(e){
+                     return false;
+                 });
+             }
+         });
+
+
+         function change(ob){
+             // alert(1);
+             $('#fenlei').children().remove('.opadd');
+             $.get('{:U("ajaxName")}',{id:ob.value},function(result){
+                 console.dir($(result));
+                 $.each(result,function(i,val){
+                     $('#cct').after('<option class="opadd"  value="' + val['id'] + '">'+ val['name'] +'</option>');
+                 });
+
+             });
+         }
+
+         function section(ob){
+
+             $(ob).parent().next().val($('#editx option:selected').text());
+
+         }
+
+         function zchange(ob){
+
+             $('#ccx ~ option').remove('.opa');
+
+             $(ob).parent().next().val($('#add_zhang option:selected').text());
+
+             $.get('{:U("xi_ajaxName")}',{id:ob.value},function(result){
+                 console.dir($(result));
+                 $.each(result,function(i,val){
+                     $('#ccx').after('<option class="opa"  value="' + val['id'] + '">'+ val['xi_name'] +'</option>');
+                 });
+
+             });
+         }
+
+          //模板自带js
+          $(function () {
+
+            // toggle form between inline and normal inputs
+            var $buttons = $(".toggle-inputs button");
+            var $form = $("form.new_user_form");
+
+            $buttons.click(function () {
+                var mode = $(this).data("input");
+                $buttons.removeClass("active");
+                $(this).addClass("active");
+
+                if (mode === "inline") {
+                    $form.addClass("inline-input");
+                } else {
+                    $form.removeClass("inline-input");
+                }
+            });
+        });
+    </script>
+<include file="Public/footer"/>
+
+

@@ -1,0 +1,90 @@
+<include file="Public/header"/>
+<include file="Public/plan_info"/>
+<load href="__PUBLIC__/css/saved_resource_pd2.css" />
+
+
+<div class="plan-step-wrap js-raise-panel" id="js-raise-panel">
+        <ul class="plan-step salary-raise-step clearfix">
+
+            <foreach name="detail" item="val">
+
+            <li class="step-item clearfix step-first">
+
+            <i class="line"></i>
+            <i class="dot"></i>
+            <div class="step-content my_but">
+
+                <h4> {$val.name}</h4>
+                <i hidden>{$val.id}</i>
+                <p class="autowrap">{$val.desc}</p>
+            </div>
+            <div class="step-medias-wrap" style="">
+                <div class="step-medias course-list">
+                    <ul class="clearfix">
+
+
+                    </ul>
+                </div>
+            </div>
+        </li>
+</foreach>
+                                            </ul>
+
+    </div>
+            
+            <!-- 学习报告 -->
+            
+                        <!-- 学习报告 E-->
+        </div>
+    </div>
+</div>
+<div class="anchor-pop">
+    <div class="t"></div>
+    <div class="m">
+        <div class="anchor-pop-main"></div>
+    </div>
+    <div class="b"></div>
+</div>
+<script type="text/javascript">
+
+
+    $('.my_but').find('h4').click(function(e){
+
+        $('.step-medias-wrap').fadeOut('fast');
+        $(this).parent().next().find('ul').children().remove('.course-one');
+        $.get('{:U("pl_ajaxName")}',{id: $(this).next().text()},function(result){
+            console.dir($(result));
+
+            var url = '__MODULE__/View/index';
+            var root = '__ROOT__';
+            $.each(result,function(i,val){
+
+                var tt = val['id'];
+                var im = val['fimg'];
+
+                $('.my_but').next().find('ul').append('<li class="course-one">' +
+                        '<a href="'+ url + '?view=' + tt + '"><div class="course-list-img">' +
+                        '<img width="240" height="135" alt="前端开发工具技巧介绍—DW篇" src="'+ root +'/Uploads/'+ im +'"></div><h5>' +
+                        '<span>'+ val['lesson'] +'</span></h5><div class="tips">' +
+                        '<p class="text-ellipsis">'+ val['lesson_desc'] +'</p>' +
+                        '<span class="l ">更新完毕</span><span class="l ml20">45901人学习</span></div>' +
+                        '<span class="time-label">40分钟 |' + val['nandu'] + '</span><b class="follow-label">跟我学</b></a></li>');
+
+            });
+
+        });
+        $(this).parent().next().fadeIn('fast');
+
+    })
+
+
+
+
+
+
+</script>
+
+
+</div>
+
+<include file="Public/footer"/>

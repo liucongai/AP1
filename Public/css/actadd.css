@@ -1,0 +1,100 @@
+@import url(./wrt.css);
+
+/**********/
+/*****qs-tags**********/
+.qs-tags{
+    width:840px;
+    height:200px;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+
+.qs-tags{
+    color:#787D82;
+    font:18px '微软雅黑';
+    line-height:30px;
+}
+
+
+.qs-tags span{
+    line-height:40px;
+}
+
+
+
+.tags-content{
+    float:right;
+    display:inline-block;
+    width:796px;
+    height:40px;
+    padding-left:5px;
+    border:1px solid #98A1A6;
+    border-radius:5px;
+    
+}
+.tags-content span{
+    font:14px '微软雅黑';
+    line-height:40px;
+    padding-left:5px;
+}
+
+.tags-content a{
+    text-decoration:none;   
+}
+
+.tags-content div{
+    display:inline-block;
+    margin-top:5px;
+    margin-right:5px;
+}
+
+.tags-content i{
+    padding-left:4px;
+}
+/***标签****/
+
+.alltags{
+    margin-top:20px;
+}
+
+
+.alltags{
+    width:840px;
+    height:300px;
+}
+
+.alltags div{
+    display:inline-block;
+    margin-top:5px;
+    margin-right:5px;
+}
+
+.alltags a{  
+    text-decoration:none;   
+}
+
+.per-tag{ 
+    color:#787D82;
+    width:30px;
+    background:#EDF1F2;
+    padding:3px 10px 3px 10px;
+    margin-right:5px;
+    margin-top:5px;
+    border-radius:2px;
+}
+
+.per-tag:hover {
+    color:black;
+    background:#CBCBCB;
+}
+
+.onactive {
+   color:black;
+    width:30px;
+    background:#CBCBCB;
+    padding:3px 10px 3px 10px;
+    margin-right:5px;
+    margin-top:5px;
+    border-radius:2px;
+}
+

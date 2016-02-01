@@ -1,0 +1,106 @@
+<include file="Public/header"/>
+<include file="Public/nav"/>
+    
+        <!-- main container -->
+    <div class="content">
+         <div class="container-fluid">
+            <div id="pad-wrapper" class="users-list">
+                   
+                    <ul class="breadcrumb" style="margin:-40px 0 50px 0">
+                       <li><a href="{:U('Lecturer/index')}">Suggest</a> <span class="divider">/</span></li>
+                       <li class="active">Lecturer_list</li>
+                    </ul>
+                    
+                    
+                    
+                    <div class="pull-right">
+                       
+                     <form class="form-search fr" action="" method="get">
+                     <div class="input-append">
+                     <input type="text" name="user_id" class="span2 search-query" placeholder="User_id">
+                     <button type="submit" class="btn"><i class="icon-search"></i>搜索</button>
+                      </div>
+                      </form>
+
+                    </div>
+                <!-- Users table -->
+                <div class="row-fluid table">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th class="span3 sortable">
+                                    ID
+                                </th>
+                                <th class="span3 sortable">
+                                    <span class="line"></span>真实姓名
+                                </th>
+                                <th class="span4 sortable">
+                                    <span class="line"></span>用户简介
+                                </th>
+                                <th class="span3 sortable">
+                                    <span class="line"></span>联系手机号
+                                </th>
+                                <th class="span3 sortable">
+                                    <span class="line"></span>用户ID
+                                </th>
+                                <th class="span3 sortable">
+                                    <span class="line"></span>试讲链接
+                                </th> 
+                                <th class="span3 sortable">
+                                    <span class="line"></span>考核
+                                </th> 
+                                <th class="span3">
+                                    <span class="line"></span>Action
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- row -->
+                        <notempty name="lecturer">
+                        <foreach name="lecturer" item="val">
+                        <tr>
+                            <td>{$val.id}</td>
+                            <td>{$val.rel_name}</td>
+                            <td>{$val.user_intro}</td>
+                            <td>{$val.cont_intro}</td>
+                            <td>{$val.user_id}</td>
+                            <td><a href="http://{$val.video}">{$val.video}</a></td>
+                            <td>
+                                <a href="{:U('ceshi',array('exam'=>$val['exam'],'user_id'=>$val['user_id'],'id'=>$val['id']))}">{$val.exam}</a>
+                            </td>
+                            <td>
+                                <a href="{:U('del?id='.$val[id])}">删除考核</a>&nbsp;&nbsp;
+                            </td>
+
+                        </tr>
+                        </foreach>
+                      
+                            <else />
+                                <tr>
+                                <td colspan="8">查无数据</td>
+                                </tr>
+                             </notempty>
+                        
+                         </tbody>
+                        
+                    </table>
+                    
+                </div>
+                <div class="pagination">
+                    <ul>
+                        {$pageButton}
+                    </ul>
+                </div>
+                <script>
+                $('.pagination ul a').unwrap('div').wrap('<li></li>');
+                $('.pagination ul span').wrap('<li class="active"></li>');
+                </script>
+           </div>
+        </div>
+    </div>
+    <!-- end main container -->
+
+
+<include file="Public/footer"/>
+
+

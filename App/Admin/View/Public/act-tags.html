@@ -1,0 +1,79 @@
+ <div id="tags" class="qs-tags clearfix">
+                <span>标签:</span>
+                <div id="tagcontent" class="tags-content">
+                    <span style="display: inline;" >您最多可以选择3个标签哟！</span>
+                </div>
+
+                <div id="js-tags" class="alltags clearfix" >
+					<foreach name="tlist" item="tval">
+                    <div ><a class="per-tag"  name="{$tval[id]}" href="javascript:;">{$tval.name}</a></div>
+					</foreach>
+                </div>
+                <script>
+                    //添加标签
+                    var addit = function () {  
+                        if($('.onactive').length == 2){
+                            
+                            $(this).siblings().unbind("click",addit);
+                        }
+
+                        $(this).clone(true).appendTo('#tagcontent').children().addClass('onactive1').append('<i class="glyphicon glyphicon-remove"></i>').parent().unbind("click", addit);
+                       
+                        $value = $(this).children().attr("name");
+                        
+                        $(this).unbind("click", addit); 
+                        $('#tagcontent span').css("display","none");
+                        $(this).children().addClass('onactive');
+                        
+                    };
+                    
+                    //删除标签
+                    var delit = function () {
+                        
+                        if($('.onactive').length == 3 ){      
+                            $(this).parent().siblings().bind("click",addit);
+                            $('#js-tags').find(".onactive").parent().unbind("click",addit);
+                        }
+                        if($('.onactive').length == 1 ){   
+                            $('#tagcontent span').css("display","inline");
+                        }
+
+
+                        $(this).removeClass('onactive');
+                        $(this).parent().bind("click", addit); 
+                        $name1=$(this).attr("name");
+                        $('#tagcontent').find('a[name ='+ $name1 +' ]').parent().remove();
+                        
+                        
+                    };
+
+                    var delit2 = function () {
+                         if($('.onactive').length == 3 ){      
+                            $('#js-tags').children().bind("click",addit);
+                            $('#js-tags').find(".onactive").parent().unbind("click",addit);
+                        }
+
+                        if($('.onactive').length == 1 ){   
+                            $('#tagcontent span').css("display","inline");
+                        }
+
+                        $(this).parent().remove(); 
+                        $name1=$(this).attr("name");
+                        $('#js-tags').find('a[name ='+ $name1 +' ]').removeClass('onactive').parent().bind("click", addit); 
+                        
+                       
+                    };
+                     
+                     //当点击时添加标签  
+                     $("#js-tags").children().bind("click", addit); 
+                     $("#js-tags").children().delegate(".onactive","click",delit);
+                     $("#tagcontent").delegate(".onactive1","click",delit2);
+                     
+                    
+                     
+                                        
+                   
+                </script>
+            </div>
+
+             <div class="clear"></div>

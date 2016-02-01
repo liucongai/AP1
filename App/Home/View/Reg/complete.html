@@ -1,0 +1,99 @@
+<include file="Public/headerold"/>
+ <!--我的慕课和资料修改的样式-->
+
+<div id="main">
+
+
+<div class="wcontainer">
+    <div class="wwrap  wrap-boxes">
+        <div class="wheader-wrap">
+            <h1>完善基本资料</h1>
+        </div>
+        <div class="cprofile-wrap">
+            <div class="cprofile-inner clearfix">
+                <div style="margin-left:-80px" class="avator-wrap l">
+                    <div class="avator-img l">
+            <div><img src='__ROOT__/Uploads/{$img.name}'/></div>
+            <div>
+            <form action="{:U('complete')}" method="post" enctype="multipart/form-data">
+              <table width="200" style="margin-top:10px">
+              <tr>
+                 <td>
+                    <input  type="file" class="a-upload" title="上传头像" name="name"   />
+                 </td>
+              </tr>
+              <tr>
+                <td>
+
+                    <input type="submit" style="margin-left:-50x;width: 120px;height: 30px;line-height:30px;font-size: 14px;font-family: '微软雅黑';padding: 0;margin: 0;border: 1px solid #04d;background:#6098D5; " value="上传" /> 
+                </td>
+              </tr>
+
+              </table>  
+            </form>
+
+        </div>
+      </div>
+                </div>
+                <div class="cprofile-field-wrap">
+                    <form id="cprofile" action="{:U('complete')}" method="get">
+                        <div class="wlfg-wrap">
+                            <label class="label-name" for="nick">昵称</label>
+                            <div class="rlf-group">
+                                <input type="hidden" name="id" value="{$list.id}" />
+                                <input type="text" name="nick"value="{$list.nick}" id="nick" autocomplete="off" data-validate="nick" class="rlf-input rlf-input-nick" value="{list.nick}" placeholder="请输入昵称.">
+                                <p class="rlf-tip-wrap"></p>
+                            </div>
+                        </div>
+                        
+                        <div class="wlfg-wrap">
+                            <label class="label-name" for="job">职位</label>
+                            <div class="rlf-group">
+                                <select class="rlf-select" name="job" hidefocus="true" id="job">
+                                        <option value="">请选择职位</option>
+                                        <option value="1" {$list['job'] ==1?'selected':''}>页面重构设计
+                                        <option value="6" {$list['job'] ==6?'selected':''}>Web前端工程师
+                                        <option value="5" {$list['job'] ==5?'selected':''}>JS工程师
+                                        <option value="8" {$list['job'] ==8?'selected':''}>PHP开发工程师</option>
+                                        <option value="11" {$list['job'] ==11?'selected':''}>JAVA开发工程师</option>
+                                        <option value="7" {$list['job'] ==7?'selected':''}>移动开发工程师</option>
+                                        <option value="9" {$list['job'] ==9?'selected':''}>软件测试工程师</option>
+                                        <option value="10" {$list['job'] ==10?'selected':''}>Linux系统工程师</option>
+                                        <option value="2" {$list['job'] ==2?'selected':''}>交互设计师</option>
+                                        <option value="3" {$list['job'] ==3?'selected':''}>产品经理</option>
+                                        <option value="4" {$list['job'] ==4?'selected':''}>UI设计师</option>
+                                        <option value="12"{$list['job'] ==12?'selected':''}>学生</option>
+                                        <option value="13"{$list['job'] ==13?'selected':''}>其他</option>
+                                </select>
+                                <p class="rlf-tip-wrap"></p>
+                            </div>
+                        </div>
+                        <div class="wlfg-wrap">
+                            <label class="label-name">性别</label>
+                            <div class="rlf-group rlf-radio-group">
+                                <label><input type="radio" hidefocus="true" value="2" name="sex" {$list['sex'] ==2?'checked':''}>保密</label>
+                                <label><input type="radio" hidefocus="true" value="1" name="sex" {$list['sex'] ==1?'checked':''}>男</label>
+                                <label><input type="radio" hidefocus="true" value="0" name="sex" {$list['sex'] ==0?'checked':''}>女</label>
+                            </div>
+                            <p class="rlf-tip-wrap"></p>
+                        </div>
+                        <div class="wlfg-wrap">
+                            <div class="rlf-group">
+                                <input type="submit" style="width:180px" id="profile-submit" aria-role="button" class="rlf-btn-green btn-block profile-btn" value="保存" />
+                            </div>
+                        </div>
+                    </form>
+                    <div class="wlfg-wrap">
+                        <div class="rlf-group">
+                            <a href="{:U('Index/index')}"><button style="width:180px;margin-top:20px" aria-role="button" class="rlf-btn-green btn-block profile-btn" >开始学习</button></a> 
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+<include file="Public/footer"/>

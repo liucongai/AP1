@@ -1,0 +1,123 @@
+<include file="Public/header"/>
+
+<load href="__PUBLIC__/css/saved_resource_in.css" />
+
+<!--Luara样式文件-->
+<!--渐隐样式-->
+<link rel="stylesheet" href="__PUBLIC__/lun/css/luara.css"/>
+<!--Luara js文件-->
+<script src="__PUBLIC__/lun/js/jquery.luara.0.0.1.min.js"></script>
+
+
+
+<div class="example">
+    <ul>
+        <li><img src="__PUBLIC__/lun/images/ban11.jpg" alt="1"/></li>
+        <li><img src="__PUBLIC__/lun/images/ban22.jpg" alt="2"/></li>
+
+    </ul>
+    <ol>
+        <li></li>
+        <li></li>
+    </ol>
+</div>
+
+<script>
+    $(function(){
+        $(".example").luara({interval:4000,selected:"seleted"});
+
+    });
+</script>
+
+
+
+<div id="characters" class="characters idx-minwidth">
+    <div class="idx-width">
+        <div class="characters-wrap">
+            <span class="char-icon1 hide-text">专注IT学习</span>
+            <span class="char-icon2 hide-text">聚焦实战开发</span>
+            <span class="char-icon3 hide-text">课程完全免费</span>
+        </div>
+    </div>
+</div>
+<div id="intro1" class="intro intro1 bg-grey idx-minwidth">
+    <div class="intro1-wrap idx-width">
+        <div class="intro1-star"></div>
+        <div class="intro1-video-wrap">
+            <div class="intro1-video"></div>
+        </div>
+        <div class="intro1-text hide-text">精心制作的视频课程。老师都技术大牛实战派。课程内容接地气，实际工作用得着。</div>
+    </div>
+</div>
+<div id="intro2" class="intro intro2 bg-white idx-minwidth">
+    <div class="intro2-wrap idx-width">
+        <div class="intro2-text hide-text">实时交互的在线编程，无需配置任何编程环境，直接就能在线学习编程。省时省力省心。</div>
+        <div class="intro2-computer1"></div>
+        <div class="intro2-computer2"></div>
+    </div>
+</div>
+<div id="intro3" class="intro intro3 bg-grey idx-minwidth">
+    <div class="intro3-wrap idx-width">
+        <div class="intro3-calendar"></div>
+        <div class="intro3-smoke"></div>
+        <div class="intro3-rockets"></div>
+        <div class="intro3-text hide-text">循序渐近的学习计划，专治各种学习编程迷茫症。有目标有路径，一切尽在掌握中。</div>
+    </div>
+</div>
+<div id="intro4" class="intro intro4 bg-white idx-minwidth">
+    <div class="intro4-wrap idx-width">
+        <div class="intro4-text hide-text">互帮互助的问答社区，有问有答有分享。老师学员同交流，高手小白共进步。</div>
+        <div class="intro4-hand"></div>
+        <div class="intro4-icon"></div>
+    </div>
+</div>
+
+<div class="icourse">
+    <div class="incourse-wrap idx-width">
+        <h2 class="icourse-title hide-text">课程</h2>
+        <ul class="icourse-course clearfix">
+
+            <foreach name="list" item="val">
+
+                <li>
+                    <a href="{:U('View/index',array('view'=>$val['id']))}">
+                        <div class="icourse-img">
+                            <img style="width: 280px;height:160px" src="__ROOT__/Uploads/{$val.fimg}" alt="">
+
+                        </div>
+                        <div class="icourse-intro clearfix">
+                            <p>{$val.lesson}
+
+                            </p>
+                <span class="l icourse-new">
+                                 {$val.progress}
+                              </span>
+                <span class="r">
+                  {$val.per_num}人学习
+                </span>
+                        </div>
+                        <div class="icourse-tips clearfix">
+                            <h2>{$val.lesson}</h2>
+                            <span class="l icourse-new">1小时前更新</span>
+                            <span class="r">{$val.per_num}</span>
+                        </div>
+                    </a>
+                </li>
+            </foreach>
+        </ul>
+
+        <script>
+           $('.icourse-course li').find('i').each(function(){
+                $(this).parents('.icourse-intro').prev().find('img').after('<span class="icourse-learnt">你已参加本课程</span>');
+            });
+        </script>
+
+        <div class="icourse-footer">
+            <a href="{:U('Course/index')}">全部课程</a>
+        </div>
+    </div>
+</div>
+
+
+
+<include file="Public/footer"/>

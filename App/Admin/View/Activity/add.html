@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Document</title>
+    <load href="__PUBLIC__/js/jquery-1.9.1.js" />
+    <load href="__PUBLIC__/js/bootstrap.min.js" />
+    <load href="__PUBLIC__/css/bootstrap.min.css" />
+
+
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/ueditor.config.js"></script> 
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/ueditor.all.min.js"> </script>    
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/lang/zh-cn/zh-cn.js"></script>
+     <script type="text/javascript" charset="utf-8" src="__PUBLIC__/js/ueditor.js"></script>
+     <load href="__PUBLIC__/css/wrt.css" />
+    <load href="__PUBLIC__/css/actadd.css" />
+</head>
+<body>
+    
+    <div class="main">
+        <div class="ww">
+        
+
+		<div class="article-left">
+            <h4>发布活动</h4>
+			
+			<form action="{:U(doadd)}" method="post" enctype="multipart/form-data">
+                <include file="Public/act-title" />
+                <include file="Public/act-cover" />
+                
+               
+                    
+                    <div class="clear"></div>
+
+                <div class="art-content">
+                    <span class="allred">*</span>
+                    <span >内容:</span>
+                    <script id="container" class="content" name="content" type="text/plain" style="width:780px;height:300px;"></script>    
+                </div>
+                <div class="clear"></div>
+
+
+                <div class="clear"></div>
+            <include file="Public/act-tags" />
+            <div class="clear"></div>
+            <div class="clear"></div>
+                
+                <div class="add-time">
+                    <span>活动开始时间：</span><input  class="form-control title"  type="text" name="bgtime" placeholder="格式为 XXXX-XX-XX"  />
+                    <span>活动结束时间：</span><input  class="form-control title"  type="text" name="edtime" placeholder="格式为 XXXX-XX-XX" />
+                </div>
+                    
+
+
+            <div class="clear"></div>
+
+            <div id="qs-sub" class="qs-submit">
+                
+                <input class="submit" id="sub"  type="submit"  value="发布" />
+                    
+            </div>
+            <script>
+                var tags=function(){
+                    var tag=new Array();
+                    $("#js-tags").children().each(function(){
+                         if($(this).children().hasClass("onactive"))
+                        tag.push($(this).children().attr("name"));
+                    });
+                    $(this).before('<input  type="hidden" name="alltag" value="'+tag+'" />');
+                    
+                  
+                
+                }; 
+               
+                
+                $("#sub").bind("click",tags);           
+            </script>
+                
+				
+				
+				
+
+
+			</form>
+			
+		</div>
+        </div>
+	</div>
+</body>
+</html>

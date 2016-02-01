@@ -1,0 +1,151 @@
+<include file="Public/header"/>
+<load href="__PUBLIC__/css/saved_resource_se.css" />
+<load href="__PUBLIC__/css/mystyle.css" />
+
+
+<div id="main">
+
+    <div class="search-container">
+
+        <!--banner start-->
+        <div class="search-banner" >
+            <div class="search-box clearfix" data-search="search-page">
+                <div class="suggest-input-box l">
+                    <input class="suggest-input J-suggest-input" data-suggest-trigger="suggest-trigger" placeholder="请输入想搜索的内容..." type="text" autocomplete="off" value="{$words}">
+                    <s class="btn-text-clear" data-clear-btn="clear-btn" title="清空">清空</s>
+                </div>
+                <input type="button" class="btn-search tokyo-se" data-search-btn="search-btn" value="搜索">
+                <ul class="suggest-list" data-suggest-result="suggest-result">
+
+                </ul>
+            </div>
+        </div>
+
+        <!--banner end-->
+
+        <div class="search-main clearfix">
+            <!--search result start-->
+            <div class="search-result l">
+                <ul class="type-list J-type-list clearfix">
+                    <li class="type-item selected" data-type="课程">课程</li>
+                    <li class="type-item" data-type="问答">问答</li>
+                    <li class="type-item" data-type="文章">文章</li>
+                    <li class="type-item" data-type="作品">作品</li>
+                    <li class="type-item" data-type="Wiki">Wiki</li>
+                    <li class="move-light" style="left: 0px; width: 120px; overflow: hidden;"></li></ul>
+                <div class="result-list J-result-list">
+                    <div class="result-header clearfix">
+                        为您找到相关<span>课程{$count}</span>个
+                        <!--<span class="popular-sort J-popular-sort">最热排序</span>
+                        <span class="latest-sort J-latest-sort">最新排序</span>-->
+                    </div>
+                    <ul class="search-course">
+                        <foreach name="detail" item="val">
+                            <li class="course-item border-btm">
+                                <div class="course-item-content clearfix">
+                                    <div class="thumbnail">
+                                        <div class="thumbnail-inner">
+                                            <a href="{:U('View/index',array('view'=>$val['id']))}" target="_blank"><img alt="" src="__ROOT__/Uploads/{$val.fimg}"></a>
+                                        </div>
+                                    </div>
+                                    <div class="introduction">
+                                        <h2 class="title autowrap"><a href="{:U('View/index',array('view'=>$val['id']))}" target="_blank">{$val.lesson}</a></h2>
+                                        <div class="description autowrap">课程简介：{$val.lesson_desc}</div>
+                                        <div class="chapter autowrap">课程大纲： </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </foreach>
+
+
+                    </ul>
+
+                    <div class="page js-page">{$page}</div>
+
+                </div>
+            </div>
+            <!--search result end-->
+
+            <!--hot-search start-->
+            <dl class="hot-search r">
+                <dt>热门搜索</dt>
+                <dd class="tokyo_hot">
+                    <foreach name="tag" item="vo">
+                        <a href="{:U('index',array('words'=>$vo))}">
+                            {$vo}
+                        </a>
+                    </foreach>
+                </dd>
+            </dl>
+            <!--hot-search end-->
+
+        </div>
+    </div>
+
+</div>
+<script>
+    $(function(){
+
+
+        // 传值跳转
+        $('.tokyo-se').bind('click', function () {
+
+            var input = $('.suggest-input').val();
+
+            if (input) {
+                window.document.location.href = "__MODULE__/Search/index/words/" + input + "";
+            }
+        });
+
+        // 记忆框
+        $('.suggest-list').on('click', 'li', function () {
+
+
+            var input = $(this).text();
+
+            if (input) {
+                window.document.location.href = "__MODULE__/Search/index/words/" + input + "";
+            }
+
+            return false;
+
+        });
+
+
+        document.onclick = function(){
+
+            $('.search-box').removeClass('suggest-active');
+            $('.suggest-list').slideUp("fast");
+            $('.search-area').removeClass('suggest-active');
+            $('.search-area-result').slideUp("fast");
+
+        };
+
+        $(".suggest-input").click(function (e) {
+
+
+            $('.search-box').addClass('suggest-active');
+            //$('.suggest-list').css('display', 'block');
+            $(".suggest-list").slideDown("fast");
+            $('.suggest-list').children().remove('.rab');
+
+            $.get('{:U("Search/se_ajaxName")}', {'id': 1}, function (result) {
+
+                for (var i = 0; i < result.length; i++) {
+                    $('.suggest-list').append('<li class="rab" >' + result[i] + '</li>');
+
+                }
+
+            });
+
+            return false;
+
+        });
+
+
+
+    });
+
+</script>
+
+<include file="Public/footer"/>

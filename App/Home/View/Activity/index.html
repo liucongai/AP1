@@ -1,0 +1,125 @@
+<include file="Public/headerold" />
+<!DOCTYPE html>
+<html>
+    <head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>活动_慕课社区</title>
+    <load href="__PUBLIC__/js/jquery-1.9.1.js" />
+    <load href="__PUBLIC__/js/bootstrap.min.js" />
+    <load href="__PUBLIC__/css/bootstrap.min.css" />
+    <load href="__PUBLIC__/css/actcopy.css" />
+    <load href="__PUBLIC__/css/style.css" />
+    <load href="__PUBLIC__/css/activity1.css" />
+   
+    <style type="text/css">
+        .pagination li{
+            margin:0px;padding:0px;
+        }
+    </style>
+    </head>
+<body>
+
+
+
+<div id="main">
+    <include file="Public/allheader-nav" />
+
+<div class="activity-wrap clearfix">
+
+    <div class="activity-main">
+
+        <div class="activity-header">
+            <ul class="activity-type clearfix">
+                <li class="acting selected"><a href="{:U('index')}">正在进行中</a></li>
+                <li class="over"><a href="{:U('index?overst=-1')}">已结束</a></li>
+            </ul>
+        </div>
+        <script>
+            
+            $a={$pd};
+            
+                $(".activity-type li").eq($a).addClass('selected').siblings().removeClass('selected');
+            
+        </script>
+
+        <div class="activity-list">
+            <ul class="clearfix">
+                <notempty name="list">
+                <foreach name="list" item="value" >
+                <li data-activity-id="120" class="btn-ui">
+                    <div class="activity-item">
+                        <a href="{:U('detail','bw=1&aid='.$value[id])}" target="_blank"><img src="__ROOT__/Uploads/{$value.name}" height="161" width="381"></a>
+                        <h2 class="txtflow"><a href="{:U('detail','bw=1&aid='.$value[id])}" target="_blank">{$value.title}</a></h2>
+                        <p><span>活动时间：</span>{$value.bgtime}<span>至</span>{$value.edtime}<span class="hot">热度 <em class="hot-count">{$value.act_bw}</em></span></p>
+                    </div>
+                </li>
+                </foreach> 
+                <else />
+                    <div id="1">
+                        <p>没有了</p>
+                    </div>
+                </notempty>
+
+                <div class="clear"></div>    
+                <nav>
+                  <ul class="pagination">                       
+                    {$pageButton}   
+                  </ul>
+                </nav>
+                <script>
+                    $('.pagination div a').unwrap('div').wrap('<li></li>');
+                    $('.pagination span').wrap('<li class="active"></li>');
+                </script>
+            
+            </ul>
+        </div>
+    </div>
+
+
+
+
+
+
+<!--
+    <div class="activity-aside">
+        <div class="active-users">
+            <div class="active-users-title">活跃用户</div>
+            <dl class="active-users-list">
+                <dt class="clearfix">
+                    <div class="cell photo"><a href="" target="_blank" title="访问笨笨的木鸟的社区"><img src="" height="39" width="39"></a></div>
+                    <div class="cell">
+                       <a href="" target="_blank" title="访问笨笨的木鸟的社区"><strong class="nickname txtflow">笨笨的木鸟</strong></a>
+                       <span class="job-info txtflow" title="学生">学生</span>
+                    </div>
+                </dt>
+                
+                <dt class="clearfix">
+                    <div class="cell photo"><a href="http://www.imooc.com/myclub/opus?uid=2529282" target="_blank" title="访问a906593498的社区"><img src="%E6%B4%BB%E5%8A%A8_%E6%85%95%E8%AF%BE%E7%A4%BE%E5%8C%BA_files/545868cd00013bbb02200220-40-40.jpg" height="39" width="39"></a></div>
+                    <div class="cell">
+                       <a href="http://www.imooc.com/myclub/opus?uid=2529282" target="_blank" title="访问a906593498的社区"><strong class="nickname txtflow">a906593498</strong></a>
+                       <span class="job-info txtflow" title="移动开发工程师">移动开发工程师</span>
+                    </div>
+                </dt>                            
+            </dl>
+        </div>
+    </div>
+-->
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="clear"></div>
+<include file="Public/footer" />
+    </body>
+</html>

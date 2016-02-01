@@ -1,0 +1,262 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+body a{
+    text-decoration:none;
+}
+
+/*img,input{border:none;}*/
+
+/*预定义样式表*/
+.fl{float:left;}
+
+.fr{float:right;}
+
+.ww{
+    width:1200px;
+    margin:0 auto;
+}
+
+.clear{clear:both;}
+
+.mt5{margin-top:5px;}
+.mb5{margin-bottom:5px;}
+.mt10{margin-top:10px;}
+.mb10{margin-bottom:10px;}
+.ml10{margin-left:10px;}
+.ml5{margin-left:5px;}
+.mr10{margin-right:10px;}
+.mr5{margin-right:5px;}
+
+
+
+
+
+
+
+/*****/
+.alltags{
+    margin-top:20px;
+}
+
+
+.alltags{
+    width:300px;
+    height:600px;
+}
+
+.alltags div{
+    display:inline-block;
+    margin-top:5px;
+    margin-right:5px;
+}
+
+.alltags a{
+    text-decoration:none;   
+}
+
+.per-tag{
+    
+    color:#787D82;
+    width:30px;
+    background:#EDF1F2;
+    padding:3px 10px 3px 10px;
+    margin-right:5px;
+    margin-top:5px;
+}
+
+.per-tag:hover {
+    color:black;
+    background:#E3E8E8;
+}
+
+
+
+
+/***文本编辑器*********/
+.edui-editor-toolbarboxinner{
+    padding:0;
+    background:#ECEEF0;
+
+}
+
+
+
+
+/*******allheader-nav*********/
+.allheader-nav{
+    width:100%px;
+    height:80px;
+    line-height:80px;
+    background:#EEF1F2;
+}
+
+.allheader-nav .logo{
+    float:left;
+    
+    width:200px;
+    height:80px;
+}
+
+.allheader-nav a{
+    margin-left:40px;
+    font:20px '微软雅黑';
+    color:black;
+    float:left;
+    line-height:80px;
+     text-decoration:none;   
+}
+
+.allheader-nav a:hover {
+    color:red;
+}
+
+
+/********社区个人信息****************/
+.wd-my{
+    width:280px;
+    height:130px;
+    margin:10px 0 10px 0;
+    padding:10px 0 10px 0;
+}
+
+.wd-my .user-info{
+    width:280px;
+    padding-left:20px;
+}
+
+
+.wd-my .user-info a{
+    color:#A2A2A2;
+}
+
+.wd-my .user-info p{ 
+    margin-left:50px;
+}
+.wd-my .user-info p a{
+    color:black;
+} 
+
+
+ 
+.wd-my .user-info .mypoint{
+    margin-left:50px;
+}
+
+.wd-my .user-about{
+    display:block;
+    width:280px;
+    height:60px;
+    line-height:20px;
+    margin:10px 0 10px 0;
+    padding:20px 0 20px 0;
+    
+    
+    border-top:1px solid #E5E5E5;
+    border-bottom:1px solid #E5E5E5;
+}
+
+
+.wd-my .user-about li{
+    float:left;
+    margin-left:38px;
+   
+}
+
+.wd-my .user-about li a{
+    font-size:18px;
+     color:black;
+}
+
+.wd-my .user-about li a:hover {
+    color:red;
+}
+
+
+
+/*******社区导航栏***********************************/
+.allheader-nav {
+  width: 100%;
+  min-width: 1200px;
+  height: 80px;
+  background-color: #eef1f2;
+  border-bottom: 1px solid #edf1f2;
+}
+.allheader-nav .ww {
+  width: 1200px;
+  height: 80px;
+  min-height: 0;
+  line-height: 60px;
+  overflow: hidden;
+}
+
+.allheader-nav a {
+  font-size: 16px;
+  font-family: 'Microsoft Yahei';
+  color: #14191e;
+  margin-left: 80px;
+}
+.allheader-nav a:hover {
+  color: #e71f19;
+}
+.allheader-nav a.mycommunity {
+  float: right;
+}
+
+
+/*******作品页创建作品***********************/
+.my-opus{
+    width:300px;
+    height:40px;
+    line-height:20px;
+}
+.my-opus a{
+    text-decoration:none;
+}
+
+.opusme{
+    font-size:18px;
+    color:red;
+}
+.opusme:hover {
+    color:red;
+}
+
+.opuscr{
+    display:inline-block;
+    width:90px;
+    height:40px;
+    line-height:40px;
+    background:#F01400;
+    color:white;
+    text-align:center;
+    margin:0 auto;
+    border:1px solid #F0F1F1; 
+    margin-left:40px;
+    padding-left:5px;
+    padding-right:5px;
+    
+}
+
+.opuscr:hover {
+    color:white;
+    background:#D61503;
+}
+
+/***作品首页********/
+.opus-info  a{
+     text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+

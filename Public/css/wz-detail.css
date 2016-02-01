@@ -1,0 +1,177 @@
+@import url(./style.css);
+
+/***qs-main*********/
+.main{
+    margin-top:20px;
+}
+.dt-main{
+    float:left;
+    width:840px;
+}
+
+.dt-silder{
+    float:right;
+    width:240px;
+}
+/***dt-nav******/
+.dt-nav{
+    width:840px;
+    height:30px;    
+    border-bottom:1px solid #D0D6D9;
+}
+
+.dt-nav a{
+     text-decoration:none;   
+     color:black;
+}
+
+
+.dt-main h2{
+    margin-top:20px;
+    margin-left:5px;
+}
+
+/****de-header*********/
+
+
+
+
+
+/*****addon*********/
+
+.addon{
+    width:840px;
+    height:40px;
+    margin:10px 0 10px 0;
+
+}
+
+.profile{
+    width:300px;
+}
+.profile span{
+    color:#B5B9BC;
+}
+
+.share{
+    display:inline-block;
+    width:100px;
+}
+
+.share span{
+    width:40px;
+    padding:0 3px 0 3px;
+    cursor:pointer;
+}
+
+.share span:hover {
+    color:red;
+}
+
+.profile .tag-list{  
+    margin-left:20px;
+    display:inline-block;
+    padding:0 5px 0 5px;
+    background:#EDF1F2;
+}
+
+.profile .tag-list:hover {
+    background:#D0D6D9;
+}
+
+
+.content-b{
+    margin-left:15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/****comment***********/
+.comment{
+    width:840px;
+    margin-top:20px;
+    
+}
+.cmt-title{
+    font-size:18px;
+    background:#F9F9F9;
+    width:840px;
+    height:40px;
+    line-height:40px;
+    padding-left:10px;
+    
+    border-top:1px solid #D0D6D9;
+}
+
+/***********/
+.cmt-content{
+    width:840px;
+    /*padding:10px 0 10px 0;*/
+    margin:10px 0 10px 0;
+}
+
+.cmt-prect{
+    width:840px;
+    padding:10px 0 10px 0;
+    /*height:105px;*/
+    border-bottom:1px solid #EDF1F2;
+
+    
+}
+
+.pre-author{
+    float:left;
+    width:90px;
+   /* height:65px;*/
+    margin-top:10px;
+}
+
+.cm-content{
+    width:730px;
+    /*height:100px;*/
+    margin-left:90px;
+    padding-left:10px;
+
+}
+
+
+/****************/
+.reply{
+    width:840px;
+    padding:20px 0 20px 0;
+}
+
+.own-author{
+    width:90px;
+}
+
+.own-text{
+    width:640px;
+    height:70px;
+}
+
+/***submit******/
+.submit{
+    display:block;
+    width:240px;
+    height:40px;
+    line-height:40px;
+    background:#2E71E8;
+    color:white;
+    text-align:center;
+    margin:0 auto;
+    border:1px solid #F0F1F1;
+    margin-top:10px;   
+}
+
+.submit:hover {
+    background:#0058EE;
+}

@@ -1,0 +1,132 @@
+<include file="Public/headerold" />
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Document</title>
+    <load href="__PUBLIC__/js/jquery-1.9.1.js" />
+    <load href="__PUBLIC__/js/bootstrap.min.js" />
+    <load href="__PUBLIC__/css/bootstrap.min.css" />
+    <load href="__PUBLIC__/css/wz-detail.css" />
+    <style type="text/css">
+        #footer{margin-top:100px;}
+        .own-text{border:1px solid black;}
+    </style>
+
+</head>
+<body>
+     <include file="Public/allheader-nav" />
+	<div class="main">
+	    <div class="ww">
+	        <div class="dt-silder">
+	            
+            </div>
+
+            <div class="dt-main">
+                <div class="dt-nav">
+                    <a href="{:U('index','pid=0')}">全部文章</a>
+                </div>
+                <script>
+                    $('.dt-nav').append(' > <a href="{:U('index','pid='.$artlist['cate_id'])}"> {$artlist.tag}</a>');  
+                </script>
+
+                <h2><b>{$artlist.title}</b></h2>  
+                
+                <div class="addon">
+                    <div class="profile fl">
+                        <div class="tag-list">
+                           {$artlist.tag}
+                        </div>
+                        <span class="fl">{$artlist.time}</span>
+                        
+                        <span class="content-b fl">{$artlist.ans_count} 浏览</span>    
+                    </div>    
+                    
+                    <div class="share fr">
+                        <span id="careit" ><i class="glyphicon glyphicon-star-empty"></i><b>收藏</b></span>    
+                    </div>
+                </div>
+                <script>
+                    if({$tlist}==1){
+                        $('#careit').children().first().removeClass("glyphicon glyphicon-star-empty").addClass("glyphicon glyphicon-star");
+                            $('#careit b').html('已收藏');
+                            $('#careit').css('color','red');
+                    }else{
+                         $('#careit').children().first().removeClass("glyphicon glyphicon-star").addClass("glyphicon glyphicon-star-empty");
+                            $('#careit b').html('收藏');
+                            $('#careit').css('color','black');
+                    };
+                    $('#careit').click(function(){
+                        if($('#careit b').html().length==2){
+                            $('#careit').children().first().removeClass("glyphicon glyphicon-star-empty").addClass("glyphicon glyphicon-star");
+                            $('#careit b').html('已收藏');
+                            $('#careit').css('color','red');
+                            $.get("{:U(docare)}", { care_id: 1, art_id:"{$artlist['id']}"} );
+                        }else{
+                            $('#careit').children().first().removeClass("glyphicon glyphicon-star").addClass("glyphicon glyphicon-star-empty");
+                            $('#careit b').html('收藏');
+                            $('#careit').css('color','black');
+                            $.get("{:U(docare)}", { care_id: 0, art_id:"{$artlist['id']}"} );
+                        }
+                        
+                    });
+                </script>
+
+                <div class="dt-content">
+                    {$artlist.content|htmlspecialchars_decode}
+                </div>
+
+                <div class="clear"></div>
+                <div class="comment">
+                    
+                    <div class="cmt-title">评论</div>
+                    
+                    <div class="cmt-content">
+                        <foreach name="alist" item="val" >
+                        <div class="cmt-prect">
+                            <div class="pre-author">
+                                <a href=""><img style="width:40px;height:40px;" id="id" class="img-circle" src="__ROOT__/Uploads/{$val.user_pic}"></a>
+                                <a href="">{$val.user_name}</a>
+                            </div>
+                            <div class="pre-content">
+                                <p>{$val.answ}</p>
+                                <p>时间:{$val.time}</p>
+                            </div>
+                        </div>
+                        </foreach>
+                    </div>
+                     
+                    
+                    <div class="reply">
+                        <div class="own-author fl">
+                            <a href=""><img style="width:40px;" id="id" class="img-circle" src="__ROOT__/Uploads/{$_SESSION['home']['img']}"></a>    
+                        </div>
+                        <script>
+                        $a = '{$Think.session.home.id}'; 
+                        if($a==''){ $(".myimg").attr({src:"__ROOT__/Public/img/avatar_default.png"});}
+                        </script>
+                        <div class="own-cmt fl">
+                            <form action="{:U('dodetail')}" method="post">
+                                <input  type="hidden" name="art_id" value="{$artlist.id}" />
+                                <textarea class="own-text" name="content" ></textarea>                               
+                                <p><input class="submit fr" type="submit" name="" value="提交" /></p>
+                            </form>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+
+
+
+
+
+
+
+            </div>
+	    </div>
+    </div>
+     <div class="clear"></div>
+    <include file="Public/footer" />
+</body>
+</html>

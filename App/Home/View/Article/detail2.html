@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Document</title>
+    <load href="__PUBLIC__/js/jquery-1.9.1.js" />
+    <load href="__PUBLIC__/js/bootstrap.min.js" />
+    <load href="__PUBLIC__/css/bootstrap.min.css" />
+
+
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/ueditor.config.js"></script> 
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/ueditor.all.min.js"> </script>    
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/lang/zh-cn/zh-cn.js"></script>
+     <script type="text/javascript" charset="utf-8" src="__PUBLIC__/js/ueditor.js"></script>
+
+    <load href="__PUBLIC__/css/wz-detail.css" />
+
+</head>
+<body>
+     <include file="Public/allheader-nav" />
+	<div class="main">
+	    <div class="ww">
+	        <div class="dt-silder">
+	            
+            </div>
+
+            <div class="dt-main">
+                <div class="dt-nav"></div>
+                <h2><b>{$artlist.title}</b></h2>  
+                
+                <div class="addon">
+                    <div class="profile">
+                        <div class="tag-list">
+                           {$artlist.tag}
+                        </div>
+                        <span class="fl">{$artlist.time}</span>
+                        
+                        <span class="content-b fl">{$artlist.ans_count} 浏览</span>    
+                    </div>    
+                    <div class="share">
+                        
+                    </div>
+                </div>
+                
+                <div class="dt-content">
+                    hello
+                </div>
+
+                <div class="comment">
+                    
+                    <div class="cmt-title">评论</div>
+                    
+                    <div class="cmt-content">
+                        <foreach name="alist" item="val" >
+                        <div class="cmt-prect">
+                            <div class="pre-author">
+                                <a href=""><img style="width:40px" id="id" class="img-circle" src="{$val.user_pic}"></a>
+                                <a href="">{$val.user_name}</a>
+                            </div>
+                            <div class="pre-content">
+                                <p>{$val.answ}</p>
+                                <p>时间:{$val.time}</p>
+                            </div>
+                        </div>
+                        </foreach>
+                    </div>
+                     
+                    
+                    <div class="reply">
+                        <div class="own-author fl">
+                                <a href=""><img id="id" class="img" src=""></a>
+                                
+                            </div>
+                        <div class="own-cmt fl">
+                            <form action="{:U('dodetail')}" method="post">
+                                <input  type="hidden" name="art_id" value="{$artlist.id}" />
+                                    <textarea class="own-text" name="content" ></textarea>                               
+                                    <p><input class="submit fr" type="submit" name="" value="提交" /></p>
+                                </form>
+                        </div>
+                    
+                    </div>
+                    
+                </div>
+
+
+
+
+
+
+
+            </div>
+	    </div>
+	</div>
+</body>
+</html>

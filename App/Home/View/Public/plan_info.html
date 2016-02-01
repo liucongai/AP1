@@ -1,0 +1,82 @@
+<div id="main">
+
+
+	<div class="g-layer g-layer-left clearfix ">
+		<div class="g-crumb">
+
+			<a href="http://www.imooc.com/course/program">学习计划</a>
+
+			<!--
+               <a href="/space/program/uid/">的学习计划</a>
+                -->
+			<span class="split">\</span>
+			<span class="cur">{$program.name}</span>
+		</div>
+		<div class="layer-aside">
+			<div class="plan-logo">
+				<img src="__ROOT__/Uploads/{$program.path}" alt="{$program.name}">
+			</div>
+			<div class="plan-actions mb14">
+
+				<a href="javascript:void()" class="join-plan-btn joined js-plan-action rejoin1" style="display:{$mask1}" data-pid="32" data-cmd="cancel">
+					<span class="t">已参加该计划</span>
+                    <span class="b">
+                        退出该计划
+                    </span>
+					<p hidden>{$program.id}</p>
+				</a>
+				<a href="javascript:void()" class="join-plan-btn js-plan-action join1" style="display:{$mask2}" data-pid="32" data-cmd="join">
+					<p hidden>{$program.id}</p>
+					<span class="t">参加该计划</span>
+
+				</a>
+			</div>
+
+			<script>
+				$('.join1').click(function(){
+
+					$.get('{:U("join_plan")}', {'id':$(this).find('p').text() });
+
+
+					$(this).css('display','none');
+					$(this).prev().css('display','block');
+
+
+				});
+
+				$('.rejoin1').click(function(){
+
+					$.get('{:U("re_join")}', {'id':$(this).find('p').text() });
+
+					$(this).css('display','none');
+					$(this).next().css('display','block');
+
+
+				});
+			</script>
+
+
+			<div class="mb30">
+				<h3 class="g-tit mb14">计划介绍</h3>
+				<p class="txt autowrap" id="js-plan-desc" data-max-height="192">
+                <span class="desc-long">
+                   {$program.desc}
+                </span>
+					<a href="javascript:void();" class="txt-more">更多</a>
+				</p>
+			</div>
+		</div>
+		<div class="layer-container">
+			<div class="plan-main">
+				<div class="plan-top">
+					<h2>{$program.name}</h2>
+					<div class="plan-meta">
+
+                    <span class="meta meta-tags">
+
+                                                    <span class="g-tag">求职</span>
+                                                    <span class="g-tag">实战</span>
+                                            </span>
+
+					</div>
+				</div>

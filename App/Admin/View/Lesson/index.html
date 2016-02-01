@@ -1,0 +1,244 @@
+
+
+<include file="Public/header"/>
+<include file="Public/nav"/>
+
+<!-- main container -->
+<div class="content">
+    <div class="container-fluid">
+        <div id="pad-wrapper" class="users-list">
+
+            <ul class="breadcrumb" style="margin:-40px 0 50px 0">
+                <li><a href="{:U('Lesson/index')}">Lesson</a> <span class="divider">/</span></li>
+                <li class="active">Lesson_list</li>
+            </ul>
+
+
+
+            <div class="pull-right">
+
+                <form class="form-search fr" action="" method="get">
+                    <div class="input-append">
+                        <input type="text" name="name" class="span2 search-query" placeholder="Name">
+                        <button type="submit" class="btn"><i class="icon-search"></i>搜索</button>
+                    </div>
+                </form>
+
+            </div>
+            <!--
+            </div>
+            -->
+            <!-- Users table -->
+            <div class="row-fluid table">
+                <table class="table table-hover">
+                    <thead>
+                    <tr>
+                        <th class="span2 sortable">
+                            ID
+                        </th>
+                        <th class="span4 sortable">
+                            <span class="line"></span>Name
+                        </th>
+
+                        <th class="span2 sortable">
+                            <span class="line"></span>Nandu
+                        </th>
+                        <th class="span2 sortable">
+                            <span class="line"></span>User_id
+                        </th>
+                        <th class="span2 sortable">
+                            <span class="line"></span>Cate_id
+                        </th>
+
+                        <th class="span2 sortable">
+                            <span class="line"></span>Time
+                        </th>
+                        <th class="span2 sortable">
+                            <span class="line"></span>Hot
+                        </th>
+
+                        <th class="span2 sortable">
+                            <span class="line"></span>state
+                        </th>
+
+                        <th class="span9 sortable align-right">
+                            <span class="line"></span>Action
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <!-- row -->
+                    <notempty name="list">
+                        <foreach name="list" item="val">
+                            <tr>
+                                <td>{$val.id}</td>
+                                <td>{$val.lesson}</td>
+
+                                <td><a href="{:U('nandu?id='.$val[id].'&nandu='.$val[nandu])}">{$val.nandu}</a></td>
+                                <td>{$val.user_id}</td>
+                                <td>{$val.cate_id}</td>
+                                <td><a href="{:U('is_new?id='.$val[id].'&is_new='.$val[is_new])}">{$val.time}</a></td>
+                                <td><a href="{:U('is_hot?id='.$val[id].'&is_hot='.$val[is_hot])}">{$val.hot}</a></td>
+                                <td><a href="{:U('state?id='.$val[id].'&state='.$val[state])}">{$val.state}</a></td>
+
+                                <td class="align-right" style="position: relative">
+                                    <a href="{:U('del',array('id'=>$val['id']))}">删除</a>
+                                    <a href="{:U('edit',array('id'=>$val['id']))}">编辑</a>
+                                    <a class="btn btn-success" onclick="kuang(this)">加入计划</a>
+                                    <a class="btn btn-success" onclick="kuang2(this)">加入分享</a>
+
+                                    <div class="kuang" style="display: none;position: absolute;border: 1px solid #44A8F8;
+                                    top:-20px;right: 180px;z-index:5000;width:300px;height:300px; padding: 10px;border-radius: 5px;
+                                    background: white">
+                                        <form class="new_user_form inline-input" action="{:U('addplan?id='.$val['id'])}" method="post">
+
+                                            <div style="margin: 10px 0 " class="span12 field-box pos1">
+                                                <label style="width: 100px;float: left;margin:5px 10px ;">Plan-1-list:</label>
+                                                　　<div class="ui-select span5">
+                                                    <select class="mysel"  onchange="pl_change(this)">
+                                                        <option value="0" />--choose--
+
+                                                        <foreach name="pl_list" item="sval">
+                                                            <option value="{$sval.id}">{$sval.name}</option>
+                                                        </foreach>
+
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div style="margin: 10px 0 " class="span12 field-box pos2">
+                                                <label style="width: 100px;float: left;margin:5px 10px ;">Plan-2-list:</label>
+                                                <div class="ui-select span5" id="add2">
+                                                    <select onchange="pl2_change(this)">
+                                                        <option class="ccx2" value="0">--choose--</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div style="margin:10px 0" class="span12 field-box">
+                                                <label style="width: 100px;float: left;margin:5px 10px ;">Plan-3-list:</label>
+                                                <div class="ui-select span5" id="add3">
+                                                    <select name="pp_id">
+                                                        <option class="ccx3" value="0">--choose--</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div style="margin-top:70px " class="span11 field-box actions">
+                                                <input type="submit" class="btn-glow primary" value="Create New" />
+                                                <span>OR</span>
+                                                <input type="reset" value="Cancel" onclick="cance()"/>
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                    <div class="kuang2" style="display: none;position: absolute;border: 1px solid #44A8F8;
+                                    top:-20px;right: 180px;z-index:5000;width:300px;height:200px; padding: 10px;border-radius: 5px;
+                                    background: white">
+                                        <form class="new_user_form inline-input" action="{:U('addshare?id='.$val['id'])}" method="post">
+
+                                            <div style="margin: 10px 0 " class="span12 field-box pos1">
+                                                <label style="width: 100px;float: left;margin:5px 10px ;">List:</label>
+                                                　　<div class="ui-select span5">
+                                                <select  name="share">
+                                                    <option value="0" />--choose--
+
+                                                    <foreach name="sh_list" item="vol">
+                                                        <option value="{$vol.id}">{$vol.name}</option>
+                                                    </foreach>
+
+                                                </select>
+                                            </div>
+                                            </div>
+
+                                            <div style="margin-top:70px " class="span11 field-box actions">
+                                                <input type="submit" class="btn-glow primary" value="Create New" />
+                                                <span>OR</span>
+                                                <input type="reset" value="Cancel" onclick="cance()"/>
+                                            </div>
+                                        </form>
+                                    </div>
+
+                                </td>
+                            </tr>
+                        </foreach>
+
+                        <else />
+                        <tr>
+                            <td colspan="6">查无数据</td>
+                        </tr>
+                    </notempty>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+
+
+
+            <div class="pagination">
+                <ul>
+                    {$pageButton}
+                </ul>
+            </div>
+            <script>
+                function kuang(ob){
+                    $('.kuang').css('display','none');
+                    $('.kuang2').css('display','none');
+                    $(ob).next().next().css('display','block');
+                }
+                function kuang2(ob){
+                    $('.kuang2').css('display','none');
+                    $('.kuang').css('display','none');
+                    $(ob).next().next().css('display','block');
+                }
+                function cance(){
+                    $('.kuang').css('display','none');
+                    $('.kuang2').css('display','none');
+                }
+
+                function pl_change(ob){
+                    $(ob).closest('.pos1').next().find('.ccx2').siblings().remove('.opa');
+                    //$(ob).closest('.pos1').next().children().css('background-color', 'red');
+                    $.get('{:U("pl_ajaxName")}',{id:ob.value},function(result){
+                        console.dir($(result));
+                        $.each(result,function(i,val){
+                            $(ob).closest('.pos1').next().find('.ccx2').after('<option class="opa"  value="' + val['id'] + '">'+ val['name'] +'</option>');
+                        });
+
+                    });
+                }
+
+                function pl2_change(ob){
+                    $(ob).closest('.pos2').next().find('.ccx3').siblings().remove('.opa');
+                    $.get('{:U("pl2_ajaxName")}',{id:ob.value},function(result){
+                        console.dir($(result));
+                        $.each(result,function(i,val){
+                            $(ob).closest('.pos2').next().find('.ccx3').after('<option class="opa"  value="' + val['id'] + '">'+ val['name'] +'</option>');
+                        });
+
+                    });
+                }
+
+                $('.pagination ul a').unwrap('div').wrap('<li></li>');
+                $('.pagination ul span').wrap('<li class="active"></li>');
+            </script>
+            <!-- end users table -->
+        </div>
+    </div>
+</div>
+<!-- end main container -->
+
+
+
+
+
+
+
+
+<include file="Public/footer"/>
+
+
+

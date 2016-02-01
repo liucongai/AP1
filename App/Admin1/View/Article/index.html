@@ -1,0 +1,106 @@
+<include file="Public/header"/>
+<include file="Public/nav"/>
+    
+        <!-- main container -->
+    <div class="content">
+         <div class="container-fluid">
+            <div id="pad-wrapper" class="users-list">
+                   
+                    <ul class="breadcrumb" style="margin:-40px 0 50px 0">
+                       <li><a href="{:U('Article/index')}">Article</a> <span class="divider">/</span></li>
+                       <li class="active">Article_list</li>
+                    </ul>
+                    
+                    
+                    
+                    <div class="pull-right">
+                       
+                     <form class="form-search fr" action="" method="get">
+                         <input type="text" name="user" class="input-medium search-query" placeholder="User">
+                         <input type="text" name="title" class="input-medium search-query" placeholder="Title">
+                     <button type="submit" class="btn"><i class="icon-search"></i>搜索</button>
+                      
+                      </form>
+
+                    </div>
+                <!--
+                </div>
+                -->
+                <!-- Users table -->
+                <div class="row-fluid table">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th class="span3 sortable">
+                                    ID
+                                </th>
+                                <th class="span3 sortable">
+                                    <span class="line"></span>Title
+                                </th>
+                                 <th class="span3 sortable">
+                                    <span class="line"></span>User
+                                </th>
+                                 <th class="span3 sortable">
+                                     <span class="line"></span>Time
+                                </th>
+                                <th class="span3 sortable">
+                                    <span class="line"></span>Tag
+                                </th>
+                                <th class="span3 sortable">
+                                    <span class="line"></span>Dis
+                                </th>
+
+                                
+                                <th class="span6">
+                                    <span class="line"></span>Action
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- row -->
+                        <notempty name="list">
+                        <foreach name="list" item="val">
+                        <tr>
+                            <td>{$val.id}</td>
+                            <td>{$val.title}</td>
+                            <td>{$val.user_name}</td>
+                            <td>{$val.time}</td> 
+                            <td>{$val.tag}</td>
+                            <td>{$val.dis}</td>
+                            <td>
+                                <a href="{:U('Home/Article/detail','id='.$val[id].'&e=1')}">查看详情</a>||
+                                <a href="{:U('del','id='.$val[id])}">删除文章</a>
+                            </td>
+                        </tr>
+                        </foreach>
+                      
+                            <else />
+                                <tr>
+                                <td colspan="6">查无数据</td>
+                                </tr>
+                             </notempty>
+                        
+                         </tbody>
+                        
+                    </table>
+                    
+                </div>
+                <div class="pagination">
+                    <ul>
+                        {$pageButton}
+                    </ul>
+                </div>
+                <script>
+                $('.pagination ul a').unwrap('div').wrap('<li></li>');
+                $('.pagination ul span').wrap('<li class="active"></li>');
+                </script>
+                <!-- end users table -->
+           </div>
+        </div>
+    </div>
+    <!-- end main container -->
+
+
+<include file="Public/footer"/>
+

@@ -1,0 +1,46 @@
+            <div class="wd-silder ">
+                <div id="new1" style="margin-bottom:20px;display:none;" class=" new"><a href="{:U('question')}" class="newques">发现新问题</a></div>
+                <div id="new2" style="margin-bottom:20px;display:inline;" class=" new"><a href="#0" class="newques">发现新问题</a></div>
+                <script>
+                    $a = '{$Think.session.home.id}';
+                    if($a==''){
+                        $('#js-signin-btn').click();
+                    }else{
+                        $('#new1').css('display','inline');
+                        $('#new2').css('display','none');
+                    }
+                </script>
+                <div class="clear"></div>
+                <div style="display:inline;margin-top:20px;" class="wd-my">
+                    <div class="clear"></div>
+                    <div class="user-info">
+                        <a href=""><img style="width:40px;height:40px;" id="id" class="img-circle myimg fl" src="__ROOT__/Uploads/{$_SESSION['home']['img']}"></a>
+                        <p><a href="">{$_SESSION['home']['name']}</a></p>
+                    </div>
+                     <script>
+                        $a = '{$Think.session.home.id}'; 
+                        if($a==''){ $(".myimg").attr({src:"__ROOT__/Public/img/avatar_default.png"});}
+                    </script>
+                    <ul class="user-about">
+                        <li><a href=""><b>提问</b></a></li>
+                        <li><a href=""><b>回复</b></a></li>
+                        <li><a href=""><b>关注</b></a></li>
+                    </ul>
+                </div>
+                <script>
+                    $a = '{$Think.session.home.id}';
+                  
+                    if($a==''){$('.wd-my').css('display','none');}else{$('.wd-my').css('display','inline');}
+                </script>
+                <div class="clear"></div>
+                <div  class="alltags clearfix"  >
+                    <foreach name="tlist" item="tval">
+                    <div><a class="per-tag " href="{:U('tag','tid='.$tval['id'])}">{$tval.name}</a></div>
+                    </foreach>
+                </div>
+                
+                <div id="推荐标签"></div>
+                <div id="推荐话题"></div>
+                <div id="热门人物"></div>
+            </div>
+

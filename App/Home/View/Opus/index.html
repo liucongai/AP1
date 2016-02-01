@@ -1,0 +1,154 @@
+<include file="Public/headerold" />
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>作品_慕课社区</title>
+
+        <load href="__PUBLIC__/js/jquery-1.9.1.js" />
+        <load href="__PUBLIC__/js/bootstrap.min.js" />
+        <load href="__PUBLIC__/css/bootstrap.min.css" />
+        <load href="__PUBLIC__/css/opus1.css" />
+        <load href="__PUBLIC__/css/style.css" />
+        
+       
+    </head>
+    <body>
+
+       
+
+
+
+     <include file="Public/allheader-nav" />
+<div class="opus-wrap clearfix">
+
+    <ul style="padding-right:0px;" class="opus-nav">
+        <li class="first-cat selected"><a href="{:U('index')}" >全部作品</a></li>
+        
+        <foreach name="clist" item="cval" >
+        <li><a href="{:U('index','cid='.$cval['id'])}">{$cval.name}</a></li>
+        </foreach>
+
+
+<!--
+        <li class="first-cat"><a href="">前端开发</a></li>
+        <li><a href="">Html/Css</a></li>
+        <li><a href="">JavaScript</a></li>
+        <li><a href="">Html5</a></li>
+        <li><a href="">jQuery</a></li>
+        <li><a href="">AugularJS</a></li>
+        <li><a href="">Node.js</a></li>
+        <li><a href="">Bootstrap</a></li>
+        
+        <li><a href="">前端框架</a></li>
+        <li><a href="">CSS3</a></li>
+        
+        <li class="first-cat"><a href="">后端开发</a></li>
+        <li><a href="">PHP</a></li>
+        <li><a href="">JAVA</a></li>
+        <li><a href="">C/C++</a></li>
+        
+        <li class="first-cat"><a href="">移动开发</a></li>
+        <li><a href="">iOS</a></li>
+        <li><a href="">Android</a></li>
+        -->
+</ul>
+
+
+
+
+        <div style="float:right;" class="opus-works ">
+            <div class="category-header">
+                <h3>全部</h3>
+                <script>
+                    $tg='{$tagit.name}';
+                    if($tg!=''){  
+                        $(".category-header h3").html('{$tagit.name}');
+                    }
+                    $pp=$(".category-header h3").html();
+                    $(".opus-nav li a").each(function(){
+                        if($pp==$(this).html()){
+                            $(this).parent().addClass('selected').siblings().removeClass('selected');
+                        }
+                    });
+                   
+                </script>
+                   <div class="my-opus fr">
+                    <a style="color:red;" class="opusme" href="">我的作品</a>
+                    <a style="color:white;" class="opuscr" href="{:U('Opus/create')}"><i class="glyphicon glyphicon-plus" ></i> 创建作品</a>
+                </div>    
+            </div>
+            <script>
+                $a = '{$Think.session.home.id}';
+                if($a==''){$('.my-opus').css('display','none');}else{$('.my-opus').css('display','inline');}
+            </script>
+            <div class="clear"></div>
+            <div class="category-list clearfix">
+                <notempty name="list">
+                <foreach name="list" item="value" >
+                <div class="category-item">
+                    <div name="{$value.id}"  class="item-box">
+                        <div class="opus-info">
+                            <div class="author">
+                                <a href="{:U('myclub/index','id='.$value.user_id)}"><img src="__ROOT__/Uploads/{$value.user_pic}" ></a>
+                                <p style="padding-right:40px;">{$value.user_name}</p>
+                            </div>
+                            
+                            <h3><a href="{:U('detail','bw=1&oid='.$value['id'])}">{$value.title}</a></h3>
+                            <p>{$value.content}</p>
+                            <div class="tagbox">
+                                
+                                    <?php foreach($value['tag'] as $key1 => $val1): ?>
+                                    <a class="wdtag-a " href="{:U('index','cid='.$val1['id'])}">{$val1.name}</a>
+                                    <?php endforeach; ?>
+                                
+                                    <span>浏览 {$value.ans_bw}</span>
+                                    <span>收藏 {$value.fav}</span>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                </foreach>
+                <else />
+                    <div id="1">
+                        <p>没有了</p>
+                    </div>
+                </notempty>
+
+
+                 <div class="clear"></div>    
+                <nav>
+                  <ul class="pagination">                       
+                    {$pageButton}   
+                  </ul>
+                </nav>
+                <script>
+                    $('.pagination div a').unwrap('div').wrap('<li></li>');
+                    $('.pagination span').wrap('<li class="active"></li>');
+                </script>
+            
+                     
+            </div><!--category-list end-->
+
+                
+    </div>
+
+</div><!--opus-wrap end-->
+
+
+
+</body>
+<script>
+    $('.item-box').each(function(){
+        if($(this).attr("name")%2 == 1){
+            $(this).addClass('left');
+        }
+    });
+</script>
+<div class="clear"></div>
+<include file="Public/footer" />
+</html>
+
+

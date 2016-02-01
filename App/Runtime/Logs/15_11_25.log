@@ -1,0 +1,1975 @@
+[ 2015-11-25T09:17:18+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T09:17:18+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:02:21+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:02:25+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002827s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.077003s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000359s ]
+
+[ 2015-11-25T10:02:35+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:03:01+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:03:18+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002486s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005074s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000301s ]
+
+[ 2015-11-25T10:03:45+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:03:50+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:04:12+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:04:16+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:06:42+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:06:44+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:06:49+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:11:24+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:12:47+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:12:49+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:12:50+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:12:52+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:15:00+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:15:03+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:15:04+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:15:08+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:15:09+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:15:10+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:15:56+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:15:58+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:16:56+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:17:27+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:17:40+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:17:46+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:17:50+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:17:54+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:17:56+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:18:01+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:18:03+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:18:10+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:19:59+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:20:01+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:28:51+08:00 ] 127.0.0.1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:31:12+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:33:22+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:33:26+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:34:28+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:34:30+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:34:32+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:34:36+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:53:31+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:53:33+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:53:36+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:53:54+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:53:58+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:57:06+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:57:08+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:57:13+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:57:19+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T10:57:21+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:02:54+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:02:56+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:03:00+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:03:09+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:03:12+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:06:48+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:07:26+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:11:01+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:11:03+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:11:12+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:16:30+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:16:32+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:21:08+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:21:11+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:21:13+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:21:16+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:21:19+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:21:21+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:21:24+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:21:46+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:21:58+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:22:00+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002355s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005210s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004838s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004921s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000241s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000173s ]
+
+[ 2015-11-25T11:22:01+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002317s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004844s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004677s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005060s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000244s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000201s ]
+
+[ 2015-11-25T11:22:02+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002152s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005016s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004554s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004787s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000216s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000163s ]
+
+[ 2015-11-25T11:22:03+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002407s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004834s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.005047s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004823s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000238s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000177s ]
+
+[ 2015-11-25T11:22:04+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002276s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004803s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004564s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005060s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000262s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000186s ]
+
+[ 2015-11-25T11:22:06+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002507s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005075s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004758s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005216s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000257s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000183s ]
+
+[ 2015-11-25T11:22:07+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003102s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004795s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004572s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004915s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000248s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000190s ]
+
+[ 2015-11-25T11:22:08+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002173s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004931s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004561s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005265s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000240s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000179s ]
+
+[ 2015-11-25T11:22:09+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002145s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004998s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004560s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004766s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000337s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000271s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000213s ]
+
+[ 2015-11-25T11:22:10+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002134s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004787s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004809s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004832s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000301s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000237s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000193s ]
+
+[ 2015-11-25T11:22:11+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002334s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004771s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004943s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004918s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000246s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000221s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000162s ]
+
+[ 2015-11-25T11:22:13+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002142s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006404s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004972s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004924s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000243s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000174s ]
+
+[ 2015-11-25T11:22:14+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002605s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004965s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004879s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004832s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000236s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000200s ]
+
+[ 2015-11-25T11:22:16+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002449s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005618s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.007934s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005292s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.000259s ]
+NOTIC: [2] implode(): Invalid arguments passed C:\wamp\www\AP1\ThinkPHP\Library\Think\Db.class.php 第 498 行.
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN () )  [ RunTime:0.044067s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ju_lesson` WHERE ( `id` IN () ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 130 行.
+
+[ 2015-11-25T11:22:17+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002582s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005020s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004560s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004913s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000234s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000185s ]
+
+[ 2015-11-25T11:22:17+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002307s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004981s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004543s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004891s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000247s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000186s ]
+
+[ 2015-11-25T11:22:19+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002234s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004804s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004871s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004947s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000310s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000207s ]
+
+[ 2015-11-25T11:25:37+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003211s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.019938s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.019398s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.010369s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000560s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000689s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000568s ]
+
+[ 2015-11-25T11:25:38+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002266s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005123s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004794s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005170s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000294s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000245s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000159s ]
+
+[ 2015-11-25T11:25:40+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002138s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004725s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004519s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004649s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000235s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000183s ]
+
+[ 2015-11-25T11:25:41+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002814s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005078s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004739s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004726s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000267s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000245s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000192s ]
+
+[ 2015-11-25T11:25:42+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002196s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004709s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004778s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005008s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000252s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000244s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000165s ]
+
+[ 2015-11-25T11:25:44+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002324s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005202s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004641s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004868s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000296s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000282s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000191s ]
+
+[ 2015-11-25T11:25:45+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002173s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004866s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004598s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004705s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000332s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000248s ]
+
+[ 2015-11-25T11:25:46+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002650s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004814s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004669s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004824s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000271s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000291s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000184s ]
+
+[ 2015-11-25T11:25:55+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001369s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002431s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006200s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.005603s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.007033s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.000380s ]
+NOTIC: [2] implode(): Invalid arguments passed C:\wamp\www\AP1\ThinkPHP\Library\Think\Db.class.php 第 498 行.
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN () )  [ RunTime:0.000189s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ju_lesson` WHERE ( `id` IN () ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 130 行.
+
+[ 2015-11-25T11:25:57+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002158s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004697s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004596s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004736s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000244s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000219s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000154s ]
+
+[ 2015-11-25T11:25:57+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002166s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004689s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004492s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004770s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000275s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000223s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000158s ]
+
+[ 2015-11-25T11:25:59+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002360s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004953s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004907s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004918s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000284s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000237s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000192s ]
+
+[ 2015-11-25T11:41:01+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:42:13+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:42:35+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:42:55+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:43:53+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:45:58+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:46:14+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:47:01+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:48:34+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:48:58+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T11:52:40+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T12:00:10+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T12:00:20+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:22:44+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:22:47+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:22:49+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:22:49+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:22:52+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:22:59+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:23:01+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:24:02+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:24:05+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:24:07+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:24:09+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:27:56+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:27:58+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:27:58+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:28:01+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:28:01+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:28:21+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:28:22+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:30:50+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:31:04+08:00 ] ::1 /AP1/Home/View/reat.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002167s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.005061s ]
+SQL: DELETE FROM `ju_att` WHERE ( `user_id` = 1 ) AND ( `lesson_id` = 5 ) [ RunTime:0.100962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007274s ]
+
+[ 2015-11-25T14:31:12+08:00 ] ::1 /AP1/Home/View/attention.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002157s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.004810s ]
+SQL: INSERT INTO `ju_att` (`user_id`,`lesson_id`) VALUES (1,5) [ RunTime:0.059979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005908s ]
+
+[ 2015-11-25T14:31:22+08:00 ] ::1 /AP1/Home/View/reat.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002839s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.005040s ]
+SQL: DELETE FROM `ju_att` WHERE ( `user_id` = 1 ) AND ( `lesson_id` = 5 ) [ RunTime:0.048370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006724s ]
+
+[ 2015-11-25T14:31:39+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:31:39+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:31:41+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:31:41+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:32:57+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:33:06+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:33:07+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:33:08+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:33:09+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:33:44+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:33:59+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:34:06+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:34:08+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:34:09+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:34:14+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:34:16+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:34:18+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:34:19+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:34:20+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:34:21+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:34:23+08:00 ] ::1 /AP1/Home/Plan/join_plan.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003145s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.005220s ]
+SQL: INSERT INTO `ju_collectplan` (`user_id`,`plan_id`) VALUES (1,1) [ RunTime:0.062970s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002113s ]
+
+[ 2015-11-25T14:35:09+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:35:11+08:00 ] ::1 /AP1/Home/Plan/join_plan.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002917s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.005104s ]
+SQL: INSERT INTO `ju_collectplan` (`user_id`,`plan_id`) VALUES (1,1) [ RunTime:0.002129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002595s ]
+
+[ 2015-11-25T14:35:17+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:35:18+08:00 ] ::1 /AP1/Home/Plan/join_plan.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002953s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.005133s ]
+SQL: INSERT INTO `ju_collectplan` (`user_id`,`plan_id`) VALUES (1,1) [ RunTime:0.012127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002087s ]
+
+[ 2015-11-25T14:35:25+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:35:26+08:00 ] ::1 /AP1/Home/Plan/join_plan.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002619s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.004999s ]
+SQL: INSERT INTO `ju_collectplan` (`user_id`,`plan_id`) VALUES (1,1) [ RunTime:0.012907s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002965s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003068s ]
+
+[ 2015-11-25T14:42:24+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:42:24+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:52:55+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:53:16+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:53:16+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:53:57+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:54:02+08:00 ] ::1 /AP1/Home/Plan/join_plan.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002655s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.005221s ]
+SQL: INSERT INTO `ju_collectplan` (`user_id`,`plan_id`) VALUES (1,1) [ RunTime:0.011642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001601s ]
+
+[ 2015-11-25T14:54:12+08:00 ] ::1 /AP1/Home/Plan/re_join.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001922s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003232s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.005219s ]
+SQL: DELETE FROM `ju_collectplan` WHERE ( `user_id` = 1 ) AND ( `plan_id` = 1 ) [ RunTime:0.012821s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001803s ]
+
+[ 2015-11-25T14:54:33+08:00 ] ::1 /AP1/Home/Plan/join_plan.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002337s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.005030s ]
+SQL: INSERT INTO `ju_collectplan` (`user_id`,`plan_id`) VALUES (1,1) [ RunTime:0.011840s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001677s ]
+
+[ 2015-11-25T14:54:38+08:00 ] ::1 /AP1/Home/Plan/re_join.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002191s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.004788s ]
+SQL: DELETE FROM `ju_collectplan` WHERE ( `user_id` = 1 ) AND ( `plan_id` = 1 ) [ RunTime:0.012257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001662s ]
+
+[ 2015-11-25T14:55:34+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:55:34+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:55:35+08:00 ] ::1 /AP1/Home/Plan/join_plan.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002624s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.005100s ]
+SQL: INSERT INTO `ju_collectplan` (`user_id`,`plan_id`) VALUES (1,1) [ RunTime:0.012882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002422s ]
+
+[ 2015-11-25T14:55:37+08:00 ] ::1 /AP1/Home/Plan/join_plan.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002497s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.004986s ]
+SQL: INSERT INTO `ju_collectplan` (`user_id`,`plan_id`) VALUES (1,1) [ RunTime:0.011909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002717s ]
+
+[ 2015-11-25T14:55:44+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:55:44+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T14:55:45+08:00 ] ::1 /AP1/Home/Plan/re_join.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002815s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.004944s ]
+SQL: DELETE FROM `ju_collectplan` WHERE ( `user_id` = 1 ) AND ( `plan_id` = 1 ) [ RunTime:0.013827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002087s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002179s ]
+
+[ 2015-11-25T14:55:51+08:00 ] ::1 /AP1/Home/Plan/join_plan.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001346s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002268s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.006765s ]
+SQL: INSERT INTO `ju_collectplan` (`user_id`,`plan_id`) VALUES (1,1) [ RunTime:0.002344s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001593s ]
+
+[ 2015-11-25T14:56:00+08:00 ] ::1 /AP1/Home/Plan/re_join.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002199s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.004882s ]
+SQL: DELETE FROM `ju_collectplan` WHERE ( `user_id` = 1 ) AND ( `plan_id` = 1 ) [ RunTime:0.011991s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2015-11-25T14:56:26+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001747s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003278s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.007811s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.007437s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.007903s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000433s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000342s ]
+
+[ 2015-11-25T14:56:27+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002327s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005496s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.005164s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005191s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000267s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000203s ]
+
+[ 2015-11-25T14:56:28+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002194s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003934s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005137s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.005059s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005104s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000250s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000356s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000249s ]
+
+[ 2015-11-25T14:56:29+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002439s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004961s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004914s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004921s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000269s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000250s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000195s ]
+
+[ 2015-11-25T14:56:30+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002137s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005095s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004990s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005104s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000248s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000180s ]
+
+[ 2015-11-25T14:56:31+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002126s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005437s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004879s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005320s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000281s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000259s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000200s ]
+
+[ 2015-11-25T14:56:32+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002615s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.004980s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.004917s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005043s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000236s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000160s ]
+
+[ 2015-11-25T14:56:34+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004473s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005976s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.007402s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005697s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.000512s ]
+NOTIC: [2] implode(): Invalid arguments passed C:\wamp\www\AP1\ThinkPHP\Library\Think\Db.class.php 第 498 行.
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN () )  [ RunTime:0.000296s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ju_lesson` WHERE ( `id` IN () ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 148 行.
+
+[ 2015-11-25T14:56:35+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002699s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005058s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.005017s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004939s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000269s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000181s ]
+
+[ 2015-11-25T14:56:36+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002441s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005079s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.005165s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005069s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000263s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000317s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000190s ]
+
+[ 2015-11-25T14:56:38+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002513s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005195s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.005172s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005220s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000286s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000270s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000194s ]
+
+[ 2015-11-25T14:58:10+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:17:00+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:17:02+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:17:05+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:17:07+08:00 ] ::1 /AP1/Home/Plan/join_plan.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003085s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.005198s ]
+SQL: INSERT INTO `ju_collectplan` (`user_id`,`plan_id`) VALUES (1,1) [ RunTime:0.002885s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002439s ]
+
+[ 2015-11-25T15:17:10+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:19:14+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:19:52+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:20:45+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:20:45+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:20:51+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:20:55+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:21:01+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:21:02+08:00 ] ::1 /AP1/Home/Plan/join_plan.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002950s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.005542s ]
+SQL: INSERT INTO `ju_collectplan` (`user_id`,`plan_id`) VALUES (1,2) [ RunTime:0.043405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002652s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002761s ]
+
+[ 2015-11-25T15:21:03+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:21:05+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:23:37+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:24:08+08:00 ] ::1 /AP1/Admin/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004665s ]
+SQL: SHOW COLUMNS FROM `ju_category` [ RunTime:0.018797s ]
+SQL: SELECT `id`,`name` FROM `ju_category` WHERE ( `pid` = 1 )  [ RunTime:0.000584s ]
+
+[ 2015-11-25T15:25:10+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:25:11+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:25:15+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:34:30+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:36:00+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:39:33+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:39:36+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:47:25+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:53:59+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:54:02+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:54:04+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:54:47+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:54:50+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:55:10+08:00 ] ::1 /AP1/Admin/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004118s ]
+SQL: SHOW COLUMNS FROM `ju_category` [ RunTime:0.020685s ]
+SQL: SELECT `id`,`name` FROM `ju_category` WHERE ( `pid` = 2 )  [ RunTime:0.001120s ]
+
+[ 2015-11-25T15:56:45+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:56:48+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T15:57:51+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T16:00:39+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T16:10:18+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T16:10:55+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T16:13:46+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003350s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005684s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000401s ]
+
+[ 2015-11-25T16:13:47+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002451s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.080258s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000634s ]
+
+[ 2015-11-25T16:18:58+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T16:19:07+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T16:19:08+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T16:19:25+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T16:19:27+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T16:19:30+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T16:19:49+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T16:19:52+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T16:31:38+08:00 ] ::1 /AP1/Admin/Lesson/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002388s ]
+SQL: SHOW COLUMNS FROM `ju_category` [ RunTime:0.005040s ]
+SQL: SELECT `id`,`name` FROM `ju_category` WHERE ( `pid` = 2 )  [ RunTime:0.000274s ]
+
+[ 2015-11-25T16:31:40+08:00 ] ::1 /AP1/Admin/Lesson/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002391s ]
+SQL: SHOW COLUMNS FROM `ju_category` [ RunTime:0.017702s ]
+SQL: SELECT `id`,`name` FROM `ju_category` WHERE ( `pid` = 1 )  [ RunTime:0.000759s ]
+
+[ 2015-11-25T16:44:37+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T16:44:37+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T16:45:12+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T16:45:20+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T18:27:03+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T18:27:05+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T18:27:08+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002821s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005255s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000336s ]
+
+[ 2015-11-25T18:27:09+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002483s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005178s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000287s ]
+
+[ 2015-11-25T18:27:09+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:27:10+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:27:10+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:27:10+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:27:10+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:28:49+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002949s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005300s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000317s ]
+
+[ 2015-11-25T18:28:50+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003957s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.004868s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000278s ]
+
+[ 2015-11-25T18:28:51+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:28:51+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:28:51+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:28:51+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:28:52+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:33:45+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T18:33:45+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T18:33:48+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001974s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003388s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.022920s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.001028s ]
+
+[ 2015-11-25T18:33:48+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001340s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002289s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005234s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000304s ]
+
+[ 2015-11-25T18:37:04+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T18:37:21+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002168s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003059s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006738s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000333s ]
+
+[ 2015-11-25T18:37:22+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002874s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.008757s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000613s ]
+
+[ 2015-11-25T18:37:22+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:37:22+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:37:22+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:37:22+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:37:23+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:37:30+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003345s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005680s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000479s ]
+
+[ 2015-11-25T18:37:31+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002515s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006616s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000338s ]
+
+[ 2015-11-25T18:37:31+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:37:31+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:37:31+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:37:32+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:37:32+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:37:41+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002542s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006044s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000342s ]
+
+[ 2015-11-25T18:37:42+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002488s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006480s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000551s ]
+
+[ 2015-11-25T18:37:42+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:37:42+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:37:43+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:37:43+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T18:37:43+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T19:03:46+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:03:49+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003846s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005181s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000357s ]
+
+[ 2015-11-25T19:03:50+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003430s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005338s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000320s ]
+
+[ 2015-11-25T19:04:13+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:04:20+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002944s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.018760s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000988s ]
+
+[ 2015-11-25T19:04:21+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002460s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.004983s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000302s ]
+
+[ 2015-11-25T19:04:23+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002237s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.019273s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 17 ) ORDER BY id desc  [ RunTime:0.000998s ]
+
+[ 2015-11-25T19:04:31+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002143s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.005084s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000341s ]
+
+[ 2015-11-25T19:04:32+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002822s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.013639s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 17 ) ORDER BY id desc  [ RunTime:0.000721s ]
+
+[ 2015-11-25T19:04:33+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002345s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.008515s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000758s ]
+
+[ 2015-11-25T19:04:49+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:05:05+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:06:10+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:07:17+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:07:17+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:09:04+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:09:46+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:09:46+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:10:49+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:11:32+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:12:02+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:12:35+08:00 ] ::1 /AP1/Home/View/attention.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002618s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003606s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.005052s ]
+SQL: INSERT INTO `ju_att` (`user_id`,`lesson_id`) VALUES (1,5) [ RunTime:0.002980s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002991s ]
+
+[ 2015-11-25T19:12:35+08:00 ] ::1 /AP1/Home/View/reat.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004266s ]
+SQL: SHOW COLUMNS FROM `ju_att` [ RunTime:0.004987s ]
+SQL: DELETE FROM `ju_att` WHERE ( `user_id` = 1 ) AND ( `lesson_id` = 5 ) [ RunTime:0.011569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002985s ]
+
+[ 2015-11-25T19:12:43+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003582s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.013776s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000689s ]
+
+[ 2015-11-25T19:12:45+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003959s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.018789s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000493s ]
+
+[ 2015-11-25T19:12:45+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T19:12:45+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T19:12:45+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T19:12:45+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T19:12:46+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-25T19:32:48+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:36:12+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:36:24+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:36:31+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:36:32+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:37:32+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:38:15+08:00 ] 127.0.0.1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:38:15+08:00 ] 127.0.0.1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:44:21+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:48:00+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:51:16+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:52:55+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:54:28+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:55:59+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:59:38+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T19:59:40+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:00:24+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:00:26+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:03:06+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:06:38+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:07:00+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:07:13+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:16:32+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:32:42+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:32:47+08:00 ] ::1 /AP1/Home/Login/logout.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:32:52+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:32:58+08:00 ] ::1 /AP1/Home/Percenter/perset.html
+ERR: 无法加载控制器:Percenter
+
+[ 2015-11-25T20:32:59+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:35:04+08:00 ] ::1 /AP1/Home/Login/logout.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:35:06+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:35:10+08:00 ] ::1 /AP1/Home/Percenter/perset.html
+ERR: 无法加载控制器:Percenter
+
+[ 2015-11-25T20:35:12+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:36:25+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002143s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.043171s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.006945s ]
+
+[ 2015-11-25T20:36:38+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:36:46+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:37:52+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:46:34+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:49:56+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:56:29+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T20:57:58+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T21:00:05+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T21:00:07+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T21:00:09+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T21:00:11+08:00 ] ::1 /AP1/Home/Plan/re_join.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002735s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.005579s ]
+SQL: DELETE FROM `ju_collectplan` WHERE ( `user_id` = 1 ) AND ( `plan_id` = 1 ) [ RunTime:0.064619s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003170s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003291s ]
+
+[ 2015-11-25T21:00:14+08:00 ] ::1 /AP1/Home/Plan/join_plan.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002566s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.005695s ]
+SQL: INSERT INTO `ju_collectplan` (`user_id`,`plan_id`) VALUES (1,1) [ RunTime:0.033702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004381s ]
+
+[ 2015-11-25T21:00:15+08:00 ] ::1 /AP1/Home/Plan/re_join.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002195s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.005450s ]
+SQL: DELETE FROM `ju_collectplan` WHERE ( `user_id` = 1 ) AND ( `plan_id` = 1 ) [ RunTime:0.001735s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002616s ]
+
+[ 2015-11-25T21:00:18+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T21:11:12+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T21:17:11+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T21:17:13+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002980s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005176s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000274s ]
+
+[ 2015-11-25T21:17:24+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T21:24:43+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T21:29:36+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T21:31:02+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T21:31:02+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T21:32:21+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T21:33:29+08:00 ] ::1 /AP1/Home/Login/index.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T21:33:34+08:00 ] ::1 /AP1/Home/Login/yzm.html
+ERR: 无法加载控制器:Login
+
+[ 2015-11-25T21:34:57+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006631s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006540s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000511s ]
+
+[ 2015-11-25T21:39:56+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003890s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006469s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000383s ]
+
+[ 2015-11-25T22:23:02+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004314s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006638s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000386s ]
+
+[ 2015-11-25T22:40:25+08:00 ] ::1 /AP1/Home/Plan/join_plan.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002396s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.005725s ]
+SQL: INSERT INTO `ju_collectplan` (`user_id`,`plan_id`) VALUES (1,1) [ RunTime:0.022591s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003474s ]
+
+[ 2015-11-25T22:40:27+08:00 ] ::1 /AP1/Home/Plan/re_join.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002154s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.005492s ]
+SQL: DELETE FROM `ju_collectplan` WHERE ( `user_id` = 1 ) AND ( `plan_id` = 1 ) [ RunTime:0.002208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002514s ]
+
+[ 2015-11-25T22:40:32+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002943s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005042s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.005193s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.004837s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000260s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000219s ]
+NOTIC: [8] Undefined index: fimg_id C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 145 行.
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = null ) LIMIT 1   [ RunTime:0.045602s ]
+
+[ 2015-11-25T22:40:34+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002291s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.017091s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.012570s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.013088s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000616s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000632s ]
+NOTIC: [8] Undefined index: fimg_id C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 145 行.
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = null ) LIMIT 1   [ RunTime:0.000559s ]
+
+[ 2015-11-25T22:40:37+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002271s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.010951s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.007217s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.006950s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000343s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000340s ]
+NOTIC: [8] Undefined index: fimg_id C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 145 行.
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = null ) LIMIT 1   [ RunTime:0.000296s ]
+
+[ 2015-11-25T22:42:28+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002617s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005023s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.017908s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.006026s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000291s ]
+NOTIC: [8] Undefined index: fimg_id C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 145 行.
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = null ) LIMIT 1   [ RunTime:0.000234s ]
+
+[ 2015-11-25T22:42:33+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002591s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005399s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.005033s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005468s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000250s ]
+NOTIC: [8] Undefined index: fimg_id C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 145 行.
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = null ) LIMIT 1   [ RunTime:0.000189s ]
+
+[ 2015-11-25T22:42:34+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002979s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006331s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.006101s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.006495s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000331s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000294s ]
+NOTIC: [8] Undefined index: fimg_id C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 145 行.
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = null ) LIMIT 1   [ RunTime:0.000267s ]
+
+[ 2015-11-25T22:42:36+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002277s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.020972s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.009990s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.010381s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000459s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000476s ]
+NOTIC: [8] Undefined index: fimg_id C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 145 行.
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = null ) LIMIT 1   [ RunTime:0.000394s ]
+
+[ 2015-11-25T22:42:37+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002341s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005751s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.006329s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005234s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000368s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000521s ]
+NOTIC: [8] Undefined index: fimg_id C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 145 行.
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = null ) LIMIT 1   [ RunTime:0.000367s ]
+
+[ 2015-11-25T22:42:39+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002230s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.008621s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.008859s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005312s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.000313s ]
+NOTIC: [2] implode(): Invalid arguments passed C:\wamp\www\AP1\ThinkPHP\Library\Think\Db.class.php 第 498 行.
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN () )  [ RunTime:0.015844s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ju_lesson` WHERE ( `id` IN () ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 144 行.
+
+[ 2015-11-25T22:42:40+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002196s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.058713s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.019159s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.007441s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000427s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000382s ]
+NOTIC: [8] Undefined index: fimg_id C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 145 行.
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = null ) LIMIT 1   [ RunTime:0.000324s ]
+
+[ 2015-11-25T22:43:24+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002465s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006564s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.007093s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.008574s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000406s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000368s ]
+NOTIC: [8] Undefined index: fimg_id C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 145 行.
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = null ) LIMIT 1   [ RunTime:0.000310s ]
+
+[ 2015-11-25T22:45:34+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005008s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006507s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.005793s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.006033s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000257s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000217s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000154s ]
+
+[ 2015-11-25T22:45:35+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002994s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004094s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006117s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.005205s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.006180s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000323s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000431s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000261s ]
+
+[ 2015-11-25T22:45:36+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004661s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.005813s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.005965s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005665s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000404s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000191s ]
+

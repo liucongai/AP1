@@ -1,0 +1,166 @@
+<include file="Public/header" />
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+        <title>Index</title>
+        <load href="__PUBLIC__/js/jquery-1.9.1.js" />
+        <load href="__PUBLIC__/js/bootstrap.min.js" />
+        <load href="__PUBLIC__/css/bootstrap.min.css" />
+        <load href="__PUBLIC__/css/myclub.css" />
+
+    </head>
+    <body>
+        <include file="Public/allheader-nav" />
+        <div class="main">
+            <div class="ww">
+                <div class="myclub-silder fl">
+                    <div class="user-info-me">
+                        <a href=""><img id="img" style="width:60px;" class="img-circle fl" src="__ROOT__/Uploads/{$_SESSION['home']['img']}"></a>
+                        <span><a class="myname" href=""><h4>{$_SESSION['home']['name']}</h4></a></span>
+                        <span>zhiye</span>
+                    </div>
+                    <div class="use-sign">
+                        gexingqianm
+                    </div>
+
+                    <div class="clear"></div>
+                    <ul>
+                        <li><a href="">我的问答</a></li>
+                        <li><a href="">我的作品</a></li>
+                        <li><a href="">我的文章</a></li>
+                        <li><a href="">我的设置</a></li>
+                        <li><a href="">我的课程</a></li>
+                    
+                    </ul>
+                   
+                </div>
+
+
+                <!--问答列-->
+                <div style="display:none;" class="myclub-main fr">
+                    <div class="wd-nav">
+                        <a class="wd-me wd-on" href="">我的问答</a>
+                        <a class="wd-me" href="">我的回复</a>
+                        <a class="wd-me" href="">我的关注</a>
+                        <a class="wd-new fr" href="">发现新问题</a>
+                    </div>
+
+                    <!--提问-->
+                    <div style="display:none;" class="wd-ques">
+                         <foreach name="list" item="val" >
+                        <div class="wd-pre">
+
+                            <div class="wd-l fl">
+                                <h4><i class="glyphicon glyphicon-question-sign" ></i><a href="">{$val.title}</a></h4>
+                                <div class="wd-addon">
+                                    <span>提问时间:{$val.time}</span>
+                                </div>
+                                <span class="wdtag">
+                                    <?php foreach($val['tag'] as $key1 => $val1): ?>
+                                    <a class="wdtag-a " href="{$val1.id}">{$val1.name}</a>
+                                    <?php endforeach; ?>
+                                </span>
+                            </div> 
+
+                            <div class="wd-r fr">                
+                                <a href="">
+                                    <div class="ans-wen">
+                                        <span>{$val.ans_count}</span>
+                                        <div class="da">回答</div>
+                                    </div>
+
+                                    <div class="ans-liu">
+                                        <span>{$val.ans_bw}</span>
+                                        <div class="lan">浏览数</div>
+                                    </div>
+                                </a>
+                            </div>
+                       
+                        </div>
+                        </foreach>
+                    </div>
+
+                    <!--回答-->
+                    <div style="display:none;" class="wd-reply">
+                        <foreach name="list" item="val" >
+                        <div class="wd-pre2">
+
+                            <div class="wd-l fl">
+                                <h4><i class="glyphicon glyphicon-question-sign" ></i><a href="">{$val.qt}</a></h4>
+                                <span>[我的回答]:{$val.answ}</span>
+                                <div style="margin-top:10px;" class="wd-addon">
+                                    <span>提问时间:{$val.time}</span>
+                                    <span class="wdtag">
+                                    <?php foreach($val['tag'] as $key1 => $val1): ?>
+                                    <a class="wdtag-a " href="{$val1.id}">{$val1.name}</a>
+                                    <?php endforeach; ?>
+                                </span>
+                                </div>
+                            </div> 
+
+                            <div class="wd-r fr">                
+                                <a href="">
+                                    <div class="ans-wen">
+                                        <span>{$val.acount}</span>
+                                        <div class="da">回答</div>
+                                    </div>
+
+                                    <div class="ans-liu">
+                                        <span>{$val.abw}</span>
+                                        <div class="lan">浏览数</div>
+                                    </div>
+                                </a>
+                            </div>
+                       
+                        </div>
+                        </foreach>
+                    </div>
+
+
+                    <!--关注-->
+                    <div style="display:none;" class="wd-care">
+                        <foreach name="list" item="val" >
+                        <div class="wd-pre">
+
+                            <div class="wd-l fl">
+                                <h4><i class="glyphicon glyphicon-question-sign" ></i><a href="">{$val.qt}</a></h4>
+                                <div class="wd-addon">
+                                    <span>提问时间:{$val.time}</span>
+                                    <span class="wdtag">
+                                    <?php foreach($val['tag'] as $key1 => $val1): ?>
+                                    <a class="wdtag-a " href="{$val1.id}">{$val1.name}</a>
+                                    <?php endforeach; ?>
+                                    </span>
+                                </div>
+                            </div> 
+
+                            <div class="wd-r fr">                
+                                <a href="">
+                                    <div class="ans-wen">
+                                        <span>{$val.acount}</span>
+                                        <div class="da">回答</div>
+                                    </div>
+
+                                    <div class="ans-liu">
+                                        <span>{$val.abw}</span>
+                                        <div class="lan">浏览数</div>
+                                    </div>
+                                </a>
+                            </div>
+                       
+                        </div>
+                        </foreach>
+                    </div>
+
+
+                
+                </div>
+            
+            </div>    
+        </div>
+   <div class="clear"></div>
+<include file="Public/footer" />
+    </body>
+
+</html>

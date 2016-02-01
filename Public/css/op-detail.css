@@ -1,0 +1,316 @@
+@import url(./style.css);
+/******main**********/
+.main{
+    margin-top:20px;
+}
+
+/******header**********/
+
+.opus-header h3{
+    
+}
+.opus-header h3:hover {
+    color:red;
+}
+
+.my-opus a{
+    
+    text-decoration:none;
+}
+
+.opusme{
+    font-size:20px;
+    color:red;
+}
+.opusme:hover {
+    color:red;
+}
+
+.opuscr{
+    display:inline-block;
+    width:90px;
+    height:40px;
+    line-height:40px;
+    background:#F01400;
+    color:white;
+    text-align:center;
+    margin:0 auto;
+    border:1px solid #F0F1F1;
+    margin-top:10px;
+    margin-left:40px;
+    padding-left:5px;
+    padding-right:5px;
+    
+}
+
+.opuscr:hover {
+    color:white;
+    background:#D61503;
+}
+/******opus-main**********/
+.opus-main{
+    width:1200px;
+    margin-top:20px;
+}
+.opus-l{
+    width:600px;
+    height:60px;
+}
+
+.opus-l .tags{
+    margin-top:10px;
+    padding-top:10px;
+}
+
+
+.opus-l a{
+    color:#787D82;
+    width:30px;
+    background:#EDF1F2;
+    padding:3px 10px 3px 10px;
+    margin-right:5px;
+    margin-top:5px;
+    text-decoration:none;
+}
+.opus-l a:hover {
+    color:black;
+    background:#E3E8E8;
+}
+
+
+
+
+
+
+
+.opus-r{
+    width:600px;
+    height:60px;
+}
+.opus-r a{
+     line-height:60px;
+     font-size:18px;
+     color:black;
+     text-decoration:none;
+}
+
+.opus-r i:hover {
+    color:red;
+}
+
+.op-user{
+    display:inline-block;
+    float:left;
+    height:60px;
+    width:180px;
+    border-left:1px solid #EDF1F2;
+    padding-left:20px;
+}
+
+.op-user span{
+    margin:5px;
+}
+
+.op-user .img{
+    float:left;
+    width:40px;
+    height:40px;
+    margin-top:10px;
+}
+
+.op-user span{
+    
+    float:right;
+    width:100px;
+    height:15px;
+    line-height:25px;
+    font-size:14px;
+}
+
+.op-fav{
+    display:inline-block;
+    float:left;
+    height:60px;
+    width:100px;
+    border-left:1px solid #EDF1F2;
+    padding-left:20px;
+}
+
+.op-zan{
+    display:inline-block;
+    float:left;
+    width:100px;
+    height:60px;
+    border-left:1px solid #EDF1F2;
+    padding-left:20px;
+}
+.op-share{
+    display:inline-block;
+    float:left;
+    width:100px;
+    height:60px;
+    border-left:1px solid #EDF1F2;
+    padding-left:20px;
+}
+
+/******main**********/
+.opus-apfile{
+    width:1200px;   
+    margin-top:40px;
+}
+
+.opus-point{
+    width:1200px;   
+    height:50px;
+    line-height:50px;
+    background:#F9F9F9;
+    border-bottom:1px solid #E0E0E0;
+}
+
+.opus-point a{
+    display:inline-block;
+    font-size:14px;
+    color:black;
+    text-align:center;
+    width:160px;
+    height:50px;
+    text-decoration:none;
+}
+
+.opus-point a:hover {
+    color:red;
+}
+.opus-point .active{
+    color:red;
+    border-bottom:2px solid red; 
+}
+
+/*****************/
+.opus-download{
+    width:1160px;
+    height:80px;
+    border:1px solid #D0D6D9;
+    margin:10px 20px 0 20px;
+}
+
+.opus-download span{
+
+    font-size:18px;
+    line-height:80px;  
+    margin-left:10px;
+    cursor:pointer;
+}
+.opus-download span i{
+    color:#84C255;
+}
+
+.opus-download a{
+    display:inline-block;
+    width:140px;
+    height:40px;
+    line-height:40px;
+    background:#0364F7;
+    color:white;
+    text-align:center;
+    margin:0 auto;
+    border:1px solid #F0F1F1;
+    margin-top:15px;
+    margin-right:40px;
+    padding-left:5px;
+    padding-right:5px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.opus-download i{
+    margin-right:20px;
+} 
+
+/***comment*************/
+.opus-comment{
+    width:1200px;
+    margin-bottom:10px;
+}
+
+.cmt-prect{
+    width:1200px;
+    height:90px;
+    padding-bottom:10px;
+    border-bottom:1px solid #D0D6D9;
+}
+
+.pre-author{
+    display:inline-block;
+    width:100px;
+    height:60px;
+    padding-top:20px;
+    margin-left:20px;
+    margin-right:40px;
+    
+}
+
+.pre-author a{
+    text-decoration:none;
+}
+.pre-author a p{
+    display:block;
+}
+
+.pre-content{
+    display:inline-block;
+}
+
+.cmt-info{
+    width:1000px;
+}
+
+.cmt-info a{
+    color:black;
+    text-decoration:none;
+}
+
+.cmt-info i:hover {
+    color:red;
+}
+
+
+.reply{    
+    margin-top:20px;
+}
+
+.own-author{
+    width:100px;
+    margin-right:20px;
+}
+
+.own-text{
+    width:1050px;
+    height:100px;
+    padding:10px;
+}
+
+.submit{
+    display:inline-block;
+    width:140px;
+    height:40px;
+    line-height:40px;
+    background:red;
+    color:white;
+    text-align:center;
+    margin:0 auto;
+    border:1px solid #F0F1F1;
+    margin-top:15px;
+    margin-right:40px;
+    padding-left:5px;
+    padding-right:5px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+.submit:hover {
+    background:#D61503;;
+}
+
+
+
+

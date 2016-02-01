@@ -1,0 +1,42 @@
+.replyit{
+    width:840px;
+    
+    padding:10px;
+    border-bottom:1px solid #EDF1F2;
+}
+.qa-replies{
+    margin-left:120px;
+    width:700px;
+}
+
+.qa-reply-iavator{
+    float:left;
+    width:40px;
+    margin-top:10px;
+    margin-left:10px;
+}
+.qa-reply-iwrap{
+    margin:10px 0 10px 0;
+    margin-left:100px;
+}
+
+.js-reply-ipt-default{
+    width:600px;
+    height:80px;
+}
+
+.qa-reply-ifoot{
+    margin:10px 0 10px 0;
+    float:right;
+    width:140px;
+}
+
+
+
+
+
+
+
+
+
+

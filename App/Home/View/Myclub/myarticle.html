@@ -1,0 +1,85 @@
+<include file="Public/headerold" />
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+        <title>Index</title>
+        <load href="__PUBLIC__/js/jquery-1.9.1.js" />
+        <load href="__PUBLIC__/js/bootstrap.min.js" />
+        <load href="__PUBLIC__/css/bootstrap.min.css" />
+        <load href="__PUBLIC__/css/myclub.css" />
+
+    </head>
+    <body>
+        <include file="Public/allheader-nav" />
+        <div class="main">
+            <div class="ww">
+                <include file="Public/myclub-silder-art" />
+               
+                   <!--文章-->
+                   <div style="display:inline;" class="wd-ques">
+                       <notempty name="list">
+                        <foreach name="list" item="val" >
+                        <div class="wd-pre">
+
+                            <div class="wd-l fl">
+                                <h4><i class="glyphicon glyphicon-book" ></i><a href="{:U('Article/detail','bw=1&id='.$val['id'])}">{$val.title}</a></h4>
+                                <div class="wd-addon">
+                                    <span>提问时间:{$val.time}</span>
+                                    <span class="wdtag">
+                                	
+                                    <a class="wdtag-a " href="{:U('Article','pid='.$val['id'])}">{$val.tag}</a>
+                                    
+                                </span>
+                                </div>
+                            </div> 
+                            <div class="actques  fr">
+                                <a class="btn btn-primary" href="{:U('Article/detail','bw=1&id='.$val['id'])}">查看文章</a>
+                                <a class="btn btn-success" href="{:U('delart','id='.$val['id'])}">删除文章</a> 
+                            </div>
+                            <div class="wd-r fr">                
+                                <a href="{:U('Article/detail','bw=1&id='.$val['id'])}">
+                                    <div class="ans-wen">
+                                        <span>{$val.ans_count}</span>
+                                        <div class="da">回答</div>
+                                    </div>
+
+                                    <div class="ans-liu">
+                                        <span>{$val.ans_bw}</span>
+                                        <div class="lan">浏览数</div>
+                                    </div>
+                                </a>
+                            </div>
+                       
+                        </div>
+                        </foreach>
+                         <else />
+                            <div id="1">
+                                <p>没有了</p>
+                            </div>
+                    </notempty>
+                    
+                    <nav>
+                      <ul class="pagination">                       
+                        {$pageButton}   
+                      </ul>
+                    </nav>
+                    <script>
+                        $('.pagination div a').unwrap('div').wrap('<li></li>');
+                        $('.pagination span').wrap('<li class="active"></li>');
+                    </script>
+                    </div>
+
+                   
+
+                
+               
+            
+            </div>    
+        </div>
+   <div class="clear"></div>
+<include file="Public/footer" />
+    </body>
+
+</html>
+

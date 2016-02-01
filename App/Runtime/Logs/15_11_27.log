@@ -1,0 +1,1020 @@
+[ 2015-11-27T00:32:50+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002513s ]
+NOTIC: [8] Undefined index: home C:\wamp\www\AP1\App\Home\Controller\CommonController.class.php 第 10 行.
+
+[ 2015-11-27T00:32:51+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002452s ]
+NOTIC: [8] Undefined index: home C:\wamp\www\AP1\App\Home\Controller\CommonController.class.php 第 10 行.
+
+[ 2015-11-27T00:32:53+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003636s ]
+NOTIC: [8] Undefined index: home C:\wamp\www\AP1\App\Home\Controller\CommonController.class.php 第 10 行.
+
+[ 2015-11-27T00:33:47+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003397s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.054814s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000555s ]
+
+[ 2015-11-27T00:38:33+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002270s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.004920s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000536s ]
+
+[ 2015-11-27T00:38:35+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002165s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003471s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005150s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.001065s ]
+
+[ 2015-11-27T00:38:36+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002888s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005341s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000615s ]
+
+[ 2015-11-27T00:38:38+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002437s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005813s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000535s ]
+
+[ 2015-11-27T00:38:39+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002443s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005383s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000376s ]
+
+[ 2015-11-27T00:42:32+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002152s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003600s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.005630s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000680s ]
+
+[ 2015-11-27T09:23:15+08:00 ] ::1 /AP1/Home/Space/%7B%EF%BC%9AU('Lesson/index')%7D
+ERR: 非法操作:{：U('Lesson
+
+[ 2015-11-27T09:38:03+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007818s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.047632s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000354s ]
+
+[ 2015-11-27T09:38:54+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003415s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006633s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000486s ]
+
+[ 2015-11-27T09:45:39+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003502s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007763s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000289s ]
+
+[ 2015-11-27T09:45:59+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004211s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.007729s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000440s ]
+
+[ 2015-11-27T09:46:07+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003129s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006626s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000358s ]
+
+[ 2015-11-27T09:46:27+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002973s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.008530s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000360s ]
+
+[ 2015-11-27T09:46:30+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003220s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.006361s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000302s ]
+
+[ 2015-11-27T10:07:09+08:00 ] ::1 /AP1/Home/Space/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005522s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.006928s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.006551s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.006365s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006098s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000347s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000266s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000268s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `ju_category` [ RunTime:0.006657s ]
+SQL: SELECT `id`,`name` FROM `ju_category` WHERE ( `pid` = 1 )  [ RunTime:0.000378s ]
+
+[ 2015-11-27T10:25:41+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003662s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006143s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.005973s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.005903s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.020164s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000257s ]
+
+[ 2015-11-27T10:26:19+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003110s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006032s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.005879s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.006407s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000302s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000263s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000211s ]
+
+[ 2015-11-27T10:50:17+08:00 ] ::1 /AP1/Home/Space/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004538s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.006887s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.006731s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.006419s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006872s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000212s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000351s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `ju_category` [ RunTime:0.006712s ]
+SQL: SELECT `id`,`name` FROM `ju_category` WHERE ( `pid` = 1 )  [ RunTime:0.000376s ]
+
+[ 2015-11-27T10:50:19+08:00 ] ::1 /AP1/Home/Space/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003364s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.007097s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.006648s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.006886s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006701s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000258s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000381s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `ju_category` [ RunTime:0.006906s ]
+SQL: SELECT `id`,`name` FROM `ju_category` WHERE ( `pid` = 2 )  [ RunTime:0.000388s ]
+
+[ 2015-11-27T11:29:11+08:00 ] ::1 /AP1/Home/User/ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002991s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006513s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000464s ]
+
+[ 2015-11-27T11:52:20+08:00 ] ::1 /AP1/Home/Space/ajaxNamex.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003691s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.006753s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.007017s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.006379s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006395s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000397s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000378s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000282s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.007150s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000376s ]
+
+[ 2015-11-27T11:56:53+08:00 ] ::1 /AP1/Home/Space/ajaxNamex.html?id=7
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003470s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.006449s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.006332s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.006151s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006655s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000737s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000284s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006797s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 7 ) ORDER BY id desc  [ RunTime:0.000393s ]
+
+[ 2015-11-27T11:56:55+08:00 ] ::1 /AP1/Home/Space/ajaxNamex.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003393s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.006649s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.006453s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.006540s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006784s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000407s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000192s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000207s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006813s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000416s ]
+
+[ 2015-11-27T11:56:57+08:00 ] ::1 /AP1/Home/Space/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003564s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.007694s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.006918s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.009504s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.007263s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000455s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000399s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000254s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.007075s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000339s ]
+
+[ 2015-11-27T14:23:52+08:00 ] 192.168.15.99 /AP1/Home/View/xi_ajaxName.html?id=17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005335s ]
+NOTIC: [8] Undefined index: home C:\wamp\www\AP1\App\Home\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.007246s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 17 ) ORDER BY id desc  [ RunTime:0.000458s ]
+
+[ 2015-11-27T14:24:42+08:00 ] 192.168.15.99 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003782s ]
+NOTIC: [8] Undefined index: home C:\wamp\www\AP1\App\Home\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006495s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000329s ]
+
+[ 2015-11-27T14:39:38+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002709s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.071399s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.011171s ]
+
+[ 2015-11-27T14:43:02+08:00 ] ::1 /AP1/Home/Space/ajaxNamex.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003119s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.006336s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.006894s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.006577s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006103s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000430s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000240s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006404s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000306s ]
+
+[ 2015-11-27T14:43:03+08:00 ] ::1 /AP1/Home/Space/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001924s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003369s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.007346s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.007140s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.006883s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006887s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000174s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000392s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006982s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000335s ]
+
+[ 2015-11-27T14:45:20+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002794s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006428s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.006239s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.057089s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000758s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000756s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000602s ]
+
+[ 2015-11-27T14:45:25+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003049s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.007463s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.007450s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.007729s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000344s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000290s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000241s ]
+
+[ 2015-11-27T14:45:29+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002971s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006239s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.006603s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.006747s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000305s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000262s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000205s ]
+
+[ 2015-11-27T14:45:31+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002960s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006279s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.006878s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.006507s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000346s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000230s ]
+
+[ 2015-11-27T14:45:32+08:00 ] ::1 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002964s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006281s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.006023s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.006755s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000272s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000243s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000168s ]
+
+[ 2015-11-27T14:57:07+08:00 ] ::1 /AP1/Home/Space/ajaxNamex.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005199s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.007861s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.103088s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.011275s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.009504s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000627s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000407s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000282s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.007064s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000375s ]
+
+[ 2015-11-27T14:57:16+08:00 ] ::1 /AP1/Home/Space/ajaxNamex.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005723s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.007080s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.008341s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.011328s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.010307s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000408s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000254s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000257s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.010116s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000371s ]
+
+[ 2015-11-27T14:57:53+08:00 ] ::1 /AP1/Home/Space/ajaxNamex.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007709s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.011066s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.011052s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.010606s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.010668s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000655s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000530s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000521s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.010064s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000491s ]
+
+[ 2015-11-27T15:12:00+08:00 ] ::1 /AP1/Home/Space/ajaxNamex.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006401s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.009323s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.023373s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.007526s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.010029s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000412s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000265s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.007297s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000432s ]
+
+[ 2015-11-27T15:29:05+08:00 ] ::1 /AP1/Home/Space/ajaxNamex.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001871s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003390s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.018720s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.011093s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.008155s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.007829s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000425s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000295s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000306s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.007597s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000395s ]
+
+[ 2015-11-27T15:29:21+08:00 ] ::1 /AP1/Home/Space/ajaxNamex.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002902s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.007905s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.007195s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.007221s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006698s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000366s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000468s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000299s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000228s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006015s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000308s ]
+
+[ 2015-11-27T15:31:34+08:00 ] ::1 /AP1/Home/Space/ajaxNamex.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003670s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.006423s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.006282s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.006540s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006688s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.061669s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000813s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.001009s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.012624s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000541s ]
+
+[ 2015-11-27T15:32:48+08:00 ] ::1 /AP1/Home/Space/ajaxNamex.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003019s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.006747s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.006166s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.007747s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006611s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000377s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000218s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.015393s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000340s ]
+
+[ 2015-11-27T15:37:54+08:00 ] ::1 /AP1/Home/Space/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004703s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.007300s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.007112s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.007060s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006766s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000335s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000205s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `ju_category` [ RunTime:0.007790s ]
+SQL: SELECT `id`,`name` FROM `ju_category` WHERE ( `pid` = 1 )  [ RunTime:0.000375s ]
+
+[ 2015-11-27T15:37:59+08:00 ] ::1 /AP1/Home/Space/ajaxName.html?id=3
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003754s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.006774s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.007172s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.007996s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.007107s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000345s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000298s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000210s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000197s ]
+SQL: SHOW COLUMNS FROM `ju_category` [ RunTime:0.008099s ]
+SQL: SELECT `id`,`name` FROM `ju_category` WHERE ( `pid` = 3 )  [ RunTime:0.000346s ]
+
+[ 2015-11-27T15:41:02+08:00 ] ::1 /AP1/Home/Space/ajaxName.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003856s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.020864s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.007489s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.007399s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.007116s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000522s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000491s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000397s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `ju_category` [ RunTime:0.006810s ]
+SQL: SELECT `id`,`name` FROM `ju_category` WHERE ( `pid` = 1 )  [ RunTime:0.000384s ]
+
+[ 2015-11-27T15:59:14+08:00 ] 192.168.15.99 /AP1/Home/Space/ajaxName.html?id=2
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003742s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.006957s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.010713s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.007038s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006329s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000423s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 3 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000509s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=3 )  [ RunTime:0.000270s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=3 )  [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `ju_category` [ RunTime:0.010861s ]
+SQL: SELECT `id`,`name` FROM `ju_category` WHERE ( `pid` = 2 )  [ RunTime:0.000418s ]
+
+[ 2015-11-27T16:08:41+08:00 ] 192.168.15.99 /AP1/Home/Space/ajaxNamex.html?id=24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003464s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.019359s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.011079s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.009084s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006902s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000451s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 3 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000280s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=3 )  [ RunTime:0.000246s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=3 )  [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006763s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 24 ) ORDER BY id desc  [ RunTime:0.000341s ]
+
+[ 2015-11-27T16:08:43+08:00 ] 192.168.15.99 /AP1/Home/Space/ajaxNamex.html?id=24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003105s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.019615s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.013362s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.008477s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.008604s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000468s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 3 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000306s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=3 )  [ RunTime:0.000318s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=3 )  [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.007239s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 24 ) ORDER BY id desc  [ RunTime:0.000324s ]
+
+[ 2015-11-27T16:08:53+08:00 ] 192.168.15.99 /AP1/Home/Space/xi_ajaxName.html?id=42
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003128s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.023357s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.011823s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.008836s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006755s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000370s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 3 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000276s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=3 )  [ RunTime:0.000316s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=3 )  [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006692s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 42 ) ORDER BY id desc  [ RunTime:0.000315s ]
+
+[ 2015-11-27T16:09:59+08:00 ] 192.168.15.99 /AP1/Home/Space/ajaxNamex.html?id=24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004252s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.006363s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.006231s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.006157s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006193s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 3 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000235s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=3 )  [ RunTime:0.000195s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=3 )  [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006221s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 24 ) ORDER BY id desc  [ RunTime:0.000286s ]
+
+[ 2015-11-27T16:10:59+08:00 ] 192.168.15.99 /AP1/Home/Space/ajaxNamex.html?id=24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004617s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.006445s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.006504s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.006135s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006468s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 3 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000297s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=3 )  [ RunTime:0.000217s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=3 )  [ RunTime:0.000199s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006398s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 24 ) ORDER BY id desc  [ RunTime:0.000345s ]
+
+[ 2015-11-27T16:11:01+08:00 ] 192.168.15.99 /AP1/Home/Space/xi_ajaxName.html?id=42
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004653s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.006558s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.006283s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.006196s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006022s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000333s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 3 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000193s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=3 )  [ RunTime:0.000181s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=3 )  [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006320s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 42 ) ORDER BY id desc  [ RunTime:0.000294s ]
+
+[ 2015-11-27T16:11:11+08:00 ] 192.168.15.99 /AP1/Home/Space/ajaxNamex.html?id=24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004544s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.006421s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.006232s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.006391s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006460s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000360s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 3 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000194s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=3 )  [ RunTime:0.000201s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=3 )  [ RunTime:0.000177s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006335s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 24 ) ORDER BY id desc  [ RunTime:0.000294s ]
+
+[ 2015-11-27T16:11:12+08:00 ] 192.168.15.99 /AP1/Home/Space/xi_ajaxName.html?id=42
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004535s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.006690s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.006316s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.007368s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006140s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000350s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 3 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000198s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=3 )  [ RunTime:0.000220s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=3 )  [ RunTime:0.000188s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006098s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 42 ) ORDER BY id desc  [ RunTime:0.000336s ]
+
+[ 2015-11-27T16:12:00+08:00 ] ::1 /AP1/Home/Space/ajaxNamex.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003933s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.023687s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.009848s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.008979s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006254s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000367s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000238s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000255s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000211s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006486s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000331s ]
+
+[ 2015-11-27T16:12:04+08:00 ] ::1 /AP1/Home/Space/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005509s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.007554s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.009694s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.008982s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.007401s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000446s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000225s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000218s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.007172s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000347s ]
+
+[ 2015-11-27T16:12:34+08:00 ] ::1 /AP1/Home/Space/ajaxNamex.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005150s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.019686s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.011885s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.012420s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.013276s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000765s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000560s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000572s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.007341s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000375s ]
+
+[ 2015-11-27T16:12:41+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=17
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006084s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 17 ) ORDER BY id desc  [ RunTime:0.000340s ]
+
+[ 2015-11-27T16:12:42+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004079s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.019108s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000810s ]
+
+[ 2015-11-27T16:13:23+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002925s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004605s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006200s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000336s ]
+
+[ 2015-11-27T16:13:25+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003879s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.011140s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000543s ]
+
+[ 2015-11-27T16:13:34+08:00 ] 192.168.15.99 /AP1/Home/Space/ajaxNamex.html?id=24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012216s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.006743s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.006441s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.006231s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.006175s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000385s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 3 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000289s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=3 )  [ RunTime:0.000256s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=3 )  [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006034s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 24 ) ORDER BY id desc  [ RunTime:0.000590s ]
+
+[ 2015-11-27T16:13:35+08:00 ] 192.168.15.99 /AP1/Home/Space/xi_ajaxName.html?id=42
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002927s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.023897s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.008731s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.009101s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.007837s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000398s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 3 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000264s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=3 )  [ RunTime:0.000223s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=3 )  [ RunTime:0.000195s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006554s ]
+SQL: SELECT `id`,`xi_name` FROM `ju_zizhang` WHERE ( `zh_id` = 42 ) ORDER BY id desc  [ RunTime:0.000352s ]
+
+[ 2015-11-27T16:13:58+08:00 ] ::1 /AP1/Home/Space/ajaxNamex.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001960s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003345s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.046236s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.006888s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.006315s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.007055s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000438s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 1 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000277s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=1 )  [ RunTime:0.000323s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=1 )  [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.013637s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 5 ) ORDER BY id desc  [ RunTime:0.000407s ]
+
+[ 2015-11-27T16:16:24+08:00 ] 192.168.15.99 /AP1/Home/Space/ajaxNamex.html?id=24
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003769s ]
+SQL: SHOW COLUMNS FROM `ju_user` [ RunTime:0.020742s ]
+SQL: SHOW COLUMNS FROM `ju_collectless` [ RunTime:0.013939s ]
+SQL: SHOW COLUMNS FROM `ju_collectplan` [ RunTime:0.008989s ]
+SQL: SHOW COLUMNS FROM `ju_touimg` [ RunTime:0.008399s ]
+SQL: SELECT * FROM `ju_user` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000477s ]
+SQL: SELECT `name` FROM `ju_touimg` WHERE ( `user_id` = 3 ) AND ( `is_face` = 1 ) LIMIT 1   [ RunTime:0.000354s ]
+SQL: SELECT * FROM `ju_collectless` WHERE ( user_id=3 )  [ RunTime:0.000332s ]
+SQL: SELECT * FROM `ju_collectplan` WHERE ( user_id=3 )  [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `ju_zhang` [ RunTime:0.006415s ]
+SQL: SELECT `id`,`zh_name` FROM `ju_zhang` WHERE ( `lesson_id` = 24 ) ORDER BY id desc  [ RunTime:0.000339s ]
+
+[ 2015-11-27T16:40:46+08:00 ] ::1 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004685s ]
+SQL: SHOW COLUMNS FROM `ju_seme` [ RunTime:0.015813s ]
+SQL: SELECT `contain` FROM `ju_seme` WHERE ( `user_id` = 1 ) ORDER BY id desc LIMIT 4   [ RunTime:0.000543s ]
+
+[ 2015-11-27T16:41:30+08:00 ] 192.168.15.11 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002934s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.024254s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.001071s ]
+
+[ 2015-11-27T16:41:31+08:00 ] 192.168.15.11 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003085s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006374s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000344s ]
+
+[ 2015-11-27T16:41:32+08:00 ] 192.168.15.11 /AP1/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004123s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.018896s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000888s ]
+
+[ 2015-11-27T16:41:33+08:00 ] 192.168.15.11 /AP1/Home/View/xi_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002118s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003718s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006429s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 13 ) ORDER BY id desc  [ RunTime:0.000326s ]
+
+[ 2015-11-27T16:41:33+08:00 ] 192.168.15.11 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:41:33+08:00 ] 192.168.15.11 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:41:33+08:00 ] 192.168.15.11 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:41:33+08:00 ] 192.168.15.11 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:41:34+08:00 ] 192.168.15.11 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:41:34+08:00 ] 192.168.15.11 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:41:34+08:00 ] 192.168.15.11 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:43:49+08:00 ] 192.168.15.11 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002954s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006758s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.014846s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.006022s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000237s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000185s ]
+
+[ 2015-11-27T16:43:51+08:00 ] 192.168.15.11 /AP1/Home/Plan/pl_ajaxName.html?id=9
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003205s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006036s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.006512s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.006191s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=9 ) LIMIT 1   [ RunTime:0.000374s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('5') )  [ RunTime:0.000298s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 5 ) LIMIT 1   [ RunTime:0.000217s ]
+
+[ 2015-11-27T16:43:52+08:00 ] 192.168.15.11 /AP1/Home/Plan/pl_ajaxName.html?id=10
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003321s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.022087s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.013167s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.009927s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.000425s ]
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN ('6') )  [ RunTime:0.000492s ]
+SQL: SELECT `name` FROM `ju_fenimg` WHERE ( `lesson_id` = 6 ) LIMIT 1   [ RunTime:0.000365s ]
+
+[ 2015-11-27T16:43:54+08:00 ] 192.168.15.11 /AP1/Home/Plan/pl_ajaxName.html?id=11
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003572s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.012249s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.010784s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.006859s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=11 ) LIMIT 1   [ RunTime:0.000305s ]
+NOTIC: [2] implode(): Invalid arguments passed C:\wamp\www\AP1\ThinkPHP\Library\Think\Db.class.php 第 498 行.
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN () )  [ RunTime:0.000176s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ju_lesson` WHERE ( `id` IN () ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 173 行.
+
+[ 2015-11-27T16:43:56+08:00 ] 192.168.15.11 /AP1/Home/Plan/pl_ajaxName.html?id=12
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003178s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006326s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.006059s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.006084s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=12 ) LIMIT 1   [ RunTime:0.000319s ]
+NOTIC: [2] implode(): Invalid arguments passed C:\wamp\www\AP1\ThinkPHP\Library\Think\Db.class.php 第 498 行.
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN () )  [ RunTime:0.000184s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ju_lesson` WHERE ( `id` IN () ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 173 行.
+
+[ 2015-11-27T16:43:59+08:00 ] 192.168.15.11 /AP1/Home/Plan/pl_ajaxName.html?id=13
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003063s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.006655s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.006792s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.006289s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=13 ) LIMIT 1   [ RunTime:0.000310s ]
+NOTIC: [2] implode(): Invalid arguments passed C:\wamp\www\AP1\ThinkPHP\Library\Think\Db.class.php 第 498 行.
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN () )  [ RunTime:0.000161s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ju_lesson` WHERE ( `id` IN () ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 173 行.
+
+[ 2015-11-27T16:44:00+08:00 ] 192.168.15.11 /AP1/Home/Plan/pl_ajaxName.html?id=14
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001778s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003144s ]
+SQL: SHOW COLUMNS FROM `ju_lesson` [ RunTime:0.022831s ]
+SQL: SHOW COLUMNS FROM `ju_fenimg` [ RunTime:0.010556s ]
+SQL: SHOW COLUMNS FROM `ju_plan` [ RunTime:0.009886s ]
+SQL: SELECT `list` FROM `ju_plan` WHERE ( id=14 ) LIMIT 1   [ RunTime:0.000567s ]
+NOTIC: [2] implode(): Invalid arguments passed C:\wamp\www\AP1\ThinkPHP\Library\Think\Db.class.php 第 498 行.
+SQL: SELECT * FROM `ju_lesson` WHERE ( `id` IN () )  [ RunTime:0.000187s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') )' at line 1
+ [ SQL语句 ] : SELECT * FROM `ju_lesson` WHERE ( `id` IN () ) 
+NOTIC: [2] Invalid argument supplied for foreach() C:\wamp\www\AP1\App\Home\Controller\PlanController.class.php 第 173 行.
+
+[ 2015-11-27T16:50:32+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004057s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006463s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000386s ]
+
+[ 2015-11-27T16:50:34+08:00 ] ::1 /AP1/Home/View/xi_ajaxName.html?id=5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003576s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005875s ]
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.011131s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 5 ) ORDER BY id desc  [ RunTime:0.000427s ]
+
+[ 2015-11-27T16:50:34+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:50:34+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:50:34+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:50:34+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:50:35+08:00 ] ::1 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:51:23+08:00 ] 192.168.15.20 /AP1/Home/Search/se_ajaxName.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002879s ]
+NOTIC: [8] Undefined index: home C:\wamp\www\AP1\App\Home\Controller\CommonController.class.php 第 10 行.
+
+[ 2015-11-27T16:51:51+08:00 ] 192.168.15.20 /AP1/Home/View/xi_ajaxName.html?id=33
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003203s ]
+NOTIC: [8] Undefined index: home C:\wamp\www\AP1\App\Home\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.076301s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 33 ) ORDER BY id desc  [ RunTime:0.000644s ]
+
+[ 2015-11-27T16:51:52+08:00 ] 192.168.15.20 /AP1/Home/View/xi_ajaxName.html?id=33
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001856s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003004s ]
+NOTIC: [8] Undefined index: home C:\wamp\www\AP1\App\Home\Controller\CommonController.class.php 第 10 行.
+SQL: SHOW COLUMNS FROM `ju_zizhang` [ RunTime:0.006573s ]
+SQL: SELECT `id`,`xi_name`,`video_id` FROM `ju_zizhang` WHERE ( `zh_id` = 33 ) ORDER BY id desc  [ RunTime:0.000447s ]
+
+[ 2015-11-27T16:51:53+08:00 ] 192.168.15.20 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/ueditor.final.min.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:51:53+08:00 ] 192.168.15.20 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:51:53+08:00 ] 192.168.15.20 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:51:53+08:00 ] 192.168.15.20 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:51:53+08:00 ] 192.168.15.20 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:51:53+08:00 ] 192.168.15.20 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/sea_config.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:51:54+08:00 ] 192.168.15.20 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:51:54+08:00 ] 192.168.15.20 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/h.js
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:51:54+08:00 ] 192.168.15.20 /AP1/Home/View/vertical-align%E5%AE%B6%E6%97%8F%E5%9F%BA%E6%9C%AC%E8%AE%A4%E8%AF%86-%E6%85%95%E8%AF%BE%E7%BD%91_files/getcoursequestioncode
+ERR: 非法操作:vertical-align家族基本认识-慕课网_files
+
+[ 2015-11-27T16:53:04+08:00 ] 192.168.15.20 /AP1/Admin/Share/ui-elements.html
+ERR: 非法操作:ui-elements
+

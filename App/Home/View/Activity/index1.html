@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>活动</title>
+
+	<load href="__PUBLIC__/js/jquery-1.9.1.js" />
+    <load href="__PUBLIC__/js/bootstrap.min.js" />
+    <load href="__PUBLIC__/css/bootstrap.min.css" />
+
+
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/ueditor.config.js"></script> 
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/ueditor.all.min.js"> </script>    
+    <script type="text/javascript" charset="utf-8" src="__PUBLIC__/utf8-php/lang/zh-cn/zh-cn.js"></script>
+     <script type="text/javascript" charset="utf-8" src="__PUBLIC__/js/ueditor.js"></script>
+
+    <load href="__PUBLIC__/css/activity.css" />
+</head>
+<body>
+	<div class="main">
+		<div class="ww">
+		<!--
+			<div class="act-silder">
+				<div>个人信息？有必要吗</div>
+				<div id="活跃用户">
+					<ul>
+						<li>
+							<div id="头像">
+								<a href="">
+									<img src="" alt="">
+								</a>
+							</div>
+							<div id="个人信息">
+								<a href="">姓名</a>
+								<span>个性签名</span>
+								<span>人气</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+-->
+
+
+			<div class="act-main">
+				
+					<div class="act-type">
+						<ul>
+							<li class="selected fl"><a href="">活动进行中</a></li>
+							<li class="fl"><a href="">已结束</a></li>
+						</ul>
+                    </div>
+                    <script>
+                        /*
+                        $(".act-type li a").hover(function(){
+                            $(".act-type li a").animate({
+                                font-size:18px;
+                            }, 500);
+                        });
+                        */
+                    </script>
+
+					<div class="act-list">
+						<ul>
+                             <foreach name="list"  item="val" >
+                            <li class="act-item fl">
+                            
+                               
+								<div class="act-peritem" >
+                                    <a href="###" class=""><img src="{$val.name}" alt="" style="width:380px;height:160px;"></a>
+									<h4><a href="###" class="" ><b>{$val.title}</b></a></h4>
+									<p>
+										<small>
+										<span>活动时间:</span>
+										{$val.bgtime}
+										<span>至</span>
+										{$val.edtime}
+
+										<span class="fr">
+											热度<em></em>
+										</span>
+										</small>
+									</p>
+								</div>
+							</li>
+                             </foreach>
+
+							
+						
+						</ul>
+					</div>
+					<div class="clear"></div>
+					
+			</div>
+		
+		
+		</div>
+	</div>
+</body>
+</html>

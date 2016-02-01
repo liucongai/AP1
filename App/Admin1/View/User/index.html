@@ -1,0 +1,127 @@
+<include file="Public/header"/>
+<include file="Public/nav"/>
+	
+		<!-- main container -->
+    <div class="content">
+        
+        <div class="container-fluid">
+            <div id="pad-wrapper" class="users-list">
+                   
+                    <ul class="breadcrumb" style="margin:-40px 0 50px 0">
+                       <li><a href="{:U('User/index')}">User</a> <span class="divider">/</span></li>
+                       <li class="active">User_list</li>
+                    </ul>
+                    
+                    
+                    
+                    <div class="pull-right">
+                       
+                    <form class="form-search fr" action="" method="get">
+		    	    
+		    	    <input type="text" name="name" class="input-medium search-query" placeholder="Name">
+		    	      
+                    <div class="ui-select">
+
+                        <select name="sex">
+                            <option value="">--choose--</option>
+                            <option value="0">女</option>
+                            <option value="1">男</option>
+                            <option value="2">保密</option>
+                        </select>
+                    </div>
+		    	        <button type="submit" class="btn"><i class="icon-search"></i>搜索</button>
+		            </form>
+
+                    </div>
+                <!--
+                </div>
+                -->
+                <!-- Users table -->
+                <div class="row-fluid table">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th class="span2 sortable">
+                                    ID
+                                </th>
+                                <th class="span3 sortable">
+                                    <span class="line"></span>Name
+                                </th>
+                                 <th class="span3 sortable">
+                                    <span class="line"></span>Sex
+                                </th>
+                                 <th class="span3 sortable">
+                                    <span class="line"></span>Type
+                                </th>
+                                
+                                 <th class="span3 sortable">
+                                     <span class="line"></span>Email
+                                </th>
+                                <th class="span2 sortable">
+                                    <span class="line"></span>Phone
+                                </th>
+                                 <th class="span5 sortable">
+                                    <span class="line"></span>Job
+                                </th>
+                                 <th class="span3 sortable">
+                                    <span class="line"></span>Address
+                                </th>
+                                <th class="span6 sortable">
+                                    <span class="line"></span>Sign
+                                </th>
+
+                                <th class="span5 sortable align-right">
+                                    <span class="line"></span>Action
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- row -->
+                        <notempty name="list">
+					    <foreach name="list" item="val">
+                        <tr>
+                            <td>
+                                {$val.id}</td>
+                           	<td>{$val.name}</td>
+						    <td>{$val.sex}</td>
+						    <td>{$val.type}</td>
+						    <td>{$val.email}</td>
+						    <td>{$val.phone}</td>
+						    <td>{$val.job}</td>
+						    <td>{$val.address}</td>
+						    <td>{$val.sign}</td>
+                            <td class="align-right">
+                               <a  class=""  	 href="{:U('del',array('id'=>$val['id']))}"   onclick="return confirm('确定要删除？')"> <i class="icon-trash icon-white"></i>删除</a>
+				            <a class="" href="{:U('edit',array('id'=>$val['id']))}"><i class="icon-edit icon-white"></i>编辑</a>
+                            </td>
+                        </tr>
+                        </foreach>
+                      
+                            <else />
+					            <tr>
+						        <td colspan="6">查无数据</td>
+				            	</tr>
+					         </notempty>
+					    
+                         </tbody>
+                        
+                    </table>
+                    
+                </div>
+                <div class="pagination">
+                    <ul>
+                       	{$pageButton}
+                    </ul>
+                </div>
+                <script>
+				$('.pagination ul a').unwrap('div').wrap('<li></li>');
+				$('.pagination ul span').wrap('<li class="active"></li>');
+			    </script>
+                <!-- end users table -->
+            </div>
+        </div>
+    </div>
+    <!-- end main container -->
+
+
+<include file="Public/footer"/>
